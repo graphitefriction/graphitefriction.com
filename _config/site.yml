@@ -1,0 +1,6 @@
+profiles: 
+  production: 
+    base_url: http://graphitefriction.github.com
+    deploy: 
+      host: github_pages 
+      branch: master
