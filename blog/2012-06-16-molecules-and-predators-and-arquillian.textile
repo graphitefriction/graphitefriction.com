@@ -46,4 +46,3 @@ The ["Spring extension":http://arquillian.org/modules/spring-extension/] is ["Ja
 !/images/spring/foxspring.png!
 
 !/images/spring/mutanttrap.png!
-
