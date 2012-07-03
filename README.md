@@ -1,7 +1,7 @@
 graphitefriction.github.com
 ===========================
 
-My personal website and blog, published at <http://graphitefriction.com>
+My personal website and blog, published at <http://graphitefriction.com>.
 
 ## Preview the site locally
 
