@@ -1,3 +1,4 @@
-_site
-.awestruct
-.sass-cache
+/_site/
+/.awestruct/
+/.sass-cache/
+/_tmp/
