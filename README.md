@@ -5,14 +5,18 @@ Webpage
 
 ## Preview the site locally
 
+The following command will allow you to preview the site locally.
+
 ```
 awestruct -d
 ```
 
-Visit: http://localhost:4242
+Visit: <http://localhost:4242>
 
 ## Deploy the site to github pages
 
+The following command will clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
+
 ```
-awestruct --force -g -P production && awestruct -P production --deploy
+awestruct -P production --force -g --deploy
 ```
