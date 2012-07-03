@@ -1,15 +1,13 @@
 graphitefriction.github.com
 ===========================
 
-Webpage
+My personal website and blog, published at <http://graphitefriction.com>
 
 ## Preview the site locally
 
 The following command will allow you to preview the site locally.
 
-```
-awestruct -d
-```
+    awestruct -d
 
 Visit: <http://localhost:4242>
 
@@ -17,6 +15,4 @@ Visit: <http://localhost:4242>
 
 The following command will clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
 
-```
-awestruct -P production --force -g --deploy
-```
+    awestruct -P production --force -g --deploy
