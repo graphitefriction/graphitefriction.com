@@ -1,0 +1,23 @@
+---
+---
+.post
+  %h2.title
+    %a{:href=>page.post.url}= page.post.title
+  %h4= page.post.date.strftime("%A, %B #{page.post.date.day}, %Y")
+  ~ page.post.content
+  - if page.post.tags
+    .tags
+      %span.title
+        tags: 
+      - for tag in page.post.tags
+        %a{:href => "/blog/tags/#{tag}"}
+          - if (tag != page.post.tags.last)
+            = "#{tag}, "
+          - else
+            = "#{tag} "
+  %hr
+  - if not page.listing
+    = partial('pager.html.haml', :post => page)
+    - if site.disqus
+      #comments
+        = page.post.disqus_comments

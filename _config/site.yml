@@ -1,6 +1,16 @@
+title: graphite friction
+author: Sarah White
+blog_prefix: /blog
+disqus: graphitefriction
+disqus_generate_id: true
+disqus_developer: true
+haml:
+  attr_wrapper: '"'
+  escape_attrs: :once
 profiles:
   production:
     base_url: http://graphitefriction.github.com
+    disqus_developer: false
     deploy:
       host: github_pages
       branch: master
