@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://graphitefriction.com/</id>
-  <title>graphite friction</title>
+  <title>Graphite Friction</title>
   <updated>2012-06-16T00:00:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />

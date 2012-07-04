@@ -5062,95 +5062,96 @@ h4 a:hover {
 /* line 43 */
 .navbar a.brand {
   font-family: 'Merriweather', Georgia, serif;
+  text-transform: lowercase;
   font-size: 2.2em;
   padding-top: 12px;
   padding-bottom: 10px;
   color: #FFFFFF;
 }
-/* line 49 */
+/* line 50 */
 .navbar a.brand:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 55 */
+/* line 56 */
 p {
   font-size: 15px;
 }
 
-/* line 59 */
+/* line 60 */
 a {
   color: #359800;
 }
-/* line 61 */
+/* line 62 */
 a:hover {
   color: #236500;
   text-decoration: none;
 }
 
-/* line 67 */
+/* line 68 */
 .tags {
   color: #575757;
 }
-/* line 69 */
+/* line 70 */
 .tags a {
   color: #359800;
 }
-/* line 71 */
+/* line 72 */
 .tags a:hover {
   color: #236500;
   text-decoration: none;
 }
 
-/* line 78 */
+/* line 79 */
 .g-plusone-slot {
   display: block;
   padding: 13px 0;
 }
 
-/* line 82 */
+/* line 83 */
 .g-plusone {
   display: block;
 }
 
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='1'] {
   height: 1px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='2'] {
   height: 2px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='3'] {
   height: 3px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='4'] {
   height: 4px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='5'] {
   height: 5px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='6'] {
   height: 6px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='7'] {
   height: 7px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='8'] {
   height: 8px;
 }
-/* line 89 */
+/* line 90 */
 .gc-bubbleDefault img[height='9'] {
   height: 9px;
 }
 
-/* line 95 */
+/* line 96 */
 .about .name {
   font-size: 1.2em;
   font-family: 'Merriweather',Georgia, serif;
@@ -5158,13 +5159,13 @@ a:hover {
   padding-left: 0.2em;
 }
 
-/* line 102 */
+/* line 103 */
 .about .details {
   padding-top: 0.6em;
   padding-left: 0.4em;
 }
 
-/* line 107 */
+/* line 108 */
 .post img {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
