@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-  <id>http://graphitefriction.github.com/</id>
+  <id>http://graphitefriction.com/</id>
   <title>graphite friction</title>
   <updated>2012-06-16T00:00:00Z</updated>
-  <link href="http://graphitefriction.github.com/feed.atom" rel="self" type="application/atom+xml" />
-  <link href="http://graphitefriction.github.com/" rel="alternate" type="text/html" />
+  <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
   <entry>
-    <id>http://graphitefriction.github.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html</id>
+    <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html</id>
     <title>Molecules and Predators and Arquillian</title>
     <updated>2012-06-16T00:00:00Z</updated>
     <published>2012-06-16T00:00:00Z</published>
-    <link href="http://graphitefriction.github.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
-    <category scheme="http://graphitefriction.github.com/blog/tags" term="arquillian" />
-    <category scheme="http://graphitefriction.github.com/blog/tags" term="design" />
+    <link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="design" />
     <summary>
       During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillain contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
           Crafting the look and feel of Ike, his crew, and their gear has this sci-fic fangirl constantly plotting ways to beam (forgive me, Scotty) the...
@@ -26,30 +26,30 @@
 &lt;p&gt;Over the past two weeks I&amp;#8217;ve been sketching logo ideas for Graphene and the Arquillian Spring Framework extension.  I selected the sketches I think have potential and uploaded them for the feedback.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://arquillian.org/modules/graphene-extension/&quot;&gt;Graphene&lt;/a&gt; is designed to enhancement a Selenium project by focusing on rapid development and usability in the Java environment.  Graphene takes its name from the semiconducting material composed of a single layer of carbon atoms arranged into a 2D honeycomb lattice. Graphene is one of the strongest materials in existence.&lt;/p&gt;
 &lt;p&gt;I have to admit, I don&amp;#8217;t feel that pencil sketches were great at coveying some of my ideas. Mainly because I realized I really suck at drawing hexagrams.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/graphenehexagrams.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/abstracthexagram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/grapheneshield.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/graphenehexagrams.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/abstracthexagram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/grapheneshield.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The next three concepts required lots of hexagrams, so I stopped torturing my eraser and fired up Inkscape.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/grid1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/grid2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/graphene/grid3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/grid1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/grid2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/graphene/grid3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;http://arquillian.org/modules/spring-extension/&quot;&gt;Spring extension&lt;/a&gt; is &lt;a href=&quot;https://community.jboss.org/thread/197356&quot;&gt;Jakob Narloch&amp;#8217;s Google Summer of Code project&lt;/a&gt;. It injects Spring beans into test cases and supports Spring annotations. Jakob asked for a simple logo, but my disciple went &lt;span class=&quot;caps&quot;&gt;AWOL&lt;/span&gt; and I ended up sketching a few, detailed ideas after word webbing like the vocabulary nerd I am.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/spring/springs.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/spring/bow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/spring/viper.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/spring/foxspring.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://graphitefriction.github.com/images/spring/mutanttrap.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/spring/springs.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/spring/bow.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/spring/viper.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/spring/foxspring.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/spring/mutanttrap.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
     </content>
   </entry>
   <entry>
-    <id>http://graphitefriction.github.com/blog/2012/06/15/molecules-and-predators-and-arquillian.html</id>
+    <id>http://graphitefriction.com/blog/2012/06/15/molecules-and-predators-and-arquillian.html</id>
     <title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
     <updated>2012-06-15T00:00:00Z</updated>
     <published>2012-06-15T00:00:00Z</published>
-    <link href="http://graphitefriction.github.com/blog/2012/06/15/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
-    <category scheme="http://graphitefriction.github.com/blog/tags" term="java" />
-    <category scheme="http://graphitefriction.github.com/blog/tags" term="ruby" />
-    <category scheme="http://graphitefriction.github.com/blog/tags" term="smack" />
+    <link href="http://graphitefriction.com/blog/2012/06/15/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="java" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="smack" />
     <summary>
       
 A fatal error has been detected by the Java Runtime Environment:
