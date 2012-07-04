@@ -9,7 +9,7 @@ haml:
   escape_attrs: :once
 profiles:
   production:
-    base_url: http://graphitefriction.github.com
+    base_url: http://graphitefriction.com
     disqus_developer: false
     deploy:
       host: github_pages
