@@ -11,6 +11,8 @@
     <updated>2012-06-16T00:00:00Z</updated>
     <published>2012-06-16T00:00:00Z</published>
     <link href="http://graphitefriction.github.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.github.com/blog/tags" term="arquillian" />
+    <category scheme="http://graphitefriction.github.com/blog/tags" term="design" />
     <summary>
       During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillain contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
           Crafting the look and feel of Ike, his crew, and their gear has this sci-fic fangirl constantly plotting ways to beam (forgive me, Scotty) the...
@@ -45,6 +47,9 @@
     <updated>2012-06-15T00:00:00Z</updated>
     <published>2012-06-15T00:00:00Z</published>
     <link href="http://graphitefriction.github.com/blog/2012/06/15/molecules-and-predators-and-arquillian.html" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.github.com/blog/tags" term="java" />
+    <category scheme="http://graphitefriction.github.com/blog/tags" term="ruby" />
+    <category scheme="http://graphitefriction.github.com/blog/tags" term="smack" />
     <summary>
       
 A fatal error has been detected by the Java Runtime Environment:
