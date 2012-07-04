@@ -11,6 +11,13 @@ The following command will allow you to preview the site locally.
 
 Visit: <http://localhost:4242>
 
+If you are building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
+
+1. install a node.js package or
+2. set the following environment variable in your shell profile scripts (e.g., ~/.bash\_profile):
+
+    export EXECJS_RUNTIME=SpiderMonkey
+
 ## Deploy the site to github pages
 
 The following command will clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
