@@ -11,6 +11,7 @@ profiles:
   production:
     base_url: http://graphitefriction.com
     disqus_developer: false
+    google_analytics: UA-33133481-1
     deploy:
       host: github_pages
       branch: master
