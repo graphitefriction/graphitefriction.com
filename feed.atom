@@ -5,9 +5,47 @@
   <author>
     <name>Sarah White</name>
   </author>
-  <updated>2012-06-16T00:00:00Z</updated>
+  <updated>2012-07-05T00:00:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels.html</id>
+    <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
+    <updated>2012-07-05T00:00:00Z</updated>
+    <published>2012-07-05T00:00:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels.html" rel="alternate" type="text/html" />
+    <author>
+      <name>Sarah White</name>
+    </author>
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      Representing Fedora at the Summit sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, Run away! Run away!.
+Face to face, live action conversation? It can&#8217;t be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn&#8217;t anyone invented a delete key for my mouth!
+During the first full day of booth activities, I retreated behind my cameras to document the constant activity...
+    </summary>
+    <content type="html">
+      &lt;p class=&quot;lead&quot;&gt;Representing &lt;a href=&quot;http://fedoraproject.org/wiki/Red_Hat_Summit_2012&quot;&gt;Fedora at the Summit&lt;/a&gt; sounded great when I was safely ensconced in my office, chatting on &lt;span class=&quot;caps&quot;&gt;IRC&lt;/span&gt;, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, &lt;strong&gt;&lt;em&gt;Run away! Run away!&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Face to face, live action conversation? It can&amp;#8217;t be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn&amp;#8217;t anyone invented a delete key for my mouth!&lt;/p&gt;
+&lt;p&gt;During the first full day of booth activities, I retreated behind my cameras to document the constant activity in the Fedora Community area. I photographed attendees visiting the Fedora booth, hanging with Beefy Miracle, and enjoying the mid-afternoon hot dog snack hour. All of the &lt;a href=&quot;http://www.flickr.com/photos/graphitefriction/&quot;&gt;photographs I took during the Summit&lt;/a&gt; are posted on my Flickr stream.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/fedora_booth_friends.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/beefymiracle_mustard.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I also recorded two talks presented in the Fedora Community area: Ryan O&amp;#8217;Hara&amp;#8217;s &lt;em&gt;Network Load Balancing for the 21st Century With Keepalived and HAProxy&lt;/em&gt; and Dan Allen&amp;#8217;s &lt;em&gt;JBoss AS7 on Fedora&lt;/em&gt; as well as the server and system installation for the next day&amp;#8217;s Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; demonstration. Once I finish processing the videos, I&amp;#8217;ll post them.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/ryanohara_loadbalance.jpg&quot; title=&quot;Ryan O&amp;#39;Hara&quot; alt=&quot;Ryan O&amp;#39;Hara&quot; /&gt; &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/danallen_as7onfedora.jpg&quot; title=&quot;Dan Allen&quot; alt=&quot;Dan Allen&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/jonmasters_arm_demo.jpg&quot; title=&quot;Jon Masters&quot; alt=&quot;Jon Masters&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;On Thursday, after Jon Masters&amp;#8217; crowd-gathering &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; demonstration, I forced myself to stow the cameras. I took position behind the booth, no camera lenses or laptop to filter my I/O. The gaps in my knowledge soon became apparent.&lt;/p&gt;
+&lt;p style=&quot;padding-left:2em;&quot;&gt;&lt;strong&gt;No, I&amp;#8217;m not familiar with the wide variety of acronyms applied to the hardware in the one laptop per per child computer or what version of Fedora it is running.&lt;/strong&gt; Luke Macken saved the attendee from my panicky stare, and now I know it&amp;#8217;s an &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; processor, running Sugar on a Stick, and the newest laptop has a much better keyboard.&lt;/p&gt;
+&lt;p style=&quot;padding-left:2em;&quot;&gt;&lt;strong&gt;I don&amp;#8217;t know what version of Apache httpd is packaged in Fedora 17.&lt;/strong&gt; Tom Callaway fired up a terminal and found the information.&lt;/p&gt;
+&lt;p&gt;And the most popular question at the booth:&lt;/p&gt;
+&lt;p style=&quot;padding-left:2em;&quot;&gt;&lt;strong&gt;How did Beefy Miracle come to be named Beefy Miracle?&lt;/strong&gt; After numerous attempts, I realized I couldn&amp;#8217;t succinctly explain the &lt;a href=&quot;http://fedoraproject.org/wiki/Guidelines_for_release_names&quot;&gt;Fedora release naming process steps&lt;/a&gt; in the correct order. Ruth Suehle, Sandro Mathys and Tom had to save people from my disordered explanations numerous times. They can iterate the naming process without blinking.&lt;/p&gt;
+&lt;p&gt;However, I did answer questions regarding one of the new items at the booth, the &lt;a href=&quot;http://fedoraproject.org/wiki/JBossAS7&quot;&gt;AS 7 on Fedora 17&lt;/a&gt; flyer.  I can recite the commands to install the AS 7 package, start, stop and deploy it, what is and isn&amp;#8217;t currently in the packaged profile, what&amp;#8217;s on deck to be in updated releases, and where to find help and participate with AS 7 and future packaging goals.  I was stumped though when asked about the differences between Fedora and AS 7 versus another distribution and Websphere.  I need to brush up on the features of other application servers.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not a well-rounded Fedora representative yet, but manning the booth was a huge kickstart. I learned the answers to tons of questions from the other Fedora representatives and discovered the concerns of potential and current Fedora users. The best thing about volunteering at the booth was meeting so many great people: the conference attendees who visited the booth and the Fedora advocates I had previously only chatted with on &lt;span class=&quot;caps&quot;&gt;IRC&lt;/span&gt;. I can&amp;#8217;t thank everyone enough times for answering my questions or for sorting through my jumbled explanations.&lt;/p&gt;
+&lt;p&gt;Oh, there are two questions I can confidently respond to now without pause or consideration because Ruth wrote down the answers.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;strong&gt;Yes, it is a Raspberry Pi. No, you can&amp;#8217;t have it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/raspberrypi_fedora17.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you&amp;#8217;d like a specific picture from the Fedora booth in its high-resolution, mega-size version (some are available in large format &lt;span class=&quot;caps&quot;&gt;JPG&lt;/span&gt; and some in &lt;span class=&quot;caps&quot;&gt;RAW&lt;/span&gt;), just shoot me a message.&lt;/em&gt;&lt;/p&gt;
+    </content>
+  </entry>
   <entry>
     <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian.html</id>
     <title>Molecules and Predators and Arquillian</title>
@@ -60,8 +98,7 @@
     <category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
     <category scheme="http://graphitefriction.com/blog/tags" term="smack" />
     <summary>
-      
-A fatal error has been detected by the Java Runtime Environment:
+      A fatal error has been detected by the Java Runtime Environment:
 SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960
 Translation for mere humans: It&#8217;s dead, Sarah. You killed something important-sounding by attempting to build a teeny, tiny little webpage on localhost. Sigh.
 Java VM: OpenJDK 64-Bit Server VM (22.0-b10 mixed mode linux-amd64 compressed oops)
@@ -72,8 +109,7 @@ Oh, so now it&#8217;s just &#8216;problematic&#8217; not FATAL. Make up your min
 Failed to write core dump. Core dumps have been disabled. To enable...
     </summary>
     <content type="html">
-      &lt;pre&gt;&lt;code&gt;&amp;#x000A;A fatal error has been detected by the Java Runtime Environment:&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre&gt;&lt;code&gt;A fatal error has been detected by the Java Runtime Environment:&amp;#x000A;SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Translation for mere humans: It&amp;#8217;s dead, Sarah. You killed something important-sounding by attempting to build a teeny, tiny little webpage on localhost. &lt;em&gt;Sigh.&lt;/em&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Java VM: OpenJDK 64-Bit Server VM (22.0-b10 mixed mode linux-amd64 compressed oops)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Is this an &lt;em&gt;oops&lt;/em&gt; my laptop accidentally mixed up some important bits? Or &lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;OOPS&lt;/span&gt;&lt;/strong&gt; the official operations processing specialists &lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;ARE&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;FROWNING&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;UPON&lt;/span&gt;&lt;/strong&gt; my coding attempts?&lt;/p&gt;
