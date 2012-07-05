@@ -65,6 +65,7 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    tzinfo (0.3.33)
 
 PLATFORMS
   java
@@ -73,3 +74,4 @@ DEPENDENCIES
   awestruct (= 0.4.5)
   jruby-openssl (= 0.7.7)
   rb-inotify (= 0.8.8)
+  tzinfo (= 0.3.33)

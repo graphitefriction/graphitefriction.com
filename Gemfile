@@ -32,3 +32,4 @@ source :rubygems
 gem "awestruct", "0.4.5"
 gem "jruby-openssl", "0.7.7", :platforms => :jruby
 gem "rb-inotify", "0.8.8", :platforms => [:ruby, :jruby]
+gem "tzinfo", "0.3.33"
