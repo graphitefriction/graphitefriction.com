@@ -40,6 +40,12 @@ Make sure there are no files that are "untracked" or "modified":
 
     git status
 
+You should see:
+
+    nothing to commit (working directory clean)
+
+Now you are ready to deploy.
+
 ## Deploy the site to github pages
 
 The following commands will push changes (`git push`), clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
