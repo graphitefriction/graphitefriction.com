@@ -1,3 +1,6 @@
+$navbarBackground: #A80E5B;
+$navbarBackgroundHighlight: #CE1170;
+
 // I gather this file is a starting point for the project.
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
@@ -22,7 +25,7 @@ h2 {
 
 h3 {
   color: #585858;
-  font-family: 'Merriweather',Georgia, serif;
+  font-family: 'Merriweather', Georgia, serif;
   padding-top: 0.6em;
   padding-bottom: 0.3em;
 }
@@ -54,7 +57,12 @@ h4 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p.lead {
+  margin-bottom: 16px;
 }
 
 a {
@@ -95,13 +103,17 @@ a {
 
 .about .name {
   font-size: 1.2em;
-  font-family: 'Merriweather',Georgia, serif;
+  font-family: 'Merriweather', Georgia, serif;
   padding-top: 0.6em;
   padding-left: 0.2em;
 }
 
 .about .details {
   padding-top: 0.6em;
+  padding-left: 0.4em;
+}
+
+.about .profiles {
   padding-left: 0.4em;
 }
 

@@ -4,10 +4,8 @@ title: "A Fatal Error. A Problematic Frame. There Goes My Core."
 author: Sarah White
 tags: [java, ruby, smack]
 ---
-
 bc. A fatal error has been detected by the Java Runtime Environment:
-
-bc. SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960
+SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960
 
 Translation for mere humans: It's dead, Sarah. You killed something important-sounding by attempting to build a teeny, tiny little webpage on localhost. _Sigh._
 

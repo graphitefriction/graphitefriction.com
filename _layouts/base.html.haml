@@ -27,28 +27,30 @@
                 %img{ :src => "/images/rss_32.png" }
     .container
       .row
-        .span8
+        %div{:class => (page.url == '/' ? 'span8' : 'span12')}
           ~ content
-        .span4
-          .about
-            %img{:src => "/images/avatar.png"}
-            .name Sarah White
-            .details Loves happy endings, good vaporizing evil, scientific discoveries and technological awesomeness. Content planner, writer, and editor.
-          %hr
-          -#.title twitter updates
-          -#.tweet
-            -#:javascript
-              -#$(function() {
-                -#$(".tweet").tweet({
-                  -#username: "carbonfray",
-                  -#avatar_size: 24,
-                  -#count: 4,
-                  -#template: "{text} {time}",
-                  -#loading_text: "Loading tweets...",
-                  -#outro_text: '<a class="btn"  href="https://twitter.com/#!/carbonfray">Follow me on twitter</a>'
+        - if page.url == '/'
+          .span4
+            .about
+              %img{:src => "/images/avatar.png"}
+              .name Sarah White
+              .details Loves happy endings, alien invasions, scientific discoveries and technological awesomeness. Content planner, writer, and editor.
+              .profiles
+                %a.twitter{ :href=>"http://twitter.com/#!/carbonfray" } @carbonfray
+            -#.title twitter updates
+            -#.tweet
+              -#:javascript
+                -#$(function() {
+                  -#$(".tweet").tweet({
+                    -#username: "carbonfray",
+                    -#avatar_size: 24,
+                    -#count: 4,
+                    -#template: "{text} {time}",
+                    -#loading_text: "Loading tweets...",
+                    -#outro_text: '<a class="btn"  href="https://twitter.com/#!/carbonfray">Follow me on twitter</a>'
+                  -#});
                 -#});
-              -#});
-          -#%hr   
+            -#%hr   
     %hr
       %hr
       %footer
