@@ -42,9 +42,14 @@ Make sure there are no files that are "untracked" or "modified":
 
 ## Deploy the site to github pages
 
-The following command will clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
+The following commands will push changes (`git push`), clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
 
+    git push
     awestruct -P production --force -g --deploy
+
+Or simply run the prepared script:
+
+    ./publish
 
 ## Planet Fedora feed
 
