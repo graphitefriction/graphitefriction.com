@@ -41,5 +41,5 @@ p=. *Yes, it is a Raspberry Pi. No, you can't have it.*
 
 p=. !/images/fedorasummit2012/raspberrypi_fedora17.jpg!
 
-_If you'd like a specific picture from the Fedora booth in its high-resolution, mega-size version (some are available in large format JPG and some in RAW), just shoot me a message._
+_If you'd like a specific picture from the Fedora booth in its high-resolution, mega-size version (some are available in large format JPG and some in RAW), just shoot me a message. I'm graphite6 in the Fedora IRC channels._
 
