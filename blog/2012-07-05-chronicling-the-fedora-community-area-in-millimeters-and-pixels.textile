@@ -25,7 +25,7 @@ On Thursday, after Jon Masters' crowd-gathering ARM demonstration, I forced myse
 
 p((. *No, I'm not familiar with the wide variety of acronyms applied to the hardware in the one laptop per per child computer or what version of Fedora it is running.* Luke Macken saved the attendee from my panicky stare, and now I know it's an ARM processor, running Sugar on a Stick, and the newest laptop has a much better keyboard.
 
-p((. *I don't know what version of Apache httpd is packaged in Fedora 17.* Tom Callaway fired up a terminal and found the information.
+p((. *I don't know what version of Apache httpd is packaged in Fedora 17.* Tom Callaway fired up a terminal and found the information. ["2.2.22":https://apps.fedoraproject.org/packages/httpd].
 
 And the most popular question at the booth: 
 
