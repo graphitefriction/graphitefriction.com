@@ -5,9 +5,48 @@
   <author>
     <name>Sarah White</name>
   </author>
-  <updated>2012-07-05T13:30:00Z</updated>
+  <updated>2012-08-03T13:30:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
+    <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
+    <updated>2012-08-03T13:30:00Z</updated>
+    <published>2012-08-03T13:30:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
+    <author>
+      <name>Sarah White</name>
+    </author>
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the Texas Linux Fest.
+      John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
+      
+      
+      Demoggification
+      Saturday August 4, 2012 2:25 PM &#8211; 3:10 PM
+      Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed,...
+    </summary>
+    <content type="html">
+      &lt;p class=&quot;lead&quot;&gt;Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the &lt;a href=&quot;http://2012.texaslinuxfest.org/&quot;&gt;Texas Linux Fest&lt;/a&gt;.&lt;/p&gt;
+      &lt;p&gt;John Rose (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Inode0&quot;&gt;inode0&lt;/a&gt;), a current Fedora Board member and the North American &lt;a href=&quot;http://fedoraproject.org/wiki/Ambassadors&quot;&gt;Fedora Ambassador&lt;/a&gt; leader, will explain how to rid your shell scripts of useless cats.&lt;/p&gt;
+      &lt;div class=&quot;citation&quot;&gt;
+      &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/TXLF_Badge_transparent_175.png&quot; class=&quot;pull-left&quot; title=&quot;Texas Linux Fest 2012&quot; alt=&quot;Texas Linux Fest 2012&quot; /&gt;&lt;/p&gt;
+      &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/demoggification&quot;&gt;Demoggification&lt;/a&gt;&lt;/h2&gt;
+      &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 2:25 PM &amp;#8211; 3:10 PM&lt;/p&gt;
+      &lt;p&gt;Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed, nc, and more) that frequently finds its way into our shell scripts and shows how to demoggify each by using various features in bash.&lt;/p&gt;
+      &lt;p&gt;Features covered include direct access to sockets, parameter expansions, brace expansions, here strings, and more.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p&gt;Thomas Cameron (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Tcameron&quot;&gt;Tcameron&lt;/a&gt;), Red Hat&amp;#8217;s chief architect for Canada and the central US, will show how scaling out with software based on &lt;a href=&quot;http://www.gluster.org/&quot;&gt;Gluster&lt;/a&gt; will defy future data storage and transfer resource constraints.&lt;/p&gt;
+      &lt;div class=&quot;citation&quot;&gt;
+      &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/building-software-based-nas-using-gluster-red-hat-storage-software-appliance&quot;&gt;Building Software-Based &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; Using Gluster&lt;/a&gt;&lt;/h2&gt;
+      &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 3:20 PM &amp;#8211; 4:05 PM&lt;/p&gt;
+      &lt;p&gt;Gluster is a software-based, scale-out network-attached storage (&lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt;) appliance. It uses inexpensive internal or direct-attached (e.g. &lt;span class=&quot;caps&quot;&gt;JBOD&lt;/span&gt;) storage and pools multiple servers into one storage namespace. This pooled storage is then exported to Linux clients via &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt;, to Microsoft Windows clients via &lt;span class=&quot;caps&quot;&gt;CIFS&lt;/span&gt;/Samba, or using the native Gluster client. In this session, Red Hat&amp;#8217;s Thomas Cameron will explain the architecture of Gluster and demonstrate setting up a 3-node storage cluster, including setting up the &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt; service, Samba, and the native Gluster client. He will demonstrate mirrored content, distributed content, and discuss geo-replication (stretch clusters).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/beefybutton_300.png&quot; class=&quot;pull-right&quot; title=&quot;Beefy Miracle Fedora 17&quot; alt=&quot;Beefy Miracle Fedora 17&quot; /&gt; Also make sure to stop by the Fedora booth on the &lt;span class=&quot;caps&quot;&gt;TXLF&lt;/span&gt; Expo floor and grab a Beefy Miracle button or sticker. More information about the Fedora booth and activities at &lt;span class=&quot;caps&quot;&gt;TXFL&lt;/span&gt; is located on the &lt;a href=&quot;http://fedoraproject.org/wiki/TXLF_2012&quot;&gt;Fedora event page&lt;/a&gt;.&lt;/p&gt;
+    </content>
+  </entry>
   <entry>
     <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
     <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
@@ -58,12 +97,12 @@ During the first full day of booth activities, I retreated behind my cameras to 
     <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
     <category scheme="http://graphitefriction.com/blog/tags" term="design" />
     <summary>
-      During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillain contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
-          Crafting the look and feel of Ike, his crew, and their gear has this sci-fic fangirl constantly plotting ways to beam (forgive me, Scotty) the...
+      During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
+          Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the...
     </summary>
     <content type="html">
-      &lt;p class=&quot;lead&quot;&gt;During the past year &lt;a href=&quot;http://arquillian.org/&quot;&gt;Arquillian&lt;/a&gt; has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillain contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&amp;#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.&lt;/p&gt;
-&lt;p&gt;Crafting the look and feel of Ike, his crew, and their gear has this sci-fic fangirl constantly plotting ways to beam (forgive me, Scotty) the Arquillan platform artwork to the next dimension. However, the platform has diversified so rapidly that I can&amp;#8217;t pull off diagrams, icons, and logos during all-night design binges hours before a presentation deadline. Nor does such a draw-and-dash design frenzy do the indvidual extensions, adaptors, and modules the creative and finely polished rendering justice they deserve.&lt;/p&gt;
+      &lt;p class=&quot;lead&quot;&gt;During the past year &lt;a href=&quot;http://arquillian.org/&quot;&gt;Arquillian&lt;/a&gt; has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&amp;#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.&lt;/p&gt;
+&lt;p&gt;Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the Arquillian platform artwork to the next dimension. However, the platform has diversified so rapidly that I can&amp;#8217;t pull off diagrams, icons, and logos during all-night design binges hours before a presentation deadline. Nor does such a draw-and-dash design frenzy do the indvidual extensions, adaptors, and modules the creative and finely polished rendering justice they deserve.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;m also a bit of a monster after thirty-six hours of no sleep.&lt;/p&gt;
 &lt;p&gt;Therefore, Arquillian now has a &lt;a href=&quot;http://github.com/arquillian/arquillian-artwork&quot;&gt;seperate repository&lt;/a&gt; where graphics can be conceptualized, drafted, and finalized over multiple iterations. It&amp;#8217;s powered by community requests, community contributions, and community feedback.&lt;/p&gt;
 &lt;h3&gt;Initial logo concepts: Graphene and Arquillian Spring Framework extension&lt;/h3&gt;

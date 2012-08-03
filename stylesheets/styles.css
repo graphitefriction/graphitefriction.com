@@ -1,4 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
+/*
+Examples:
+
+Add a border-radius property of 10px:
+
+@include border-radius(10px);
+*/
 /* line 23, /home/dallen/apps/jruby-1.6.7.2/lib/ruby/gems/1.8/gems/bootstrap-sass-2.0.4.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .clearfix {
   *zoom: 1;
@@ -5013,29 +5020,29 @@ a.label:hover, a.badge:hover {
   visibility: hidden;
 }
 
-/* line 8 */
+/* line 16 */
 body {
   padding-top: 76px;
 }
 
-/* line 12 */
+/* line 20 */
 h2 {
   color: #CE1170;
   font-size: 2.2em;
   margin-top: 0.4em;
   font-family: 'Merriweather', Georgia, serif;
 }
-/* line 17 */
+/* line 25 */
 h2 a {
   color: #CE1170;
 }
-/* line 19 */
+/* line 27 */
 h2 a:hover {
   color: #A80E5B;
   text-decoration: none;
 }
 
-/* line 26 */
+/* line 34 */
 h3 {
   color: #585858;
   font-family: 'Merriweather', Georgia, serif;
@@ -5043,23 +5050,23 @@ h3 {
   padding-bottom: 0.3em;
 }
 
-/* line 33 */
+/* line 41 */
 h4 {
   color: #817679;
   font-weight: normal;
   padding-bottom: 1em;
 }
-/* line 37 */
+/* line 45 */
 h4 a {
   color: #817679;
 }
-/* line 39 */
+/* line 47 */
 h4 a:hover {
   color: #277000;
   text-decoration: none;
 }
 
-/* line 46 */
+/* line 54 */
 .navbar a.brand {
   font-family: 'Merriweather', Georgia, serif;
   text-transform: lowercase;
@@ -5068,96 +5075,97 @@ h4 a:hover {
   padding-bottom: 10px;
   color: #FFFFFF;
 }
-/* line 53 */
+/* line 61 */
 .navbar a.brand:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 59 */
+/* line 67 */
 p {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 64 */
+/* line 72 */
 p.lead {
   margin-bottom: 16px;
 }
 
-/* line 68 */
+/* line 76 */
 a {
   color: #359800;
 }
-/* line 70 */
+/* line 78 */
 a:hover {
   color: #236500;
   text-decoration: none;
 }
 
-/* line 76 */
+/* line 84 */
 .tags {
   color: #575757;
+  clear: both;
 }
-/* line 78 */
+/* line 87 */
 .tags a {
   color: #359800;
 }
-/* line 80 */
+/* line 89 */
 .tags a:hover {
   color: #236500;
   text-decoration: none;
 }
 
-/* line 87 */
+/* line 96 */
 .g-plusone-slot {
   display: block;
   padding: 13px 0;
 }
 
-/* line 91 */
+/* line 100 */
 .g-plusone {
   display: block;
 }
 
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='1'] {
   height: 1px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='2'] {
   height: 2px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='3'] {
   height: 3px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='4'] {
   height: 4px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='5'] {
   height: 5px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='6'] {
   height: 6px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='7'] {
   height: 7px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='8'] {
   height: 8px;
 }
-/* line 98 */
+/* line 107 */
 .gc-bubbleDefault img[height='9'] {
   height: 9px;
 }
 
-/* line 104 */
+/* line 113 */
 .about .name {
   font-size: 1.2em;
   font-family: 'Merriweather', Georgia, serif;
@@ -5165,19 +5173,62 @@ a:hover {
   padding-left: 0.2em;
 }
 
-/* line 111 */
+/* line 120 */
 .about .details {
   padding-top: 0.6em;
   padding-left: 0.4em;
 }
 
-/* line 116 */
+/* line 125 */
 .about .profiles {
   padding-left: 0.4em;
 }
 
-/* line 120 */
+/* line 129 */
 .post img {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
+}
+
+/* line 134 */
+.post img.pull-right {
+  padding-left: 0.6em;
+}
+
+/* line 138 */
+.post img.pull-left {
+  padding-right: 0.6em;
+}
+
+/* line 142 */
+.post .citation {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-bottom: 0.3em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 151 */
+.post .citation h2 {
+  font-size: 1.6em;
+  padding-left: .5em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 158 */
+.post .citation p {
+  padding-left: 1.2em;
+  padding-right: 1.5em;
+}
+/* line 163 */
+.post .citation p.byline {
+  padding-left: .8em;
+  padding-bottom: 1em;
+  font-size: 14px;
+  font-style: italic;
+  line-height: .6;
 }
