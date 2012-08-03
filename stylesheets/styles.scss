@@ -1,6 +1,14 @@
 $navbarBackground: #A80E5B;
 $navbarBackgroundHighlight: #CE1170;
 
+/*
+Examples:
+
+Add a border-radius property of 10px:
+
+@include border-radius(10px);
+*/
+
 // I gather this file is a starting point for the project.
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
@@ -75,6 +83,7 @@ a {
 
 .tags {
   color: #575757;
+  clear: both;
   a {
     color: #359800;
     &:hover {
@@ -120,6 +129,44 @@ a {
 .post img {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
+}
+
+.post img.pull-right {
+  padding-left: 0.6em;
+}
+
+.post img.pull-left {
+  padding-right: 0.6em;
+}
+
+.post .citation {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding-bottom: 0.3em;
+  margin-top: $baseLineHeight;
+  margin-bottom: $baseLineHeight;
+  border: 2px solid #fff;
+  @include border-radius(10px);
+
+  h2 {
+    font-size: 1.6em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  p {
+    padding-left: 1.2em;
+    padding-right: 1.5em;
+  }
+  
+  p.byline {
+    padding-left: .8em;
+    padding-bottom: 1em;
+    font-size: 14px;
+    font-style: italic;
+    line-height: .6;
+  }
 }
 
 // Include responsive Bootstrap styles
