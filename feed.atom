@@ -5,9 +5,79 @@
   <author>
     <name>Sarah White</name>
   </author>
-  <updated>2012-08-03T13:30:00Z</updated>
+  <updated>2012-08-14T13:30:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
+    <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
+    <updated>2012-08-14T13:30:00Z</updated>
+    <published>2012-08-14T13:30:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
+    <author>
+      <name>Sarah White</name>
+    </author>
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <summary>
+      At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.
+          
+          
+          Fedora on a Raspberry Pi
+          The Fedora booth showcased the features and capabilities of Fedora running on a Raspberry Pi (a cheap, low-power computer that features an ARM processor). People were in awe that a tiny system on a chip...
+    </summary>
+    <content type="html">
+      &lt;p class=&quot;lead&quot;&gt;At &lt;span class=&quot;caps&quot;&gt;OSCON&lt;/span&gt; 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/oscon2012/deb_and_gunnar.png&quot; title=&quot;Deb and Gunnar at the Fedora booth&quot; alt=&quot;Deb and Gunnar at the Fedora booth&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/oscon2012/ruth_and_tux.png&quot; title=&quot;Ruth and Tux at the Fedora booth&quot; alt=&quot;Ruth and Tux at the Fedora booth&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Fedora on a Raspberry Pi&lt;/h3&gt;
+&lt;p&gt;The Fedora booth showcased the features and capabilities of Fedora running on a Raspberry Pi (a cheap, low-power computer that features an &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; processor). People were in awe that a tiny system on a chip (SoC) could support a widescreen monitor and an external hard drive and run full length movies at 1080p resolution with no problems (except when I overheated the chip by leaving my laptop next to it (my bad!)).&lt;/p&gt;
+&lt;p&gt;Common Raspberry Pi questions included:&lt;/p&gt;
+&lt;dl&gt;
+	&lt;dt&gt;Is that a Raspberry Pi?&lt;/dt&gt;
+	&lt;dd&gt;Yes&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;What operating system is it running?&lt;/dt&gt;
+	&lt;dd&gt;Raspberry Pi Fedora Remix (armv5hl), maintained by the Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; team&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;What is the desktop?&lt;/dt&gt;
+	&lt;dd&gt;&lt;span class=&quot;caps&quot;&gt;XFCE&lt;/span&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;What is the graphics card brand?&lt;/dt&gt;
+	&lt;dd&gt;A Broadcom VideoCore IV, OpenGL ES 2.0, that is capable of 1080p, 30 h.264/&lt;span class=&quot;caps&quot;&gt;MPEG&lt;/span&gt;-4 &lt;span class=&quot;caps&quot;&gt;AVC&lt;/span&gt; high-profile decoder. The output connections are Composite &lt;span class=&quot;caps&quot;&gt;RCA&lt;/span&gt; or &lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;Does it have on board memory?&lt;/dt&gt;
+	&lt;dd&gt;No. You have to boot from SD but a &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; HD can &amp;#8220;take over&amp;#8221; after the initial boot. You cannot boot without an SD card. Supported card formats include SD, &lt;span class=&quot;caps&quot;&gt;MMC&lt;/span&gt;, and &lt;span class=&quot;caps&quot;&gt;SDIO&lt;/span&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;How is it powered?&lt;/dt&gt;
+	&lt;dd&gt;The device is powered by 5V micro &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;. The device could also be run by 4 AA batteries.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+	&lt;dt&gt;Can it display at 1080?&lt;/dt&gt;
+	&lt;dd&gt;Yes&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Our setup used an external hard drive connected via &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; because the SD card was only large enough to fit Futurama episodes (in 720), not the full length Tron Legacy movie Spot had on hand.&lt;/p&gt;
+&lt;p&gt;For more information about the Raspberry Pi hardware, refer to the &lt;a href=&quot;http://graphitefriction.com/http://www.raspberrypi.org/faqs&quot;&gt;Raspberry Pi Foundation&amp;#8217;s FAQs&lt;/a&gt;. Visit &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;&lt;/a&gt; to learn more about how Fedora is developing architectures for SoC.&lt;/p&gt;
+&lt;h3&gt;Tux Photobooth&lt;/h3&gt;
+&lt;p&gt;The Raspberry Pi ran the semi-automated photography booth. Hooked up to a camera and using a python script, the Pi snapped photos of the attendees posed with Tux. Attendees could then scan the QR code generated by the script and displayed in the web browser to retrieve their picture later.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/oscon2012/fedora_photo_booth.png&quot; title=&quot;Fedora photobooth&quot; alt=&quot;Fedora photobooth&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The first photobooth session occurred on Tuesday night, during the opening of the expo floor. During the ever-popular &lt;span class=&quot;caps&quot;&gt;OSCON&lt;/span&gt; booth crawl on Wednesday night, Tux returned to the photobooth and later toured the expo floor to meet his fans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amazing fact:&lt;/strong&gt; &lt;em&gt;Tux can write python code with his wings!&lt;/em&gt; Prior to the session on Wednesday, Tux took a few moments to modify the python program that captures, scales, and posts the pictures when the usual Nikon was replaced with a Canon (new drivers had to be loaded). The equipment and instructions to host your own Raspberry Pi photobooth are being drafted on the new &lt;a href=&quot;http://fedoraproject.org/wiki/Raspberry_Pi_photobooth&quot;&gt;Raspberry Pi photobooth wikipage&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/oscon2012/tux_tour.png&quot; title=&quot;Tux touring the OSCON Expo floor&quot; alt=&quot;Tux touring the OSCON Expo floor&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Fedora Packages Search App&lt;/h3&gt;
+&lt;p&gt;I did field a few questions about Fedora 17&amp;#8217;s development environment and got to point out the servers and frameworks packaged in Fedora 17. There was also a question about the latest &lt;span class=&quot;caps&quot;&gt;KVM&lt;/span&gt; virt-manager instance. I&amp;#8217;m just learning about virtual machine technologies, and version numbers are not my strong point. However, this allowed me to show off the &lt;a href=&quot;https://apps.fedoraproject.org/packages/virt-manager&quot;&gt;Fedora Packages Search&lt;/a&gt; app (using Firefox on the Pi!). If you&amp;#8217;re not familiar with the Fedora packages search app, you need to check it out. It rocks!  You can quickly find out if the program you&amp;#8217;re interested in is packaged, which version is packaged in which release, what updates are coming, and much more all within a clean, easy to use web interface.&lt;/p&gt;
+&lt;p&gt;I use the packages search app almost every day as I continue to learn more about Fedora&amp;#8217;s features, release cycle, and the awesome people dedicated to adding new and improved programs and capabilities to Fedora.&lt;/p&gt;
+&lt;h3&gt;Photographs&lt;/h3&gt;
+&lt;p&gt;You can find more pictures from &lt;span class=&quot;caps&quot;&gt;OSCON&lt;/span&gt; 2012 on my &lt;a href=&quot;http://www.flickr.com/photos/graphitefriction/sets/72157630714547678/&quot;&gt;photostream&lt;/a&gt;. Mark Terranova (MarkDude) also took great photographs of the &lt;a href=&quot;https://plus.google.com/u/0/photos/105095769731159704550/albums/5769140764406115713&quot;&gt;Fedora booth and Beefy Miracle&amp;#8217;s expo floor adventures&lt;/a&gt; at &lt;span class=&quot;caps&quot;&gt;OSCON&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks to everyone who stopped by the booth!&lt;/p&gt;
+    </content>
+  </entry>
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
     <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
@@ -21,30 +91,30 @@
     <category scheme="http://graphitefriction.com/blog/tags" term="event" />
     <summary>
       Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the Texas Linux Fest.
-      John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
-      
-      
-      Demoggification
-      Saturday August 4, 2012 2:25 PM &#8211; 3:10 PM
-      Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed,...
+          John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
+          
+          
+          Demoggification
+          Saturday August 4, 2012 2:25 PM &#8211; 3:10 PM
+          Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed,...
     </summary>
     <content type="html">
       &lt;p class=&quot;lead&quot;&gt;Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the &lt;a href=&quot;http://2012.texaslinuxfest.org/&quot;&gt;Texas Linux Fest&lt;/a&gt;.&lt;/p&gt;
-      &lt;p&gt;John Rose (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Inode0&quot;&gt;inode0&lt;/a&gt;), a current Fedora Board member and the North American &lt;a href=&quot;http://fedoraproject.org/wiki/Ambassadors&quot;&gt;Fedora Ambassador&lt;/a&gt; leader, will explain how to rid your shell scripts of useless cats.&lt;/p&gt;
-      &lt;div class=&quot;citation&quot;&gt;
-      &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/TXLF_Badge_transparent_175.png&quot; class=&quot;pull-left&quot; title=&quot;Texas Linux Fest 2012&quot; alt=&quot;Texas Linux Fest 2012&quot; /&gt;&lt;/p&gt;
-      &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/demoggification&quot;&gt;Demoggification&lt;/a&gt;&lt;/h2&gt;
-      &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 2:25 PM &amp;#8211; 3:10 PM&lt;/p&gt;
-      &lt;p&gt;Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed, nc, and more) that frequently finds its way into our shell scripts and shows how to demoggify each by using various features in bash.&lt;/p&gt;
-      &lt;p&gt;Features covered include direct access to sockets, parameter expansions, brace expansions, here strings, and more.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;p&gt;Thomas Cameron (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Tcameron&quot;&gt;Tcameron&lt;/a&gt;), Red Hat&amp;#8217;s chief architect for Canada and the central US, will show how scaling out with software based on &lt;a href=&quot;http://www.gluster.org/&quot;&gt;Gluster&lt;/a&gt; will defy future data storage and transfer resource constraints.&lt;/p&gt;
-      &lt;div class=&quot;citation&quot;&gt;
-      &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/building-software-based-nas-using-gluster-red-hat-storage-software-appliance&quot;&gt;Building Software-Based &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; Using Gluster&lt;/a&gt;&lt;/h2&gt;
-      &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 3:20 PM &amp;#8211; 4:05 PM&lt;/p&gt;
-      &lt;p&gt;Gluster is a software-based, scale-out network-attached storage (&lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt;) appliance. It uses inexpensive internal or direct-attached (e.g. &lt;span class=&quot;caps&quot;&gt;JBOD&lt;/span&gt;) storage and pools multiple servers into one storage namespace. This pooled storage is then exported to Linux clients via &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt;, to Microsoft Windows clients via &lt;span class=&quot;caps&quot;&gt;CIFS&lt;/span&gt;/Samba, or using the native Gluster client. In this session, Red Hat&amp;#8217;s Thomas Cameron will explain the architecture of Gluster and demonstrate setting up a 3-node storage cluster, including setting up the &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt; service, Samba, and the native Gluster client. He will demonstrate mirrored content, distributed content, and discuss geo-replication (stretch clusters).&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/beefybutton_300.png&quot; class=&quot;pull-right&quot; title=&quot;Beefy Miracle Fedora 17&quot; alt=&quot;Beefy Miracle Fedora 17&quot; /&gt; Also make sure to stop by the Fedora booth on the &lt;span class=&quot;caps&quot;&gt;TXLF&lt;/span&gt; Expo floor and grab a Beefy Miracle button or sticker. More information about the Fedora booth and activities at &lt;span class=&quot;caps&quot;&gt;TXFL&lt;/span&gt; is located on the &lt;a href=&quot;http://fedoraproject.org/wiki/TXLF_2012&quot;&gt;Fedora event page&lt;/a&gt;.&lt;/p&gt;
+          &lt;p&gt;John Rose (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Inode0&quot;&gt;inode0&lt;/a&gt;), a current Fedora Board member and the North American &lt;a href=&quot;http://fedoraproject.org/wiki/Ambassadors&quot;&gt;Fedora Ambassador&lt;/a&gt; leader, will explain how to rid your shell scripts of useless cats.&lt;/p&gt;
+          &lt;div class=&quot;citation&quot;&gt;
+          &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/TXLF_Badge_transparent_175.png&quot; class=&quot;pull-left&quot; title=&quot;Texas Linux Fest 2012&quot; alt=&quot;Texas Linux Fest 2012&quot; /&gt;&lt;/p&gt;
+          &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/demoggification&quot;&gt;Demoggification&lt;/a&gt;&lt;/h2&gt;
+          &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 2:25 PM &amp;#8211; 3:10 PM&lt;/p&gt;
+          &lt;p&gt;Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed, nc, and more) that frequently finds its way into our shell scripts and shows how to demoggify each by using various features in bash.&lt;/p&gt;
+          &lt;p&gt;Features covered include direct access to sockets, parameter expansions, brace expansions, here strings, and more.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;p&gt;Thomas Cameron (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Tcameron&quot;&gt;Tcameron&lt;/a&gt;), Red Hat&amp;#8217;s chief architect for Canada and the central US, will show how scaling out with software based on &lt;a href=&quot;http://www.gluster.org/&quot;&gt;Gluster&lt;/a&gt; will defy future data storage and transfer resource constraints.&lt;/p&gt;
+          &lt;div class=&quot;citation&quot;&gt;
+          &lt;h2&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/building-software-based-nas-using-gluster-red-hat-storage-software-appliance&quot;&gt;Building Software-Based &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; Using Gluster&lt;/a&gt;&lt;/h2&gt;
+          &lt;p class=&quot;byline&quot;&gt;Saturday August 4, 2012 3:20 PM &amp;#8211; 4:05 PM&lt;/p&gt;
+          &lt;p&gt;Gluster is a software-based, scale-out network-attached storage (&lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt;) appliance. It uses inexpensive internal or direct-attached (e.g. &lt;span class=&quot;caps&quot;&gt;JBOD&lt;/span&gt;) storage and pools multiple servers into one storage namespace. This pooled storage is then exported to Linux clients via &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt;, to Microsoft Windows clients via &lt;span class=&quot;caps&quot;&gt;CIFS&lt;/span&gt;/Samba, or using the native Gluster client. In this session, Red Hat&amp;#8217;s Thomas Cameron will explain the architecture of Gluster and demonstrate setting up a 3-node storage cluster, including setting up the &lt;span class=&quot;caps&quot;&gt;NFS&lt;/span&gt; service, Samba, and the native Gluster client. He will demonstrate mirrored content, distributed content, and discuss geo-replication (stretch clusters).&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/beefybutton_300.png&quot; class=&quot;pull-right&quot; title=&quot;Beefy Miracle Fedora 17&quot; alt=&quot;Beefy Miracle Fedora 17&quot; /&gt; Also make sure to stop by the Fedora booth on the &lt;span class=&quot;caps&quot;&gt;TXLF&lt;/span&gt; Expo floor and grab a Beefy Miracle button or sticker. More information about the Fedora booth and activities at &lt;span class=&quot;caps&quot;&gt;TXFL&lt;/span&gt; is located on the &lt;a href=&quot;http://fedoraproject.org/wiki/TXLF_2012&quot;&gt;Fedora event page&lt;/a&gt;.&lt;/p&gt;
     </content>
   </entry>
   <entry>
@@ -98,7 +168,7 @@ During the first full day of booth activities, I retreated behind my cameras to 
     <category scheme="http://graphitefriction.com/blog/tags" term="design" />
     <summary>
       During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
-          Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the...
+              Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the...
     </summary>
     <content type="html">
       &lt;p class=&quot;lead&quot;&gt;During the past year &lt;a href=&quot;http://arquillian.org/&quot;&gt;Arquillian&lt;/a&gt; has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&amp;#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.&lt;/p&gt;
