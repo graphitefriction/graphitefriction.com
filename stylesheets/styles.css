@@ -5082,7 +5082,7 @@ h4 a:hover {
 }
 
 /* line 67 */
-p {
+p, li {
   font-size: 16px;
   line-height: 1.5;
 }

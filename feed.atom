@@ -5,9 +5,82 @@
   <author>
     <name>Sarah White</name>
   </author>
-  <updated>2012-08-14T13:30:00Z</updated>
+  <updated>2012-10-09T13:30:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
+    <title>Is that Fedora running on a Raspberry Pi?</title>
+    <updated>2012-10-09T13:30:00Z</updated>
+    <published>2012-10-09T13:30:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
+    <author>
+      <name>Sarah White</name>
+    </author>
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      by Sarah White and Dan Allen
+      &#8220;Why, yes it is! To be exact, it&#8217;s a Fedora Remix running on a Raspberry Pi.&quot;
+      That was a popular exchange at the Fedora booth during this year&#8217;s Ohio LinuxFest. The iconic Model B Raspberry Pi, running Fedora Remix and proudly displaying the Beefy Miracle fireworks on a XFCE desktop, was drawing lots of attention.
+      
+      As OLF attendees quickly discovered, using the desktop requires a little extra patience since the libraries aren&#8217;t (yet) optimized for the hardware. But, don&#8217;t underestimate this board. It packs a powerful punch and future releases plan to take full advantage of its...
+    </summary>
+    <content type="html">
+      &lt;h4 style=&quot;margin-top: -1em;&quot;&gt;by Sarah White and &lt;a href=&quot;http://google.com/profiles/dan.j.allen&quot;&gt;Dan Allen&lt;/a&gt;&lt;/h4&gt;
+&lt;p class=&quot;lead&quot;&gt;&lt;strong&gt;&amp;#8220;Why, yes it is!&lt;/strong&gt; To be exact, it&amp;#8217;s a Fedora &lt;em&gt;Remix&lt;/em&gt; running on a Raspberry Pi.&amp;quot;&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;That was a popular exchange at the Fedora booth during this year&amp;#8217;s &lt;a href=&quot;http://ohiolinux.org&quot;&gt;Ohio LinuxFest&lt;/a&gt;. The iconic Model B Raspberry Pi, running Fedora Remix and proudly displaying the Beefy Miracle fireworks on a &lt;span class=&quot;caps&quot;&gt;XFCE&lt;/span&gt; desktop, was drawing lots of attention.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/xfce_desktop.jpg&quot; title=&quot;XFCE Desktop on the Raspberry Pi Fedora Remix&quot; alt=&quot;XFCE Desktop on the Raspberry Pi Fedora Remix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As &lt;span class=&quot;caps&quot;&gt;OLF&lt;/span&gt; attendees quickly discovered, using the desktop requires a little extra patience since the libraries aren&amp;#8217;t (yet) optimized for the hardware. But, don&amp;#8217;t underestimate this board. It packs a powerful punch and future releases plan to take full advantage of its capabilities to speed up execution of the programs. (See &lt;a href=&quot;http://lists.fedoraproject.org/pipermail/arm/2012-July/003669.html&quot;&gt;this fedora-arm mailinglist post&lt;/a&gt; or search for &amp;#8220;soft-float vs hard-float&amp;#8221; for details)&lt;/p&gt;
+&lt;p&gt;Questions at the booth that followed were typically:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&amp;#8220;Who maintains it?&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;&amp;#8220;Where do I get it?&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;&amp;#8220;How do I install it?&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First, let&amp;#8217;s start with, &amp;#8220;What &lt;em&gt;&lt;strong&gt;is&lt;/strong&gt;&lt;/em&gt; a Raspberry Pi?&amp;#8221;&lt;/p&gt;
+&lt;h3&gt;What is a Raspberry Pi?&lt;/h3&gt;
+&lt;p&gt;A Raspberry Pi is a system-on-a-chip (SoC) single-board computer. In other words, it&amp;#8217;s an incredibly compact general purpose computer. It even fits inside one of my mini pie dishes. &lt;em&gt;Mmmm&lt;/em&gt;, pie!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_in_a_pie.jpg&quot; title=&quot;Raspberry Pi as a Pie&quot; alt=&quot;Raspberry Pi as a Pie&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s back up and begin with the central component that makes this all possible, the &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; chip.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/ARM_architecture&quot;&gt;&lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; chips&lt;/a&gt; are the most widely-produced processors in the world because they are small, cheap and require minimal power. They are found in smart phones, tablets, routers, embedded controllers, gaming consoles and streaming digital media devices. As the chips become more powerful and SoCs less expensive, consumer operating systems such as Fedora can be installed on them.&lt;/p&gt;
+&lt;p&gt;Several companies manufacture and sell &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based SoC computers that cost under $100 that are specifically designed for you to install your Linux distribution of choice. The Raspberry Pi is notable for its $35 price tag, less than half the price of the next cheapest &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt;-based SoC, the $89 BeagleBone.&lt;/p&gt;
+&lt;p&gt;The Raspberry Pi Model B is based on the Broadcom BCM2835 SoC and includes these components and ports:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;ARM1176JZF-S 700 MHz processor (&lt;a href=&quot;http://www.arm.com/products/processors/classic/arm11&quot;&gt;ARM11 family&lt;/a&gt;, armv6 architecture)&lt;/li&gt;
+	&lt;li&gt;VideoCore IV &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;, OpenGL ES 2.0, 1080p30 h.264/&lt;span class=&quot;caps&quot;&gt;MPEG&lt;/span&gt;-4 &lt;span class=&quot;caps&quot;&gt;AVC&lt;/span&gt; high-profile decoder&lt;/li&gt;
+	&lt;li&gt;256 Megabytes of &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; (shared between the &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; and &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;)&lt;/li&gt;
+	&lt;li&gt;Two &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; 2.0 ports&lt;/li&gt;
+	&lt;li&gt;10/100 Ethernet (RJ45) controller&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt; and composite &lt;span class=&quot;caps&quot;&gt;RCA&lt;/span&gt; video outputs&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt; and 3.5mm jack audio outputs&lt;/li&gt;
+	&lt;li&gt;MicroSD card slot&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;GPIO&lt;/span&gt; pins&lt;/li&gt;
+	&lt;li&gt;5V Micro &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; power jack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;#8217;s how the parts are laid out on the board:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/raspberry_pi_model_b_schematic.png&quot; title=&quot;Raspberry Pi Model B Schematic&quot; alt=&quot;Raspberry Pi Model B Schematic&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Single-board systems like the Raspberry Pi aren&amp;#8217;t just miniaturized computers locked in a box, though. They&amp;#8217;re open, development boards with general inputs and outputs (GPIOs) that allow expansion through add-on boards and external devices. Installing a Linux distribution like Fedora is just the first step of becoming a &lt;a href=&quot;http://www.wired.com/geekmom/2012/10/open-hardware-summit-2012&quot;&gt;maker&lt;/a&gt;!&lt;/p&gt;
+&lt;h3&gt;Who maintains the Fedora Remix for the Raspberry Pi?&lt;/h3&gt;
+&lt;p&gt;It begins with the &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; project&lt;/a&gt;, an initiative to port Fedora to the &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; processor family. The group has successfully created &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM/Fedora_17_GA&quot;&gt;Fedora 17 GA images&lt;/a&gt; for single-board computers including the BeagleBoard, SheevaPlug, PandaBoard, and Trim-Slice. However, the Fedora Project does not yet produce an official release for the Raspberry Pi due to certain licensing issues. Specifically, the Raspberry Pi relies upon a custom kernel (not upstream) as well as special &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; binary blobs which are not acceptable under the current firmware exception in Fedora.&lt;/p&gt;
+&lt;p&gt;But, if you want Fedora 17 on your Pi &lt;strong&gt;today&lt;/strong&gt;, do not despair! There&amp;#8217;s a Fedora Remix for that!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/raspberry_pi_fedora_remix_logo.png&quot; title=&quot;Raspberry Pi Fedora Remix Logo&quot; alt=&quot;Raspberry Pi Fedora Remix Logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Seneca College&amp;#8217;s &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/&quot;&gt;Centre for Development of Open Source Technology&lt;/a&gt; maintains the &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora Remix&lt;/a&gt;. A &lt;a href=&quot;http://fedoraproject.org/wiki/Remix&quot;&gt;Fedora Remix&lt;/a&gt; is a combination of Fedora software, with or without add-ons, that any community member can create at any time to produce interesting and compelling distributions. The Raspberry Pi Fedora Remix enables you load Fedora 17 onto the Pi and get updates for most software from the official Fedora yum repositories (armv5tel architecture). &lt;a href=&quot;http://www.youtube.com/watch?v=RbWE6qF7pIM&quot;&gt;Watch the announcement video&lt;/a&gt; to learn more about how the folks from Sececa built and tested it.&lt;/p&gt;
+&lt;p&gt;The Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; group is working to make &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; a primary Fedora architecture for all future releases and to expand support to additional SoCs, including the Raspberry Pi. Until Fedora officially supports the Raspberry Pi, you&amp;#8217;ll need to use the Fedora Remix.&lt;/p&gt;
+&lt;h3&gt;How do I get a Raspberry Pi and the Fedora Remix?&lt;/h3&gt;
+&lt;p&gt;Let&amp;#8217;s take it one question at a time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I get a Raspberry Pi?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You may have heard that you need to know the right people to get your hands on a Raspberry Pi or that there is a purchasing restriction. Neither of those rumors are true anymore, though you may still run into backorders. Numerous distributors&lt;sup&gt;&amp;#8224;&lt;/sup&gt; sell the Pi, including &lt;a href=&quot;http://www.alliedelec.com/lp/120626raso/?cm_mmc=Offline-Referral-_-Electronics-_-RaspberryPi-201203-_-World-Selector-Page&quot;&gt;Allied Electronics&lt;/a&gt;, &lt;a href=&quot;http://www.newark.com/jsp/search/productdetail.jsp?id=83T1943&amp;amp;Ntt=83T1943&quot;&gt;Newark&lt;/a&gt;, &lt;a href=&quot;http://www.adafruit.com/category/105&quot;&gt;Adafruit Industries&lt;/a&gt; and &lt;a href=&quot;http://www.mcmelectronics.com/content/en-US/raspberry-pi&quot;&gt;&lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics&lt;/a&gt; but be prepared to wait (last minute holiday shoppers, you&amp;#8217;ve been warned!). &lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics and Adafruit also sell an array of accessories like the clear case that houses my Pi, shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/adafruit_case.jpg&quot; title=&quot;Adafruit Raspberry Pi Case&quot; alt=&quot;Adafruit Raspberry Pi Case&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I load Fedora Remix on it?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once you receive your slice of Pi, the next step is to install Fedora Remix or one of the other &lt;a href=&quot;http://elinux.org/RPi_Distributions&quot;&gt;Raspberry Pi (RPi) Linux distributions&lt;/a&gt; onto a MicroSD card and slide it into the board. The next blog entry in this series will step through downloading Fedora Remix, installing it on your Pi and getting it up and running.&lt;/p&gt;
+&lt;h3&gt;Does the Raspberry Pi have a handbook?&lt;/h3&gt;
+&lt;p&gt;If you want to become more familiar with your Raspberry Pi and the story behind it, check out the &lt;a href=&quot;http://www.amazon.com/Raspberry-User-Guide-Gareth-Halfacree/dp/111846446X&quot;&gt;Raspberry Pi User Guide&lt;/a&gt;, written by the Pi&amp;#8217;s master chef. That&amp;#8217;s the book I read before booting the Raspberry Pi for the first time (on the plane heading to Ohio LinuxFest :)). Having that background knowledge helped make the installation process a breeze.&lt;/p&gt;
+&lt;p class=&quot;muted&quot;&gt;&lt;sup&gt;&amp;#8224;&lt;/sup&gt; We&amp;#8217;re not endorsing any of the listed distributors of the Raspberry Pi or its accessories. The companies mentioned are just a sampling of results returned after executing a &amp;#8220;buy Raspberry Pi&amp;#8221; internet search. Sarah&amp;#8217;s Pi was gifted to her by a spotted hypnotoad. Dan purchased the Adafruit case through &lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics.&lt;/p&gt;
+&lt;p class=&quot;muted&quot;&gt;Raspberry Pi is a trademark of the &lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi Foundation&lt;/a&gt;.&lt;/p&gt;
+    </content>
+  </entry>
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
     <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
