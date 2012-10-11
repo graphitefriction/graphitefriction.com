@@ -5,9 +5,158 @@
   <author>
     <name>Sarah White</name>
   </author>
-  <updated>2012-10-09T13:30:00Z</updated>
+  <updated>2012-10-11T13:30:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
+    <title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
+    <updated>2012-10-11T13:30:00Z</updated>
+    <published>2012-10-11T13:30:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
+    <author>
+      <name>Sarah White</name>
+    </author>
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <summary>
+      by Sarah White and Dan Allen
+      The Raspberry Pi Fedora 17 Remix, produced and maintained by the Seneca Centre for Development of Open Technology, is a Fedora-based Linux distribution that runs on the low-cost ($35) system-on-a-chip (Broadcom BCM2835) known as the Raspberry Pi (RPi or RasPi). This distribution consists of software packages from the Fedora ARM project (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi&#8217;s VideoCore GPU).
+      This blog entry will show you how to...
+    </summary>
+    <content type="html">
+      &lt;h4 style=&quot;margin-top: -1em;&quot;&gt;by Sarah White and &lt;a href=&quot;http://google.com/profiles/dan.j.allen&quot;&gt;Dan Allen&lt;/a&gt;&lt;/h4&gt;
+&lt;p class=&quot;lead&quot;&gt;The &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora 17 Remix&lt;/a&gt;, produced and maintained by the &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Main_Page&quot; title=&quot;DOT&quot;&gt;Seneca Centre for Development of Open Technology&lt;/a&gt;, is a Fedora-based Linux distribution that runs on the low-cost ($35) &lt;a href=&quot;http://en.wikipedia.org/wiki/System_on_a_chip&quot; title=&quot;SoC&quot;&gt;system-on-a-chip&lt;/a&gt; (Broadcom BCM2835) known as the &lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi&lt;/a&gt; (RPi or RasPi). This distribution consists of software packages from the &lt;a href=&quot;https://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; project&lt;/a&gt; (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi&amp;#8217;s VideoCore &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;).&lt;/p&gt;
+&lt;p&gt;This blog entry will show you how to install Fedora Remix on the Raspberry Pi. Installing Fedora Remix on the Raspberry Pi is easier than installing Fedora on a laptop or desktop because all you have to do is copy the prepared image to a MicroSD card and plug in the Pi.&lt;/p&gt;
+&lt;p&gt;At the time of writing this post, the Raspberry Pi Fedora 17 Remix is only in testing, but in my experience it&amp;#8217;s stable enough to use. According to Peter Robinson, a Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; developer, you may soon be able to use the official Fedora 18 &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; distribution on the Raspberry Pi, which will considerably improve performance and stability.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The first core components of the Broadcom BCM2835 landed in kernel 3.7 and there might be some bits to report soon with regard to firmware distribution.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At present, the Fedora Remix is the only option, so let&amp;#8217;s get started with it!&lt;/p&gt;
+&lt;h3&gt;Installing the Raspberry Pi Fedora 17 Remix&lt;/h3&gt;
+&lt;p&gt;There are four steps to installing Fedora Remix on your Raspberry Pi.&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Copy the ready-made Fedora Remix image onto an 4GB (or larger, I use an 8GB card) MicroSD memory card&lt;/li&gt;
+	&lt;li&gt;Hook up a monitor (preferably via &lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt;), a &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; keyboard and mouse (ideally that share a single &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; port) and, optionally, an internet connection (ethernet cable, &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; wireless card or &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; tethering to a smartphone)&lt;/li&gt;
+	&lt;li&gt;Power on and walk through the Fedora &amp;#8220;first boot&amp;#8221; wizard&lt;/li&gt;
+	&lt;li&gt;Reboot, login and geek out!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_components.png&quot; title=&quot;Hardware for using a Raspberry Pi with Fedora Remix&quot; alt=&quot;Hardware for using a Raspberry Pi with Fedora Remix&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The most mysterious part of this process is finding the download link to the image. (Hint: It&amp;#8217;s not on the &lt;a href=&quot;http://www.raspberrypi.org/downloads&quot;&gt;Raspberry Pi distribution downloads page&lt;/a&gt;). Fortunately, I&amp;#8217;ve saved you the trouble of finding it. As for the rest of the process, it may seem daunting at first, but honestly, it&amp;#8217;s not that tricky. Let&amp;#8217;s forge ahead.&lt;/p&gt;
+&lt;h3&gt;Loading the image on a MicroSD card&lt;/h3&gt;
+&lt;p&gt;The MicroSD card serves as the Raspberry Pi&amp;#8217;s primary harddrive. By default, the Pi will look on the MicroSD card for the operating system to load (though it&amp;#8217;s possible to boot from other devices as well). Therefore, the first step is to grab the image and put it on the card.&lt;/p&gt;
+&lt;p&gt;1. Download the latest Raspberry Pi Fedora 17 Remix distribution, rpfr-17-xfce-RC2.zip, from the &lt;a href=&quot;http://scotland.proximity.on.ca/raspberrypi/test-releases/raspberrypi-fedora-remix-17/latest/&quot;&gt;Seneca &lt;span class=&quot;caps&quot;&gt;CDOT&lt;/span&gt; file server&lt;/a&gt; (972MB).&lt;/p&gt;
+&lt;p&gt;2. Extract the archive using the Archive Manager (file-roller) application or unzip from the command line. This will create the file rpfr-17-xfce-RC2.img.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/archive_manager.png&quot; title=&quot;Archive manager&quot; alt=&quot;Archive manager&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;3. Get the device name of the MicroSD card using the Disks (palimpsest) application or sudo fdisk -l from the command line. Most likely the SD card is named &lt;code&gt;/dev/mmcblk0&lt;/code&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/SD_card_name.png&quot; title=&quot;Device name for SD card&quot; alt=&quot;Device name for SD card&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;4. Transfer the extracted image file rpfr-17-xfce-RC2.img to the MicroSD card using a terminal window.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the transfer command to execute in Step 4.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo dd if=rpfr-17-xfce-RC2.img of=/dev/mmcblk0 bs=1M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The command above assumes you saved rpfr-17-xfce-RC2.img in your home directory after extraction. If you saved the file elsewhere, you&amp;#8217;ll need to change to the appropriate directory via the command line (&lt;code&gt;cd directory/name&lt;/code&gt;) before executing the &lt;code&gt;dd&lt;/code&gt; command. &lt;code&gt;dd&lt;/code&gt; is a low-level copy command that can read and write complete disk images. &lt;code&gt;if&lt;/code&gt; stands for &amp;#8220;input file&amp;#8221;, &lt;code&gt;of&lt;/code&gt; stands for &amp;#8220;output file&amp;#8221; and bs tells &lt;code&gt;dd&lt;/code&gt; how many bytes to read at a time.&lt;/p&gt;
+&lt;p&gt;In our case, the input file is the disk image rpfr-17-xfce-RC2.img, the output file is the MicroSD card device &lt;code&gt;/dev/mmcblk0&lt;/code&gt; and the block size is one megabyte (1M). This command will create the necessary file systems partitions on the MicroSD card, occupying 3.1GB of space, then copy the prepared operating system files to those partitions. A one step installation!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;NOTE&lt;/span&gt;:&lt;/strong&gt; As you&amp;#8217;ll learn later, the first boot wizard will allow you to resize the main partition to use all available space on the card.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;TIP&lt;/span&gt;:&lt;/strong&gt; The &lt;code&gt;dd&lt;/code&gt; command is also your friend if you need to move to a bigger MicroSD card. Simply reverse the &lt;code&gt;if&lt;/code&gt; and &lt;code&gt;of&lt;/code&gt; values, insert a bigger card and run the above command again.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;dd&lt;/code&gt; command doesn&amp;#8217;t output any messages until the operation is complete, so be patient. The length of time to execute the command will vary depending on the speed of the card. With my Class 6 card, it takes about 8 minutes (7 MB/s). Here&amp;#8217;s an example of the output you&amp;#8217;ll see when the command finishes:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;3000+0 records in&amp;#x000A;3000+0 records out&amp;#x000A;3145728000 bytes (3.1 GB) copied, 445.969 s, 7.1 MB/s&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can verify the operation worked by ejecting the MicroSD card, reinserting it, then browsing the contents using the file explorer. You should see two mounts, boot and rootfs. Once you&amp;#8217;re done poking around, unmount boot and rootfs and eject the card.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/boot_files.png&quot; title=&quot;Fedora Remix boot files on the SD card&quot; alt=&quot;Fedora Remix boot files on the SD card&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The MicroSD card is ready. Now let&amp;#8217;s prepare the Pi!&lt;/p&gt;
+&lt;h3&gt;Preparing the Pi&lt;/h3&gt;
+&lt;p&gt;Plug the following inputs into the Raspberry Pi board:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;MicroSD card&lt;/li&gt;
+	&lt;li&gt;Monitor &lt;span class=&quot;caps&quot;&gt;HDMI&lt;/span&gt; cable&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; keyboard&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; mouse&lt;/li&gt;
+	&lt;li&gt;Ethernet cable, &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; wireless card or &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; tethered smartphone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Personally I use my Android phone as my wireless card by enabling the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; tethering feature).&lt;/p&gt;
+&lt;p&gt;Next, turn on the monitor and, if necessary, the keyboard and mouse. Set the resolution of the monitor to &amp;#8220;Just Scan&amp;#8221; if it offers that setting. Otherwise, use the default setting (e.g., 16:9 or 4:3).&lt;/p&gt;
+&lt;p&gt;The Raspberry Pi only has two &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; ports, which you may quickly outgrow. One solution is to expand the number of ports by adding a (preferably powered) &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; hub. Before going that route, you can save one of the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; ports by getting a keyboard and mouse that can share the same port.&lt;/p&gt;
+&lt;h3&gt;Unifying a Logitech keyboard and mouse&lt;/h3&gt;
+&lt;p&gt;If you have a Logitech keyboard and mouse that can connect to a single receiver, they can be configured to use that same unifying receiver in Linux. Copy the source code from &lt;a href=&quot;http://returnfalse.net/log/pairing-logitech-unifying-devices-on-gnulinux/&quot;&gt;this blog&lt;/a&gt; to the file unifying_pair.c and execute these commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gcc -o unifying_pair unifying_pair.c&amp;#x000A;sudo ./unifying_pair /dev/hidraw0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While that&amp;#8217;s running, switch off the keyboard and mouse, then switch them on. You should now be able to control both the keyboard and the mouse using a single &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; receiver. Plug that receiver into the Raspberry Pi.&lt;/p&gt;
+&lt;h3&gt;Power it up!&lt;/h3&gt;
+&lt;p&gt;The final input is the power (otherwise known as the &amp;#8220;on&amp;#8221; switch).&lt;/p&gt;
+&lt;p&gt;Grab a cellphone charger cable (micro &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;, I use my &lt;span class=&quot;caps&quot;&gt;HTC&lt;/span&gt; Sensation&amp;#8217;s power cable) and plug it into a power outlet. You may be tempted to use the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; port of your laptop as the power source; however, the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; port may not provide the necessary power required by the Model B Raspberry Pi (700mA). The general recommendation is to play it safe and use a wall outlet.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s action time! Plug the micro &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; end of the cable into the micro &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; input and wait a few seconds for a raspberry to appear on the monitor. If you see one, then the Fedora Remix is booting. If not, you may need to play with the settings on your monitor.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/fedora_raspberry_spin.png&quot; title=&quot;Fedora Remix boot screen&quot; alt=&quot;Fedora Remix boot screen&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Customizing the installation on first boot&lt;/h3&gt;
+&lt;p&gt;This wouldn&amp;#8217;t be a Fedora installation without the first boot wizard. The inclusion of first boot is one of the features that sets the Fedora Remix apart from other Raspberry Pi distributions. In addition to the simple first boot operations (review license, set language, timezone and date, root password), the Fedora Remix allows you to:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Resize the rootfs partition to use all remaining space on the MicroSD card, optionally allocating some of that space for a swap file (I used the defaults)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/filesystem_settings.png&quot; title=&quot;Fedora Remix filesystem settings boot screen&quot; alt=&quot;Fedora Remix filesystem settings boot screen&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Create a user account (add the user to administrators group)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/create_user.png&quot; title=&quot;Fedora Remix create user boot screen&quot; alt=&quot;Fedora Remix create user boot screen&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;On the system settings screen you can modify the host name (default is raspi.local), choose graphical or text boot type mode, configure the &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; allocation between the &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; and &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt; (out of available 256MB), and select video display configurations. I used the wizard selected options shown in the screenshot below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/system_settings.png&quot; title=&quot;Fedora Remix create system settings boot screen&quot; alt=&quot;Fedora Remix create system settings boot screen&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Hit the finish button. The Pi will reboot twice on its own (once to resize the disk). Go get some coffee, this will take several minutes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;NOTE&lt;/span&gt;:&lt;/strong&gt; If you get the &lt;strong&gt;Oh no! Something has gone wrong.&lt;/strong&gt; screen, don&amp;#8217;t panic. Type ctrl+alt+delete to initiate a third reboot.&lt;/p&gt;
+&lt;p&gt;Once the desktop comes up, don&amp;#8217;t worry if it doesn&amp;#8217;t fill the screen, we can fix that later. Now log into the &lt;span class=&quot;caps&quot;&gt;XFCE&lt;/span&gt; desktop with the user account you created during the boot wizard.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/login_screen.png&quot; title=&quot;Raspberry Pi XFCE desktop login&quot; alt=&quot;Raspberry Pi XFCE desktop login&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After you&amp;#8217;ve logged in (go check your email, this may take a moment as well), you&amp;#8217;ll see the following dialog window.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/start_panel_XFCE.png&quot; title=&quot;Raspberry Pi XFCE start panel&quot; alt=&quot;Raspberry Pi XFCE start panel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This is part of the &lt;span class=&quot;caps&quot;&gt;XFCE&lt;/span&gt; desktop; I chose the default configuration.&lt;/p&gt;
+&lt;h3&gt;Updating Fedora Remix on the Raspberry Pi&lt;/h3&gt;
+&lt;p&gt;You use Fedora Remix on the Raspberry Pi just like any other Fedora installation. You might start by opening a terminal and updating the packages (internet connection required):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo yum -y update&lt;/code&gt;&lt;/pre&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/yum_update.png&quot; title=&quot;Installing updates via yum&quot; alt=&quot;Installing updates via yum&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can browse the hardware information by installing and running hardinfo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo yum -y install hardinfo&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After you type the above command, you will be asked for your password. Next, the system will resolve dependencies, download new packages, run transaction check and test, run transaction, and install packages.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hardinfo_install.png&quot; title=&quot;Installing hardinfo via yum&quot; alt=&quot;Installing hardinfo via yum&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The flashing lights on the Raspberry Pi board will indicate that the computer is hard at work.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_lights.png&quot; title=&quot;Raspberry Pi hard at work&quot; alt=&quot;Raspberry Pi hard at work&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When the hardinfo installation is complete and the command line prompt reappears, type:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hardinfo&lt;/code&gt;&lt;/pre&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hardinfo.png&quot; title=&quot;System information via hardinfo&quot; alt=&quot;System information via hardinfo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now you can easily explore the Raspberry Pi and Fedora Remix system specifications.&lt;/p&gt;
+&lt;p&gt;The desktop may seem a bit sluggish, but keep in mind what you are running it on. (It&amp;#8217;s also because the Fedora Remix has not been compiled to take full advantage of the processor, which may change in Fedora 18).&lt;/p&gt;
+&lt;p&gt;One setting you won&amp;#8217;t be able to configure from the control panel is the resolution. For that to change, you have to modify the Raspberry Pi configuration file. Let&amp;#8217;s explore a few of those settings.&lt;/p&gt;
+&lt;h3&gt;Tweaking the display and memory on the Raspberry Pi&lt;/h3&gt;
+&lt;p&gt;The Raspberry Pi hardware is configured in the &lt;a href=&quot;http://elinux.org/RPi_config.txt&quot;&gt;config.txt file&lt;/a&gt; in the /boot partition (&lt;code&gt;/boot/config.txt&lt;/code&gt;). One of the key settings is the display resolution. Here&amp;#8217;s the setting I used to stretch the desktop to full 1080 resolution (since my monitor supports it):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;NOTE&lt;/span&gt;:&lt;/strong&gt; You can&amp;#8217;t simply click on the text document, open it in leafpad, edit it and hit save because you need root priviledges. To update this file you&amp;#8217;ll need to access it through a terminal using &lt;code&gt;sudo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Open a terminal window and type:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd /boot&amp;#x000A;sudo leafpad config.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After you enter your password, leafpad will launch. Add the following setting to the file in leafpad:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hdmi_mode=5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also recommend these settings to make the monitor display the image properly.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hdmi_force_hotplug=1&amp;#x000A;disable_overscan=1&amp;#x000A;hdmi_group=1&lt;/code&gt;&lt;/pre&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hdmi_config.png&quot; title=&quot;Configuring the HDMI settings in leafpad for the Raspberry Pi&quot; alt=&quot;Configuring the HDMI settings in leafpad for the Raspberry Pi&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Save the file and close it. Reboot the Raspberry Pi for the changes to take affect. You can type the following command in the terminal to reboot.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo shutdown -r now&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keep in mind that running the desktop at higher resolution does take more memory. You may want to opt for a lower resolution. Experiment with the values until you find what works for you. Consult the &lt;a href=&quot;http://elinux.org/RPi_config.txt#Video_mode_options&quot;&gt;full list of resolution modes&lt;/a&gt; to find the &lt;code&gt;hdmi_mode&lt;/code&gt; value for each resolution.&lt;/p&gt;
+&lt;p&gt;You can also make the desktop run faster by allocating more memory to the &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt;. The &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; partitioning is controlled by the file start.elf in the /boot partition (&lt;code&gt;/boot/start.elf&lt;/code&gt;). There are several alternative partitioning files in that directory with the pattern &lt;code&gt;arm*_start.elf&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The number after &amp;#8220;arm&amp;#8221; is the amount of &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; dedicated to the &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt;. To give 240MB of &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; to the &lt;span class=&quot;caps&quot;&gt;CPU&lt;/span&gt; and the remaining 16MB to the &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;, use this copy command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cp arm240_start.elf start.elf&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want to play multimedia, you probably want to split the &lt;span class=&quot;caps&quot;&gt;RAM&lt;/span&gt; down the middle at 128MB a piece (the most you can give to the &lt;span class=&quot;caps&quot;&gt;GPU&lt;/span&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cp arm128_start.elf start.elf&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Reboot for the change to take affect. Play with the values and see which one works best for you.&lt;/p&gt;
+&lt;h3&gt;Tinker!&lt;/h3&gt;
+&lt;p&gt;The Fedora Remix is one of &lt;a href=&quot;http://elinux.org/RPi_Distributions#Comparison&quot;&gt;many distributions&lt;/a&gt; you can install on the Raspberry Pi, and there is plenty of room for it to improve. If your goal is to use the Raspberry Pi as a multimedia center, Fedora Remix may not be your best option (check out OpenELEC). You&amp;#8217;d choose Fedora Remix for things the Fedora OS excels at, such as software development. Fortunately, you don&amp;#8217;t have to limit yourself to a single distribution. Changing distributions is as easy as swapping MicroSD cards. We encourage you to try different distributions to get the most out of your Raspberry Pi.&lt;/p&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora Remix home page&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://scotland.proximity.on.ca/raspberrypi/test-releases/raspberrypi-fedora-remix-17/latest/&quot;&gt;Latest Raspberry Pi Fedora 17 Remix download&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.raspberrypi.org/archives/805&quot;&gt;Original Raspberry Pi Fedora Remix announcement&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora &lt;span class=&quot;caps&quot;&gt;ARM&lt;/span&gt; project&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://elinux.org/RPi_Distributions#Comparison&quot;&gt;Raspberry Pi distribution list&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://raspberrypi.org/downloads&quot;&gt;Raspberry Pi distribution downloads&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.element14.com/community/groups/raspberry-pi&quot;&gt;Raspberry Pi development group&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi Foundation home page&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.newark.com/?COM=element14_store_main&quot;&gt;Raspberry Pi store, US&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.farnell.com/?ICID=choose_store_dropdown&quot;&gt;Raspberry Pi store, non-US&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.mcmelectronics.com/content/en-US/raspberry-pi&quot;&gt;Raspberry Pi partner store, US&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    </content>
+  </entry>
   <entry>
     <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
     <title>Is that Fedora running on a Raspberry Pi?</title>
@@ -74,7 +223,7 @@
 &lt;p&gt;You may have heard that you need to know the right people to get your hands on a Raspberry Pi or that there is a purchasing restriction. Neither of those rumors are true anymore, though you may still run into backorders. Numerous distributors&lt;sup&gt;&amp;#8224;&lt;/sup&gt; sell the Pi, including &lt;a href=&quot;http://www.alliedelec.com/lp/120626raso/?cm_mmc=Offline-Referral-_-Electronics-_-RaspberryPi-201203-_-World-Selector-Page&quot;&gt;Allied Electronics&lt;/a&gt;, &lt;a href=&quot;http://www.newark.com/jsp/search/productdetail.jsp?id=83T1943&amp;amp;Ntt=83T1943&quot;&gt;Newark&lt;/a&gt;, &lt;a href=&quot;http://www.adafruit.com/category/105&quot;&gt;Adafruit Industries&lt;/a&gt; and &lt;a href=&quot;http://www.mcmelectronics.com/content/en-US/raspberry-pi&quot;&gt;&lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics&lt;/a&gt; but be prepared to wait (last minute holiday shoppers, you&amp;#8217;ve been warned!). &lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics and Adafruit also sell an array of accessories like the clear case that houses my Pi, shown below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/adafruit_case.jpg&quot; title=&quot;Adafruit Raspberry Pi Case&quot; alt=&quot;Adafruit Raspberry Pi Case&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;How do I load Fedora Remix on it?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Once you receive your slice of Pi, the next step is to install Fedora Remix or one of the other &lt;a href=&quot;http://elinux.org/RPi_Distributions&quot;&gt;Raspberry Pi (RPi) Linux distributions&lt;/a&gt; onto a MicroSD card and slide it into the board. The next blog entry in this series will step through downloading Fedora Remix, installing it on your Pi and getting it up and running.&lt;/p&gt;
+&lt;p&gt;Once you receive your slice of Pi, the next step is to install Fedora Remix or one of the other &lt;a href=&quot;http://elinux.org/RPi_Distributions&quot;&gt;Raspberry Pi (RPi) Linux distributions&lt;/a&gt; onto a MicroSD card and slide it into the board. The next blog entry in this series, &lt;a href=&quot;http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/&quot;&gt;How to Install and Configure Fedora 17 Remix on Your Raspberry Pi&lt;/a&gt;, will step through downloading Fedora Remix, installing it on your Pi and getting it up and running.&lt;/p&gt;
 &lt;h3&gt;Does the Raspberry Pi have a handbook?&lt;/h3&gt;
 &lt;p&gt;If you want to become more familiar with your Raspberry Pi and the story behind it, check out the &lt;a href=&quot;http://www.amazon.com/Raspberry-User-Guide-Gareth-Halfacree/dp/111846446X&quot;&gt;Raspberry Pi User Guide&lt;/a&gt;, written by the Pi&amp;#8217;s master chef. That&amp;#8217;s the book I read before booting the Raspberry Pi for the first time (on the plane heading to Ohio LinuxFest :)). Having that background knowledge helped make the installation process a breeze.&lt;/p&gt;
 &lt;p class=&quot;muted&quot;&gt;&lt;sup&gt;&amp;#8224;&lt;/sup&gt; We&amp;#8217;re not endorsing any of the listed distributors of the Raspberry Pi or its accessories. The companies mentioned are just a sampling of results returned after executing a &amp;#8220;buy Raspberry Pi&amp;#8221; internet search. Sarah&amp;#8217;s Pi was gifted to her by a spotted hypnotoad. Dan purchased the Adafruit case through &lt;span class=&quot;caps&quot;&gt;MCM&lt;/span&gt; Electronics.&lt;/p&gt;
