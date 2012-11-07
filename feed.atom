@@ -2,23 +2,41 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://graphitefriction.com/</id>
   <title>Graphite Friction</title>
-  <author>
-    <name>Sarah White</name>
-  </author>
-  <updated>2012-10-11T13:30:00Z</updated>
+  <updated>2012-11-07T14:30:00Z</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
   <entry>
+    <id>http://graphitefriction.com/blog/2012/11/07/hackergarten-day-at-devoxx-2012/</id>
+    <title>Hackergarten Day at Devoxx 2012</title>
+    <updated>2012-11-07T14:30:00Z</updated>
+    <published>2012-11-07T14:30:00Z</published>
+    <link href="http://graphitefriction.com/blog/2012/11/07/hackergarten-day-at-devoxx-2012/" rel="alternate" type="text/html" />
+    <summary>
+      In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by Devoxx and Andres Almiray. Contributors from projects such as Gradle, Fedora Java, Scala, Arquillian, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.
+      This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
+      By the way, did I mention the Hackergarten is free?
+      If you&#8217;re in or near Antwerp, please come by and...
+    </summary>
+    <content type="html">
+      &lt;p class=&quot;lead&quot;&gt;In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by &lt;a href=&quot;http://twitter.com/Devoxx&quot;&gt;Devoxx&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/aalmiray&quot;&gt;Andres Almiray&lt;/a&gt;. Contributors from projects such as Gradle, &lt;a href=&quot;http://fedoraproject.org/wiki/Java&quot;&gt;Fedora Java&lt;/a&gt;, Scala, &lt;a href=&quot;http://arquillian.org/blog/&quot;&gt;Arquillian&lt;/a&gt;, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.&lt;/p&gt;
+      &lt;p&gt;This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.&lt;/p&gt;
+      &lt;h3&gt;By the way, did I mention the Hackergarten is free?&lt;/h3&gt;
+      &lt;p&gt;If you&amp;#8217;re in or near Antwerp, please come by and join us! Introduce us to your open source project, discover the benefits of other projects, brainstorm some new features, and hack hard (it makes the beer taste so superb later that night).&lt;/p&gt;
+      &lt;p&gt;For a round up of all the projects and developers attending the Hackergarten, check out &lt;a href=&quot;http://www.jroller.com/aalmiray/entry/hackergarten_devoxx_2012&quot;&gt;Andres&amp;#8217;s post announcing the Hackergarten&lt;/a&gt;, &lt;a href=&quot;http://lanyrd.com/2012/devoxx/syzdq/&quot;&gt;Hackergarten Hands-On Coding Day&lt;/a&gt;, &lt;a href=&quot;http://www.jboss.org/events/devoxx&quot;&gt;JBoss at Devoxx&lt;/a&gt;, and the &lt;a href=&quot;http://www.devoxx.com/display/DV12/2012/09/25/More+Space+and+Content&quot;&gt;Devoxx conference website&lt;/a&gt;.&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Tuesday, November 13, 2012&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 9:30am &amp;#8211; 6:30pm &lt;span class=&quot;caps&quot;&gt;WET&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;a href=&quot;http://goo.gl/maps/VkkCb&quot;&gt;Metropolis Antwerp, Groenendaallaan 394, 2030 Antwerp, Belgium&lt;/a&gt;, Areas 1 and 2 on the Expo level&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Hashtag:&lt;/strong&gt; #hackdevoxx&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; Free! You do not need to be registered for Devoxx to attend the Hackergarten.&lt;/p&gt;
+      &lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://graphitefriction.com/images/LogoDevoxx.jpg&quot; title=&quot;Devoxx Logo&quot; alt=&quot;Devoxx Logo&quot; /&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
     <id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
     <title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
-    <updated>2012-10-11T13:30:00Z</updated>
-    <published>2012-10-11T13:30:00Z</published>
+    <updated>2012-10-11T14:30:00Z</updated>
+    <published>2012-10-11T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
     <summary>
       by Sarah White and Dan Allen
       The Raspberry Pi Fedora 17 Remix, produced and maintained by the Seneca Centre for Development of Open Technology, is a Fedora-based Linux distribution that runs on the low-cost ($35) system-on-a-chip (Broadcom BCM2835) known as the Raspberry Pi (RPi or RasPi). This distribution consists of software packages from the Fedora ARM project (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi&#8217;s VideoCore GPU).
@@ -160,15 +178,9 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
     <title>Is that Fedora running on a Raspberry Pi?</title>
-    <updated>2012-10-09T13:30:00Z</updated>
-    <published>2012-10-09T13:30:00Z</published>
+    <updated>2012-10-09T14:30:00Z</updated>
+    <published>2012-10-09T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
     <summary>
       by Sarah White and Dan Allen
       &#8220;Why, yes it is! To be exact, it&#8217;s a Fedora Remix running on a Raspberry Pi.&quot;
@@ -233,15 +245,9 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
     <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
-    <updated>2012-08-14T13:30:00Z</updated>
-    <published>2012-08-14T13:30:00Z</published>
+    <updated>2012-08-14T14:30:00Z</updated>
+    <published>2012-08-14T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
     <summary>
       At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.
           
@@ -303,14 +309,9 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
     <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
-    <updated>2012-08-03T13:30:00Z</updated>
-    <published>2012-08-03T13:30:00Z</published>
+    <updated>2012-08-03T14:30:00Z</updated>
+    <published>2012-08-03T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
     <summary>
       Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the Texas Linux Fest.
           John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
@@ -342,14 +343,9 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
     <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
-    <updated>2012-07-05T13:30:00Z</updated>
-    <published>2012-07-05T13:30:00Z</published>
+    <updated>2012-07-05T14:30:00Z</updated>
+    <published>2012-07-05T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
     <summary>
       Representing Fedora at the Summit sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, Run away! Run away!.
 Face to face, live action conversation? It can&#8217;t be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn&#8217;t anyone invented a delete key for my mouth!
@@ -380,14 +376,9 @@ During the first full day of booth activities, I retreated behind my cameras to 
   <entry>
     <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/</id>
     <title>Molecules and Predators and Arquillian</title>
-    <updated>2012-06-16T13:30:00Z</updated>
-    <published>2012-06-16T13:30:00Z</published>
+    <updated>2012-06-16T14:30:00Z</updated>
+    <published>2012-06-16T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="design" />
     <summary>
       During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
               Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the...
@@ -419,15 +410,9 @@ During the first full day of booth activities, I retreated behind my cameras to 
   <entry>
     <id>http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/</id>
     <title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
-    <updated>2012-06-15T13:30:00Z</updated>
-    <published>2012-06-15T13:30:00Z</published>
+    <updated>2012-06-15T14:30:00Z</updated>
+    <published>2012-06-15T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/" rel="alternate" type="text/html" />
-    <author>
-      <name>Sarah White</name>
-    </author>
-    <category scheme="http://graphitefriction.com/blog/tags" term="java" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
-    <category scheme="http://graphitefriction.com/blog/tags" term="smack" />
     <summary>
       A fatal error has been detected by the Java Runtime Environment:
 SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960
