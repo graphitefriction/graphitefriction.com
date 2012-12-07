@@ -108,13 +108,13 @@ Finally, make sure that the local gem bin directory is on your PATH:
 
 At this point, you could install Awestruct directly, but since the site build has some additional dependencies, it's best to let bundler handle the installation. Bundler will also ensure that you are using the correct versions of each gem when you run Awestruct.
 
-We'll need to get the bundler gem and the integration with RubyGems.
+We'll need to get the bundler gem and the integration with RubyGems, then initialize the integration:
 
     gem install bundler rubygems-bundler
+    GEM_HOME=$HOME/.gem/ruby/system gem regenerate_binstubs
 
-Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct.
+Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct:
 
     GEM_HOME=$HOME/.gem/ruby/system bundle install
-    GEM_HOME=$HOME/.gem/ruby/system gem regenerate_binstubs
 
 You're now Awestruct!
