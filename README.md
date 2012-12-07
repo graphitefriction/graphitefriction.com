@@ -113,6 +113,8 @@ We'll need to get the bundler gem and the integration with RubyGems, then initia
     gem install bundler rubygems-bundler
     GEM_HOME=$HOME/.gem/ruby/system gem regenerate_binstubs
 
+NOTE: The noexec wrapper fails to select the correct version of Awestruct if that version is not installed. See https://github.com/mpapis/rubygems-bundler/issues/37
+
 Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct:
 
     GEM_HOME=$HOME/.gem/ruby/system bundle install
