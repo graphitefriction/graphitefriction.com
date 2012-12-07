@@ -2,3 +2,4 @@
 /.awestruct/
 /.sass-cache/
 /_tmp/
+/Gemfile.lock

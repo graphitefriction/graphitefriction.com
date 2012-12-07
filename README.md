@@ -3,6 +3,8 @@ graphitefriction.github.com
 
 My personal website and blog, baked with Awestruct and published at <http://graphitefriction.com>.
 
+For instructions on how to install Awestruct and its dependencies, refer to the section *Install Awestruct* below.
+
 ## Preview the site locally
 
 The following command will allow you to preview the site locally.
@@ -70,3 +72,49 @@ The feed for Planet Fedora is first filtered based on the tag `fedora` using fee
 It's then plugged into feedburner to track visits and served up to Planet Fedora:
 
 <http://feeds.feedburner.com/graphitefriction-fedora>
+
+## Install Awestruct (on Fedora, user config)
+
+Awestruct is a RubyGem, available in the main repository. I recommend installing it locally (rather than systemwide). Though I'm a huge fan of JRuby, the startup time impedes rapid (and comfortable) development, so I recommend using C Ruby for this purpose.
+
+First, make sure that you have Ruby and RubyGems installed:
+
+    sudo yum install ruby rubygems
+
+You also need some development packages to install gems that use native extensions:
+
+    sudo yum install ruby-devel libxml2 libxslt gcc-c++
+
+Next, configure RubyGems to install gems in your home directory when using the command gem.
+
+    cat > $HOME/.gemrc << CONTENT
+    gemhome: $HOME/.gem/ruby/system
+    gempath:
+      - /usr/share/gems
+    install: --no-rdoc --no-ri
+    update: --no-rdoc --no-ri
+    CONTENT
+
+You'll need to run an additional set of commands to addresses an inconsistency in how Ruby sets the GEM PATH:
+
+    mkdir -p ~/.gem/ruby/system
+    cd ~/.gem/ruby
+    ln -s system $(ruby -e "puts RbConfig::CONFIG['ruby_version']"
+    cd .. 
+
+Finally, make sure that the local gem bin directory is on your PATH:
+
+    export PATH="$HOME/.gem/ruby/system/bin:$PATH"
+
+At this point, you could install Awestruct directly, but since the site build has some additional dependencies, it's best to let bundler handle the installation. Bundler will also ensure that you are using the correct versions of each gem when you run Awestruct.
+
+We'll need to get the bundler gem and the integration with RubyGems.
+
+    gem install bundler rubygems-bundler
+
+Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct.
+
+    GEM_HOME=$HOME/.gem/ruby/system bundle install
+    GEM_HOME=$HOME/.gem/ruby/system gem regenerate_binstubs
+
+You're now Awestruct!
