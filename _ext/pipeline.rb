@@ -1,4 +1,5 @@
 require 'tz_offset'
+require 'disqusfixer'
 
 Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Posts.new( '/blog' )
@@ -10,6 +11,7 @@ Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Indexifier.new
   extension Awestruct::Extensions::Atomizer.new( :posts, '/feed.atom' )
   extension Awestruct::Extensions::Disqus.new
+  extension Awestruct::Extensions::DisqusFixer.new
 
   helper Awestruct::Extensions::Partial
   helper Awestruct::Extensions::GoogleAnalytics
