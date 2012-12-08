@@ -7,11 +7,15 @@ For instructions on how to install Awestruct and its dependencies, refer to the 
 
 ## Preview the site locally
 
-The following command will allow you to preview the site locally.
+To preview the site locally, simply run the default rake build task:
+
+    rake
+
+That command is just a short way of invoking Awestruct in development mode directly:
 
     awestruct -d
 
-Visit: <http://localhost:4242>
+Now visit <http://localhost:4242>
 
 If you are building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
 
@@ -55,9 +59,9 @@ The following commands will push changes (`git push`), clean build the site (`--
     git push
     awestruct -P production --force -g --deploy
 
-Or simply run the prepared script:
+Or simply run the prepared rake build task:
 
-    ./publish
+    rake deploy
 
 ## Planet Fedora feed
 
@@ -87,7 +91,7 @@ You also need some development packages to install gems that use native extensio
 
 Next, configure RubyGems to install gems in your home directory when using the command gem.
 
-    cat > $HOME/.gemrc << CONTENT
+    cat > ~/.gemrc << CONTENT
     gemhome: $HOME/.gem/ruby/system
     gempath:
       - /usr/share/gems
@@ -111,12 +115,12 @@ At this point, you could install Awestruct directly, but since the site build ha
 We'll need to get the bundler gem and the integration with RubyGems, then initialize the integration:
 
     gem install bundler rubygems-bundler
-    GEM_HOME=$HOME/.gem/ruby/system gem regenerate_binstubs
+    GEM_HOME=~/.gem/ruby/system gem regenerate_binstubs
 
 NOTE: The noexec wrapper fails to select the correct version of Awestruct if that version is not installed. See https://github.com/mpapis/rubygems-bundler/issues/37
 
 Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct:
 
-    GEM_HOME=$HOME/.gem/ruby/system bundle install
+    GEM_HOME=~/.gem/ruby/system bundle install
 
 You're now Awestruct!
