@@ -2,13 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>http://graphitefriction.com/</id>
   <title>Graphite Friction</title>
-  <updated>2012-12-08T07:02:09+00:00</updated>
+  <updated>2012-12-08T08:09:11+00:00</updated>
   <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
   <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
   <entry>
     <id>http://graphitefriction.com/blog/2012/11/07/hackergarten-day-at-devoxx-2012/</id>
     <title>Hackergarten Day at Devoxx 2012</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-11-07T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/11/07/hackergarten-day-at-devoxx-2012/" rel="alternate" type="text/html" />
     <summary>
@@ -34,7 +34,7 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
     <title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-10-11T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
     <summary>
@@ -178,7 +178,7 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
     <title>Is that Fedora running on a Raspberry Pi?</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-10-09T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
     <summary>
@@ -245,7 +245,7 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
     <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-08-14T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
     <summary>
@@ -309,7 +309,7 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
     <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-08-03T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
     <summary>
@@ -343,7 +343,7 @@
   <entry>
     <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
     <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-07-05T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/" rel="alternate" type="text/html" />
     <summary>
@@ -376,7 +376,7 @@ During the first full day of booth activities, I retreated behind my cameras to 
   <entry>
     <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/</id>
     <title>Molecules and Predators and Arquillian</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-06-16T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/" rel="alternate" type="text/html" />
     <summary>
@@ -410,7 +410,7 @@ During the first full day of booth activities, I retreated behind my cameras to 
   <entry>
     <id>http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/</id>
     <title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
-    <updated>2012-12-08T07:02:09+00:00</updated>
+    <updated>2012-12-08T08:09:11+00:00</updated>
     <published>2012-06-15T14:30:00Z</published>
     <link href="http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/" rel="alternate" type="text/html" />
     <summary>
