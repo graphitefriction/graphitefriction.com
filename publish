@@ -1,4 +1,0 @@
-#!/bin/sh
-
-git push origin develop
-awestruct -P production --force -g --deploy
