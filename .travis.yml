@@ -10,7 +10,7 @@ branches:
 before_script:
   - git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git
   - git fetch --quiet
-  - git branch master origin/master --quiet
+  - git branch master origin/master
   - git config credential.helper "store --file=.git/credentials"
   - echo $CREDENTIALS > .git/credentials
 script: rake deploy
