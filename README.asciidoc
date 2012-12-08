@@ -1,130 +1,131 @@
-graphitefriction.github.com
-===========================
+= graphitefriction.github.com
 
-My personal website and blog, baked with Awestruct and published at <http://graphitefriction.com>.
+My personal website and blog, baked with Awestruct and published at http://graphitefriction.com.
 
-For instructions on how to install Awestruct and its dependencies, refer to the section *Install Awestruct* below.
+For instructions on how to install Awestruct and its dependencies, refer to the section xref:install-awestruct[Install Awestruct] below.
 
-## Preview the site locally
+== Preview the site locally
 
 To preview the site locally, simply run the default rake build task:
 
-    rake
+ rake
 
 That command is just a short way of invoking Awestruct in development mode directly:
 
-    awestruct -d
+ awestruct -d
 
-Now visit <http://localhost:4242>
+Now visit http://localhost:4242.
 
-If you are building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
+If you're building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
 
-1. install a node.js package or
-2. set the following environment variable in your shell profile scripts (e.g., ~/.bash\_profile):
+. install a node.js package or
+. set the following environment variable in your shell profile scripts (e.g., `~/.bash\_profile`):
 
-    export EXECJS_RUNTIME=SpiderMonkey
+ export EXECJS_RUNTIME=SpiderMonkey
 
-## Add and commit files
+== Add and commit files
 
 Add new files (such as a new blog entry or image):
 
-    git add blog/YYYY-MM-DD-blog-title.textile
+ git add blog/YYYY-MM-DD-blog-title.textile
 
 or all new files present in a directory (it only affects new files, skips files already committed)
 
-    git add blog/
+ git add blog/
 
 Commit all files marked to be committed, including new files that were just added:
 
-    git commit -m 'your message here'
+ git commit -m 'your message here'
 
 Commit all files that have changed, even if not marked to be committed:
 
-    git commit -a -m 'your message here'
+ git commit -a -m 'your message here'
 
 Make sure there are no files that are "untracked" or "modified":
 
-    git status
+ git status
 
 You should see:
 
-    nothing to commit (working directory clean)
+ nothing to commit (working directory clean)
 
 Now you are ready to deploy.
 
-## Deploy the site to github pages
+== Deploy the site to github pages
 
 The following commands will push changes (`git push`), clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
 
-    git push
-    awestruct -P production --force -g --deploy
+ git push
+ awestruct -P production --force -g --deploy
 
 Or simply run the prepared rake build task (to deploy locally):
 
-    rake deploy
+ rake deploy
 
-Or just push and let Travis CI do the work of deploying:
+Or just push and let https://travis-ci.org/graphitefriction/graphitefriction.github.com[Travis CI] do the work of deploying the site:
 
-    rake push
+ rake push
 
-## Planet Fedora feed
+== Planet Fedora feed
 
 Here's the source feed containing all the entries:
 
-<http://graphitefriction.com/feed.atom>
+http://graphitefriction.com/feed.atom
 
 The feed for Planet Fedora is first filtered based on the tag `fedora` using feedrinse:
 
-<http://www.feedrinse.com/services/rinse/?rinsedurl=7bf3eff3b2f7ca66cd59ed4887b2913d>
+http://www.feedrinse.com/services/rinse/?rinsedurl=7bf3eff3b2f7ca66cd59ed4887b2913d
 
 It's then plugged into feedburner to track visits and served up to Planet Fedora:
 
-<http://feeds.feedburner.com/graphitefriction-fedora>
+http://feeds.feedburner.com/graphitefriction-fedora
 
-## Install Awestruct (on Fedora, user config)
+== Install Awestruct
+
+NOTE: These instructions apply to performing a user install of Awestruct on Fedora
 
 Awestruct is a RubyGem, available in the main repository. I recommend installing it locally (rather than systemwide). Though I'm a huge fan of JRuby, the startup time impedes rapid (and comfortable) development, so I recommend using C Ruby for this purpose.
 
 First, make sure that you have Ruby and RubyGems installed:
 
-    sudo yum install ruby rubygems
+ sudo yum install ruby rubygems
 
 You also need some development packages to install gems that use native extensions:
 
-    sudo yum install ruby-devel libxml2 libxslt gcc-c++
+ sudo yum install ruby-devel libxml2 libxslt gcc-c++
 
 Next, configure RubyGems to install gems in your home directory when using the command gem.
 
-    cat > ~/.gemrc << CONTENT
-    gemhome: $HOME/.gem/ruby/system
-    gempath:
-      - /usr/share/gems
-    install: --no-rdoc --no-ri
-    update: --no-rdoc --no-ri
-    CONTENT
+ cat > ~/.gemrc << CONTENT
+ gemhome: $HOME/.gem/ruby/system
+ gempath:
+   - /usr/share/gems
+ install: --no-rdoc --no-ri
+ update: --no-rdoc --no-ri
+ CONTENT
 
 You'll need to run an additional set of commands to addresses an inconsistency in how Ruby sets the GEM PATH:
 
-    mkdir -p ~/.gem/ruby/system
-    cd ~/.gem/ruby
-    ln -s system $(ruby -e "puts RbConfig::CONFIG['ruby_version']"
-    cd .. 
+ mkdir -p ~/.gem/ruby/system
+ cd ~/.gem/ruby
+ ln -s system $(ruby -e "puts RbConfig::CONFIG['ruby_version']"
+ cd .. 
 
 Finally, make sure that the local gem bin directory is on your PATH:
 
-    export PATH="$HOME/.gem/ruby/system/bin:$PATH"
+ export PATH="$HOME/.gem/ruby/system/bin:$PATH"
 
 At this point, you could install Awestruct directly, but since the site build has some additional dependencies, it's best to let bundler handle the installation. Bundler will also ensure that you are using the correct versions of each gem when you run Awestruct.
 
 We'll need to get the bundler gem and the integration with RubyGems, then initialize the integration:
 
-    gem install bundler rubygems-bundler
-    GEM_HOME=~/.gem/ruby/system gem regenerate_binstubs
+ gem install bundler rubygems-bundler
+ GEM_HOME=~/.gem/ruby/system gem regenerate_binstubs
 
-NOTE: The noexec wrapper fails to select the correct version of Awestruct if that version is not installed. See https://github.com/mpapis/rubygems-bundler/issues/37
+NOTE: The noexec wrapper fails to select the correct version of Awestruct if that version is not installed. See https://github.com/mpapis/rubygems-bundler/issues/37.
 
 Now, inside the website project directory (i.e., this directory), use bundler to install the gems specified in Gemfile, including Awestruct:
 
-    GEM_HOME=~/.gem/ruby/system bundle install
+ GEM_HOME=~/.gem/ruby/system bundle install
 
 You're now Awestruct!
