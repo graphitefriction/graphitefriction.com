@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 1.9.2
+env:
+  global:
+    secure: "FqsFUwxBV/DxDdkAKCHQRXXauF9f1orq35Yt1m+nrWP0UfiqtfM4faCIRHGA\nwII47DNX0sBrJIBlZ0gG80tCih0Io6TNHtG228DQClHnprgccy5T4QCOuOy/\nSY1U/XhvnDdjjbkDM66qsAXjh06D3/xZjgvQJQa9PcHQzcIuluk="
+branches:
+  only:
+    - develop
+before_script:
+  - git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git
+  - git fetch --quiet
+  - git branch master origin/master
+  - git config credential.helper "store --file=.git/credentials"
+  - echo $CREDENTIALS > .git/credentials
+script: rake deploy
