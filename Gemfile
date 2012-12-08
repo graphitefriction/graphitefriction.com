@@ -9,23 +9,6 @@
 #
 # Gemfile.lock makes your application a single package of both your own code
 # and the third-party code so it remains stable in a known working state.
-#
-# To get started, first make sure you've installed bundler using gem install
-# (or jgem install for JRuby):
-#
-# gem install bundler
-#
-# Then, use bundler to fetch the remaining libraries you'll need:
-#
-# bundle install
-#
-# Now, you're ready to start developing!
-#
-# awestruct -s
-#
-# Though if you want to be strict, you should execute in a bundle sandbox:
-#
-# bundle exec awestruct -s
 
 source :rubygems
 
@@ -34,3 +17,4 @@ gem "jruby-openssl", "0.7.7", :platforms => :jruby
 gem "rb-inotify", "0.8.8", :platforms => [:ruby, :jruby]
 gem "tzinfo", "0.3.35"
 gem 'rake', :group => :test
+
