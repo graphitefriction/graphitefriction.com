@@ -29,6 +29,7 @@ task :travis do
     next
   end
 
+  puts "PATH=#{ENV['PATH']}"
   # would be good to calculate the https URL rather than hard code it
   system "git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git"
   system "git fetch -q"
