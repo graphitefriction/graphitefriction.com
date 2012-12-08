@@ -5,7 +5,7 @@
   %ul
     - if page.posts.previous_page
       %li
-        %a{:href => "#{site.blog_prefix}/"}
+        %a{:href => "#{site.blog_path}/"}
           %span.icon-fast-backward
       %li
         %a{:href => "#{page.posts.previous_page.url}"}
@@ -21,25 +21,25 @@
       %li.disabled
         %a{:href => "#"} ...
       %li
-        %a{:href => "#{site.blog_prefix}/page/#{current_page_number - 2}.html"} #{current_page_number - 2}
+        %a{:href => "#{site.blog_path}/page/#{current_page_number - 2}.html"} #{current_page_number - 2}
     - if current_page_number == 3
       %li
-        %a{:href => "#{site.blog_prefix}/"} #{current_page_number - 2}
+        %a{:href => "#{site.blog_path}/"} #{current_page_number - 2}
     - if current_page_number > 2
       %li
-        %a{:href => "#{site.blog_prefix}/page/#{current_page_number - 1}.html"} #{current_page_number - 1}
+        %a{:href => "#{site.blog_path}/page/#{current_page_number - 1}.html"} #{current_page_number - 1}
     - if current_page_number == 2
       %li
-        %a{:href => "#{site.blog_prefix}/"}
+        %a{:href => "#{site.blog_path}/"}
           = current_page_number - 1
     %li.active
       %a{:href => "#"} #{current_page_number} of #{page.posts.pages.size}
     - if (page.posts.pages.size - current_page_number) > 0
       %li
-        %a{:href => "#{site.blog_prefix}/page/#{current_page_number + 1}.html"} #{current_page_number + 1}
+        %a{:href => "#{site.blog_path}/page/#{current_page_number + 1}.html"} #{current_page_number + 1}
     - if (page.posts.pages.size - current_page_number) > 1
       %li
-        %a{:href => "#{site.blog_prefix}/page/#{current_page_number + 2}.html"} #{current_page_number + 2}
+        %a{:href => "#{site.blog_path}/page/#{current_page_number + 2}.html"} #{current_page_number + 2}
     - if (page.posts.pages.size - current_page_number) > 2
       %li.disabled
         %a{:href => "#"} ...
@@ -48,7 +48,7 @@
         %a{:href => "#{page.posts.next_page.url}"}
           %span.icon-step-forward
       %li
-        %a{:href => "#{site.blog_prefix}/page/#{page.posts.pages.size}.html"}
+        %a{:href => "#{site.blog_path}/page/#{page.posts.pages.size}.html"}
           %span.icon-fast-forward
     - if !page.posts.next_page
       %li.disabled

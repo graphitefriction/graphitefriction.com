@@ -1,6 +1,6 @@
 title: Graphite Friction
 author: Sarah White
-blog_prefix: /blog
+blog_path: /blog
 disqus: graphitefriction
 disqus_generate_id: true
 disqus_developer: true

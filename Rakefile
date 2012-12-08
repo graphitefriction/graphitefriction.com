@@ -8,7 +8,7 @@ task :preview, [:flags] do |t, args|
   if (args[:flags])
     cmd += " " + args[:flags]
   end
-  puts cmd
+  system cmd
 end
 
 desc "Push local commits to origin/develop"
