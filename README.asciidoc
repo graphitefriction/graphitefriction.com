@@ -66,6 +66,10 @@ Or just push and let https://travis-ci.org/graphitefriction/graphitefriction.git
 
  rake push
 
+If you want to push without triggering a publish, add the following to the commit message:
+
+ [ci skip]
+
 == Planet Fedora feed
 
 Here's the source feed containing all the entries:
