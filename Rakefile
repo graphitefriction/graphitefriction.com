@@ -24,7 +24,7 @@ end
 desc "Generate site from Travis CI and, if not a pull request, publish site to production (GitHub Pages)"
 task :travis do
   # if this is a pull request, do a simple build of the site and stop
-  if ENV.has_key? 'TRAVIS_PULL_REQUEST'
+  if ENV['TRAVIS_PULL_REQUEST'] == 'true'
     system "awestruct -P production -g"
     next
   end
