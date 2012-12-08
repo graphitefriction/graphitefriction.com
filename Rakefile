@@ -29,13 +29,11 @@ task :travis do
     next
   end
 
-  puts "PATH=#{ENV['PATH']}"
   # would be good to calculate the https URL rather than hard code it
   system "git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git"
   system "git fetch -q"
   system "git branch master origin/master"
   system "git config credential.helper 'store --file=.git/credentials'"
   File.open('.git/credentials', 'w') {|f| f.write(ENV['CREDENTIALS']) }
-  system "git branch -a"
   system "awestruct -P production -g --deploy"
 end

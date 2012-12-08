@@ -13,6 +13,8 @@ Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Disqus.new
   extension Awestruct::Extensions::DisqusFixer.new
 
+  transformer Awestruct::Extensions::Minify.new( [:css] )
+
   helper Awestruct::Extensions::Partial
   helper Awestruct::Extensions::GoogleAnalytics
 end

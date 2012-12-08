@@ -12,6 +12,8 @@ profiles:
     base_url: http://graphitefriction.com
     disqus_developer: false
     google_analytics: UA-33133481-1
+    # enable once not dependent on system binaries
+    #minify: true
     deploy:
       host: github_pages
       branch: master
