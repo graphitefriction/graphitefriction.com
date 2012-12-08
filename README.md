@@ -59,9 +59,13 @@ The following commands will push changes (`git push`), clean build the site (`--
     git push
     awestruct -P production --force -g --deploy
 
-Or simply run the prepared rake build task:
+Or simply run the prepared rake build task (to deploy locally):
 
     rake deploy
+
+Or just push and let Travis CI do the work of deploying:
+
+    rake push
 
 ## Planet Fedora feed
 
