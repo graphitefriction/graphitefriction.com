@@ -1,4 +1,5 @@
-= graphitefriction.github.com
+[float]
+= graphitefriction.github.com image:https://secure.travis-ci.org/graphitefriction/graphitefriction.github.com.png?branch=develop["Build Status", link="https://travis-ci.org/graphitefriction/graphitefriction.github.com"]
 
 My personal website and blog, baked with Awestruct and published at http://graphitefriction.com.
 
