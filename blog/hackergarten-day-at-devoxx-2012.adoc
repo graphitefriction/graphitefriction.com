@@ -1,0 +1,29 @@
+= Hackergarten Day at Devoxx 2012
+Sarah White
+2012-11-08
+:revdate: 2012-11-08 09:30:00 -0700
+:awestruct-tags: [fedora, hack, arquillian]
+:imagesdir: ../images
+
+[role=lead]
+In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by http://twitter.com/Devoxx[Devoxx] and http://twitter.com/aalmiray[Andres Almiray]. Contributors from projects such as Gradle, http://fedoraproject.org/wiki/Java[Fedora Java], Scala, http://arquillian.org/blog/[Arquillian], CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches. 
+
+This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
+
+== By the way, did I mention the Hackergarten is free?
+
+If you're in or near Antwerp, please come by and join us! Introduce us to your open source project, discover the benefits of other projects, brainstorm some new features, and hack hard (it makes the beer taste so superb later that night). 
+
+For a round up of all the projects and developers attending the Hackergarten, check out http://www.jroller.com/aalmiray/entry/hackergarten_devoxx_2012[Andres's post announcing the Hackergarten], http://lanyrd.com/2012/devoxx/syzdq[Hackergarten Hands-On Coding Day], http://www.jboss.org/events/devoxx[JBoss at Devoxx], and the http://www.devoxx.com/display/DV12/2012/09/25/More+Space+and+Content[Devoxx conference website].
+
+Date:: Tuesday, November 13, 2012
+
+Time:: 9:30am - 6:30pm WET
+
+Location:: http://goo.gl/maps/VkkCb[Metropolis Antwerp, Groenendaallaan 394, 2030 Antwerp, Belgium], Areas 1 and 2 on the Expo level
+
+Hashtag:: #hackdevoxx
+
+Cost:: Free! You do not need to be registered for Devoxx to attend the Hackergarten.
+
+image::LogoDevoxx.jpg[Devoxx Logo, role=ctr]

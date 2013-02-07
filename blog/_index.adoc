@@ -1,0 +1,21 @@
+= Blog Post Index
+
+2012::
+
+Nov:::
+- link:hackergarten-day-at-devoxx-2012.adoc[Hackergarten Day at Devoxx 2012]
+
+Oct:::
+- link:how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi.adoc[How to Install and Configure Fedora 17 Remix on Your Raspberry Pi]
+- link:is-that-fedora-running-on-a-raspberry-pi.adoc[Is that Fedora running on a Raspberry Pi?]
+
+Aug:::
+- link:fedora-at-oscon-presented-with-a-raspberry-pi.adoc[Fedora at OSCON 2012, presented with a Raspberry Pi]
+- link:fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend.adoc[Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend]
+
+Jul:::
+- link:chronicling-the-fedora-community-area-in-millimeters-and-pixels.adoc[Chronicling the Fedora Community Area in Millimeters and Pixels]
+
+Jun:::
+- link:molecules-and-predators-and-arquillian.adoc[Molecules and Predators and Arquillian]
+- link:fatal-error-problematic-frame-there-goes-my-core.adoc[A Fatal Error. A Problematic Frame. There Goes My Core.]

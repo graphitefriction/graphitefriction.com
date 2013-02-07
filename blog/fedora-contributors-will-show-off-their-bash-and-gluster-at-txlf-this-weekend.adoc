@@ -1,0 +1,41 @@
+= Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend
+Sarah White
+2012-08-03
+:revdate: 2012-08-03 09:30:00 -0400
+:awestruct-tags: [fedora, event]
+:imagesdir: ../images
+
+[role=lead]
+Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the http://2012.texaslinuxfest.org[Texas Linux Fest].
+
+John Rose (http://fedoraproject.org/wiki/User:Inode0[inode0]), a current Fedora Board member and the North American http://fedoraproject.org/wiki/Ambassadors[Fedora Ambassador] leader, will explain how to rid your shell scripts of useless cats.
+
+[role=citation]
+--
+image::TXLF_Badge_transparent_175.png[Texas Linux Fest 2012, role=pull-left]
+
+[discrete]
+== http://2012.texaslinuxfest.org/sessions/demoggification[Demoggification]
+
+[role=byline]
+Saturday August 4, 2012 2:25 PM - 3:10 PM
+
+Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed, nc, and more) that frequently finds its way into our shell scripts and shows how to demoggify each by using various features in bash.
+
+Features covered include direct access to sockets, parameter expansions, brace expansions, here strings, and more.
+--
+
+Thomas Cameron (http://fedoraproject.org/wiki/User:Tcameron[Tcameron]), Red Hat's chief architect for Canada and the central US, will show how scaling out with software based on http://www.gluster.org[Gluster] will defy future data storage and transfer resource constraints.
+
+[role=citation]
+--
+[discrete]
+== http://2012.texaslinuxfest.org/sessions/building-software-based-nas-using-gluster-red-hat-storage-software-appliance[Building Software-Based NAS Using Gluster]
+
+[role=byline]
+Saturday August 4, 2012 3:20 PM - 4:05 PM
+
+Gluster is a software-based, scale-out network-attached storage (NAS) appliance. It uses inexpensive internal or direct-attached (e.g. JBOD) storage and pools multiple servers into one storage namespace. This pooled storage is then exported to Linux clients via NFS, to Microsoft Windows clients via CIFS/Samba, or using the native Gluster client. In this session, Red Hat's Thomas Cameron will explain the architecture of Gluster and demonstrate setting up a 3-node storage cluster, including setting up the NFS service, Samba, and the native Gluster client. He will demonstrate mirrored content, distributed content, and discuss geo-replication (stretch clusters).
+--
+
+image:beefybutton_300.png[Beefy Miracle Fedora 17, role=pull-right] Also make sure to stop by the Fedora booth on the TXLF Expo floor and grab a Beefy Miracle button or sticker. More information about the Fedora booth and activities at TXFL is located on the http://fedoraproject.org/wiki/TXLF_2012[Fedora event page].

@@ -1,3 +1,5 @@
+$baseFontSize: 13px;
+$baseLineHeight: 18px;
 $navbarBackground: #A80E5B;
 $navbarBackgroundHighlight: #CE1170;
 
@@ -17,9 +19,14 @@ body {
   padding-top: 76px; // this should be based on navbar outer height
 }
 
-h2 {
+article header {
+  margin-bottom: -.5em;
+}
+
+article h1 {
   color: #CE1170;
   font-size: 2.2em;
+  line-height: 1.26em;
   margin-top: 0.4em;
   font-family: 'Merriweather', Georgia, serif;
   a {
@@ -31,17 +38,21 @@ h2 {
   }
 }
 
-h3 {
+article h2 {
   color: #585858;
   font-family: 'Merriweather', Georgia, serif;
   padding-top: 0.6em;
   padding-bottom: 0.3em;
+  font-size: 1.4em;
+  line-height: 1.5em;
 }
 
-h4 {
+article header h4, article h4.byline {
   color: #817679;
   font-weight: normal;
   padding-bottom: 1em;
+  margin-top: -.5em;
+  font-size: 1.2em;
   a {
     color: #817679;
     &:hover {
@@ -58,19 +69,57 @@ h4 {
   padding-top: 12px;
   padding-bottom: 10px;
   color: #FFFFFF;
+  line-height: 1;
+  padding: 12px 20px 10px;
   &:hover {
     color: #FFFFFF;
     text-decoration: none;
   }
 }
 
-p, li {
+p, li, dt, dd, td {
   font-size: 16px;
   line-height: 1.5;
 }
 
-p.lead {
+.unnumbered > ol {
+  list-style-type: none;
+}
+
+.paragraph.lead p {
+  @extend .lead;
+}
+
+.paragraph.lead, p.lead {
   margin-bottom: 16px;
+}
+
+.imageblock {
+  margin-bottom: 10px;
+}
+
+.imageblock.ctr .content {
+  text-align: center;
+}
+
+.admonitionblock {
+  margin-bottom: 10px;
+  td.icon {
+    vertical-align: top;
+    padding-right: 3px;
+    .title {
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &:after {
+        content: ': ';
+      }
+    }
+  }
+}
+
+.ulist li > p:only-child {
+  margin-bottom: 0;
 }
 
 a {
@@ -79,6 +128,10 @@ a {
     color: #236500;
     text-decoration: none;
   }
+}
+
+tt {
+  @extend code;
 }
 
 .tags {

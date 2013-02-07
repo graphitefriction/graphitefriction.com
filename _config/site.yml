@@ -1,18 +1,35 @@
 title: Graphite Friction
 author: Sarah White
-blog_path: /blog
+#blog_path: /blog
+blog_path:
+local_tz: America/Denver
 disqus: graphitefriction
 disqus_generate_id: true
 disqus_developer: true
 haml:
-  attr_wrapper: '"'
-  escape_attrs: :once
+  default:
+    :ugly: true
+#slim:
+#  default:
+#    :disable_escape: true
+asciidoctor:
+  default:
+    :compact: true
+    # attributes don't get merged, so must include defaults
+    :attributes:
+      idprefix: ''
+      imagesdir: /images
+      stylesdir: /stylesheets
+# if no profile is specified, the first with a deploy config is selected
 profiles:
+  development:
+    deploy:
+      dummy:
   production:
     base_url: http://graphitefriction.com
     disqus_developer: false
     google_analytics: UA-33133481-1
-    # enable once not dependent on system binaries
+    # TODO enable once not dependent on system binaries
     #minify: true
     deploy:
       host: github_pages
