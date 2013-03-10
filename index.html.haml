@@ -1,7 +1,0 @@
----
-layout: base
----
-#content
-  - for post in page.posts
-    = partial('entry.html.haml', :post => post, :listing => true)
-  = partial('pagination.html.haml', :posts => page.posts)

@@ -20,7 +20,7 @@ Now visit http://localhost:4242.
 If you're building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
 
 . install a node.js package or
-. set the following environment variable in your shell profile scripts (e.g., `~/.bash\_profile`):
+. set the following environment variable in your shell profile scripts (e.g., +~/.bash_profile+):
 
  export EXECJS_RUNTIME=SpiderMonkey
 
@@ -54,7 +54,7 @@ Now you are ready to deploy.
 
 == Deploy the site to github pages
 
-The following commands will push changes (`git push`), clean build the site (`--force -g`) using the production profile (`-P production`), then deploy it to github pages (`--deploy`):
+The following commands will push changes (+git push+), clean build the site (+--force -g+) using the production profile (+-P production+), then deploy it to github pages (+--deploy+):
 
  git push
  awestruct -P production --force -g --deploy
@@ -77,7 +77,7 @@ Here's the source feed containing all the entries:
 
 http://graphitefriction.com/feed.atom
 
-The feed for Planet Fedora is first filtered based on the tag `fedora` using feedrinse:
+The feed for Planet Fedora is first filtered based on the tag +fedora+ using feedrinse:
 
 http://www.feedrinse.com/services/rinse/?rinsedurl=7bf3eff3b2f7ca66cd59ed4887b2913d
 

@@ -1,0 +1,54 @@
+= Chronicling the Fedora Community Area in Millimeters and Pixels
+Sarah White
+2012-07-05
+:revdate: 2012-07-05 09:30:00 -0400
+:awestruct-tags: [fedora, event]
+:imagesdir: ../images
+
+[role=lead]
+Representing http://fedoraproject.org/wiki/Red_Hat_Summit_2012[Fedora at the Summit] sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, *_Run away! Run away!_*.
+
+Face to face, live action conversation? It can't be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn't anyone invented a delete key for my mouth! 
+
+During the first full day of booth activities, I retreated behind my cameras to document the constant activity in the Fedora Community area. I photographed attendees visiting the Fedora booth, hanging with Beefy Miracle, and enjoying the mid-afternoon hot dog snack hour. All of the http://www.flickr.com/photos/graphitefriction[photographs I took during the Summit] are posted on my Flickr stream.
+
+image::fedorasummit2012/fedora_booth_friends.jpg[]
+
+image::fedorasummit2012/beefymiracle_mustard.jpg[]
+
+I also recorded two talks presented in the Fedora Community area: Ryan O'Hara's _Network Load Balancing for the 21st Century With Keepalived and HAProxy_ and Dan Allen's _JBoss AS7 on Fedora_ as well as the server and system installation for the next day's Fedora ARM demonstration. Once I finish processing the videos, I'll post them.
+
+image:fedorasummit2012/ryanohara_loadbalance.jpg[Ryan O'Hara] image:fedorasummit2012/danallen_as7onfedora.jpg[Dan Allen]
+
+image::fedorasummit2012/jonmasters_arm_demo.jpg[Jon Masters]
+
+On Thursday, after Jon Masters' crowd-gathering ARM demonstration, I forced myself to stow the cameras. I took position behind the booth, no camera lenses or laptop to filter my I/O. The gaps in my knowledge soon became apparent.
+
+[qanda, role=unnumbered]
+*No, I'm not familiar with the wide variety of acronyms applied to the hardware in the one laptop per per child computer or what version of Fedora it is running.*::
+
+Luke Macken saved the attendee from my panicky stare, and now I know it's an ARM processor, running Sugar on a Stick, and the newest laptop has a much better keyboard.
+
+*I don't know what version of Apache httpd is packaged in Fedora 17*::
+
+Tom Callaway fired up a terminal and found the information. https://apps.fedoraproject.org/packages/httpd[2.2.22].
++
+And the most popular question at the booth:
+
+*How did Beefy Miracle come to be named Beefy Miracle?*::
+
+After numerous attempts, I realized I couldn't succinctly explain the http://fedoraproject.org/wiki/Guidelines_for_release_names[Fedora release naming process steps] in the correct order. Ruth Suehle, Sandro Mathys and Tom had to save people from my disordered explanations numerous times. They can iterate the naming process without blinking. 
+
+However, I did answer questions regarding one of the new items at the booth, the http://fedoraproject.org/wiki/JBossAS7[AS 7 on Fedora 17] flyer.  I can recite the commands to install the AS 7 package, start, stop and deploy it, what is and isn't currently in the packaged profile, what's on deck to be in updated releases, and where to find help and participate with AS 7 and future packaging goals.  I was stumped though when asked about the differences between Fedora and AS 7 versus another distribution and Websphere.  I need to brush up on the features of other application servers.
+
+I'm not a well-rounded Fedora representative yet, but manning the booth was a huge kickstart. I learned the answers to tons of questions from the other Fedora representatives and discovered the concerns of potential and current Fedora users. The best thing about volunteering at the booth was meeting so many great people: the conference attendees who visited the booth and the Fedora advocates I had previously only chatted with on IRC. I can't thank everyone enough times for answering my questions or for sorting through my jumbled explanations.
+
+Oh, there are two questions I can confidently respond to now without pause or consideration because Ruth wrote down the answers.
+
+____
+*Yes, it is a Raspberry Pi. No, you can't have it.*
+____
+
+image::fedorasummit2012/raspberrypi_fedora17.jpg[]
+
+_If you'd like a specific picture from the Fedora booth in its high-resolution, mega-size version (some are available in large format JPG and some in RAW), just shoot me a message. I'm graphite6 in the Fedora IRC channels._
