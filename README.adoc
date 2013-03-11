@@ -11,11 +11,23 @@ To preview the site locally, simply run the default rake build task:
 
  rake
 
-That command is just a short way of invoking Awestruct in development mode directly:
+The default rake build task is +preview+, so you're effectively typing:
+
+ rake preview
+
+The +preview+ task is just a short way of invoking Awestruct in development mode directly:
 
  awestruct -d
 
-Now visit http://localhost:4242.
+Now visit http://localhost:4242 to preview the site.
+
+To rebuild the site from a clean state, pass the +--force+ flag to the +preview+ task:
+
+ rake preview[--force]
+
+You can pass any flag through to Awestruct using the syntax in the previous command.
+
+=== Set the JavaScript runtime
 
 If you're building the site on Linux and Awestruct fails to locate a JavaScript runtime, you can either:
 
