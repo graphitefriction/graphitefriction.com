@@ -37,8 +37,8 @@ task :travis do
   system 'git remote set-branches --add origin master'
   system 'git fetch -q'
   git_user = YAML.load_file('_config/git.yml')
-  system "git config user.email '#{git_user['name']}'"
-  system "git config user.name '#{git_user['email']}'"
+  system "git config user.name '#{git_user['name']}'"
+  system "git config user.email '#{git_user['email']}'"
   system 'git config credential.helper "store --file=.git/credentials"'
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
