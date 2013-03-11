@@ -11,6 +11,15 @@ task :preview, [:flags] do |t, args|
   system cmd
 end
 
+desc 'Generate the site using the development profile'
+task :gen, [:flags] do |t, args|
+  cmd = 'bundle exec awestruct -P development -g'
+  if (args[:flags])
+    cmd = "#{cmd} #{args[:flags]}"
+  end
+  system cmd
+end
+
 desc 'Push local commits to origin/develop'
 task :push do
   system 'git push origin develop'
