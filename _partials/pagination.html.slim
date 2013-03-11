@@ -19,13 +19,13 @@ div.pagination style='text-align: center'
       li.disabled
         a href='#' ...
       li
-        a href="#{site.blog_path}/page/#{current_page_number - 2}.html" =current_page_number - 2
+        a href="#{site.blog_path}/page/#{current_page_number - 2}" =current_page_number - 2
     - if current_page_number == 3
       li
         a href="#{site.blog_path}/" =(current_page_number - 2)
     - if current_page_number > 2
       li
-        a href="#{site.blog_path}/page/#{current_page_number - 1}.html" =current_page_number - 1
+        a href="#{site.blog_path}/page/#{current_page_number - 1}" =current_page_number - 1
     - if current_page_number == 2
       li
         a href="#{site.blog_path}/" =current_page_number - 1
@@ -33,10 +33,10 @@ div.pagination style='text-align: center'
       a href='#' #{current_page_number} of #{page.posts.pages.size}
     - if (page.posts.pages.size - current_page_number) > 0
       li
-        a href="#{site.blog_path}/page/#{current_page_number + 1}.html" =current_page_number + 1
+        a href="#{site.blog_path}/page/#{current_page_number + 1}" =current_page_number + 1
     - if (page.posts.pages.size - current_page_number) > 1
       li
-        a href="#{site.blog_path}/page/#{current_page_number + 2}.html" =current_page_number + 2
+        a href="#{site.blog_path}/page/#{current_page_number + 2}" =current_page_number + 2
     - if (page.posts.pages.size - current_page_number) > 2
       li.disabled
         a href='#' ...
@@ -45,7 +45,7 @@ div.pagination style='text-align: center'
         a href=page.posts.next_page.url
           i.icon-step-forward
       li
-        a href="#{site.blog_path}/page/#{page.posts.pages.size}.html"
+        a href="#{site.blog_path}/page/#{page.posts.pages.size}"
           i.icon-fast-forward
     - if !page.posts.next_page
       li.disabled
