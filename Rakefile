@@ -32,7 +32,8 @@ task :travis do
   # would be good to calculate the https URL rather than hard code it
   # TODO use the Git library for these commands rather than system
   system "git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git"
-  system "git fetch --all -q"
+  system "git remote set-branches --add origin master"
+  system "git fetch -q"
   system "git show-ref"
   system "git config credential.helper 'store --file=.git/credentials'"
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
