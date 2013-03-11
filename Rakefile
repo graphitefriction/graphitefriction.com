@@ -34,6 +34,8 @@ task :travis do
   system "git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git"
   system "git remote set-branches --add origin master"
   system "git fetch -q"
+  system "git config user.email 'graphitefriction@gmail.com'"
+  system "git config user.name 'Sarah White'"
   system "git config credential.helper 'store --file=.git/credentials'"
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
