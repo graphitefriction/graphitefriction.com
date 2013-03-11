@@ -40,6 +40,7 @@ task :travis do
   set_pub_dates 'develop'
   system "git branch master origin/master"
   system "bundle exec awestruct -P production -g --deploy"
+  File.delete '.git/credentials'
 end
 
 desc "Assign publish dates to new blog entries"

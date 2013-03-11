@@ -4,7 +4,7 @@ rvm:
 #  - 2.0.0
 env:
   global:
-    secure: "FqsFUwxBV/DxDdkAKCHQRXXauF9f1orq35Yt1m+nrWP0UfiqtfM4faCIRHGA\nwII47DNX0sBrJIBlZ0gG80tCih0Io6TNHtG228DQClHnprgccy5T4QCOuOy/\nSY1U/XhvnDdjjbkDM66qsAXjh06D3/xZjgvQJQa9PcHQzcIuluk="
+    secure: "kRs/sHFxLJBYCqwJnNk0eCuypNo2s7vp8oTBIQzts3/56z6OaV7Q7v0lv2b6\ngZyluZbvpqflqVTlv90aQ2fqrbjx87qIuuBLs19VetM8oXg0iqpXGJ+LLnR/\n8DqdXxJH/572LZwjsV0ZnMA3a+FI9S6RT+IlNe9vdjIUKYbbV6I="
 branches:
   only:
     - develop
