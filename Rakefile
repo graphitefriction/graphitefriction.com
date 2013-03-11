@@ -2,49 +2,50 @@ require 'rubygems'
 
 task :default => :preview
 
-desc "Preview the site locally in development mode"
+desc 'Preview the site locally in development mode'
 task :preview, [:flags] do |t, args|
-  cmd = "bundle exec awestruct -d"
+  cmd = 'bundle exec awestruct -d'
   if (args[:flags])
-    cmd += " " + args[:flags]
+    cmd = "#{cmd} #{args[:flags]}"
   end
   system cmd
 end
 
-desc "Push local commits to origin/develop"
+desc 'Push local commits to origin/develop'
 task :push do
-  system "git push origin develop"
+  system 'git push origin develop'
 end
 
-desc "Generate and publish site to production (GitHub Pages) from home"
+desc 'Generate and publish site to production (GitHub Pages) from home'
 task :deploy => :push do
-  system "bundle exec awestruct -P production --force -g --deploy"
+  system 'bundle exec awestruct -P production --force -g --deploy'
 end
 
-desc "Generate site from Travis CI and, if not a pull request, publish site to production (GitHub Pages)"
+desc 'Generate site from Travis CI and, if not a pull request, publish site to production (GitHub Pages)'
 task :travis do
   # if this is a pull request, do a simple build of the site and stop
-  if ENV['TRAVIS_PULL_REQUEST'] == '1'
-    system "bundle exec awestruct -P production -g"
+  if ENV['TRAVIS_PULL_REQUEST'] == '1' || ENV['TRAVIS_PULL_REQUEST'] == 'true'
+    system 'bundle exec awestruct -P production -g'
     next
   end
 
-  # would be good to calculate the https URL rather than hard code it
+  require 'yaml'
+
   # TODO use the Git library for these commands rather than system
-  system "git remote set-url --push origin https://github.com/graphitefriction/graphitefriction.github.com.git"
-  system "git remote set-branches --add origin master"
-  system "git fetch -q"
-  system "git config user.email 'graphitefriction@gmail.com'"
-  system "git config user.name 'Sarah White'"
-  system "git config credential.helper 'store --file=.git/credentials'"
+  repo = %x(git config remote.origin.url).gsub(/^git:/, 'https')
+  system "git remote set-url --push origin #{repo}"
+  system 'git remote set-branches --add origin master'
+  system 'git fetch -q'
+  git_user = YAML.load_file('_config/git.yml')
+  system "git config user.email '#{git_user['name']}'"
+  system "git config user.name '#{git_user['email']}'"
+  system 'git config credential.helper "store --file=.git/credentials"'
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
   File.open('.git/credentials', 'w') {|f| f.write(ENV['CREDENTIALS']) }
-  system "git config --local credential.helper"
-  system "cat .git/credentials"
   set_pub_dates 'develop'
-  system "git branch master origin/master"
-  system "bundle exec awestruct -P production -g --deploy"
+  system 'git branch master origin/master'
+  system 'bundle exec awestruct -P production -g --deploy'
   File.delete '.git/credentials'
 end
 
