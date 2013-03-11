@@ -2,14 +2,14 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
 <id>http://graphitefriction.com/</id>
 <title>Graphite Friction</title>
-<updated>2012-11-08T16:30:00+00:00</updated>
+<updated>2012-11-08T09:30:00-07:00</updated>
 <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
 <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
 <entry>
 <id>http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/</id>
 <title>Hackergarten Day at Devoxx 2012</title>
-<updated>2012-11-08T16:30:00+00:00</updated>
-<published>2012-11-08T16:30:00+00:00</published>
+<updated>2012-11-08T09:30:00-07:00</updated>
+<published>2012-11-08T09:30:00-07:00</published>
 <link href="http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
 <category scheme="http://graphitefriction.com/blog/tags" term="hack" />
@@ -94,8 +94,8 @@ In less than one week, open source developers will gather in Antwerp, Belgium fo
 <entry>
 <id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
 <title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
-<updated>2012-10-11T15:30:00+00:00</updated>
-<published>2012-10-11T15:30:00+00:00</published>
+<updated>2012-10-11T09:30:00-06:00</updated>
+<published>2012-10-11T09:30:00-06:00</published>
 <link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
 <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
@@ -598,8 +598,8 @@ hdmi_group=1&lt;/pre&gt;
 <entry>
 <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
 <title>Is that Fedora running on a Raspberry Pi?</title>
-<updated>2012-10-09T15:30:00+00:00</updated>
-<published>2012-10-09T15:30:00+00:00</published>
+<updated>2012-10-09T09:30:00-06:00</updated>
+<published>2012-10-09T09:30:00-06:00</published>
 <link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
@@ -796,8 +796,8 @@ by Sarah White and Dan Allen
 <entry>
 <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
 <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
-<updated>2012-08-14T13:30:00+00:00</updated>
-<published>2012-08-14T13:30:00+00:00</published>
+<updated>2012-08-14T09:30:00-04:00</updated>
+<published>2012-08-14T09:30:00-04:00</published>
 <link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
 <category scheme="http://graphitefriction.com/blog/tags" term="event" />
@@ -955,8 +955,8 @@ At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packe
 <entry>
 <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
 <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
-<updated>2012-08-03T13:30:00+00:00</updated>
-<published>2012-08-03T13:30:00+00:00</published>
+<updated>2012-08-03T09:30:00-04:00</updated>
+<published>2012-08-03T09:30:00-04:00</published>
 <link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
 <category scheme="http://graphitefriction.com/blog/tags" term="event" />
@@ -1033,8 +1033,8 @@ Demoggification
 <entry>
 <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
 <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
-<updated>2012-07-05T13:30:00+00:00</updated>
-<published>2012-07-05T13:30:00+00:00</published>
+<updated>2012-07-05T09:30:00-04:00</updated>
+<published>2012-07-05T09:30:00-04:00</published>
 <link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
 <category scheme="http://graphitefriction.com/blog/tags" term="event" />
@@ -1137,8 +1137,8 @@ Representing Fedora at the Summit sounded great when I was safely ensconced in m
 <entry>
 <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/</id>
 <title>Molecules and Predators and Arquillian</title>
-<updated>2012-06-16T13:30:00+00:00</updated>
-<published>2012-06-16T13:30:00+00:00</published>
+<updated>2012-06-16T09:30:00-04:00</updated>
+<published>2012-06-16T09:30:00-04:00</published>
 <link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
 <category scheme="http://graphitefriction.com/blog/tags" term="design" />
@@ -1245,8 +1245,8 @@ During the past year Arquillian has matured from a testing harness to a testing 
 <entry>
 <id>http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/</id>
 <title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
-<updated>2012-06-15T13:30:00+00:00</updated>
-<published>2012-06-15T13:30:00+00:00</published>
+<updated>2012-06-15T09:30:00-04:00</updated>
+<published>2012-06-15T09:30:00-04:00</published>
 <link href="http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/" rel="alternate" type="text/html" />
 <category scheme="http://graphitefriction.com/blog/tags" term="java" />
 <category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
