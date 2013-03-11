@@ -32,7 +32,7 @@ task :travis do
   require 'yaml'
 
   # TODO use the Git library for these commands rather than system
-  repo = %x(git config remote.origin.url).gsub(/^git:/, 'https')
+  repo = %x(git config remote.origin.url).gsub(/^git:/, 'https:')
   system "git remote set-url --push origin #{repo}"
   system 'git remote set-branches --add origin master'
   system 'git fetch -q'
