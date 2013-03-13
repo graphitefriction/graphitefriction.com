@@ -106,4 +106,3 @@ def set_pub_dates(branch)
     end
   end
 end
-
