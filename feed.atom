@@ -1,242 +1,346 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-<id>http://graphitefriction.com/</id>
-<title>Graphite Friction</title>
-<updated>2012-11-08T09:30:00-07:00</updated>
-<link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
-<link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
-<entry>
-<id>http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/</id>
-<title>Hackergarten Day at Devoxx 2012</title>
-<updated>2012-11-08T09:30:00-07:00</updated>
-<published>2012-11-08T09:30:00-07:00</published>
-<link href="http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="hack" />
-<category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
-<summary>
-In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by Devoxx and Andres Almiray. Contributors from projects such as Gradle, Fedora Java, Scala, Arquillian, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.
-
-
-  This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
-
-  
-
-
-  By the way, did I mention the Hackergarten is free?
-  
-
- ......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+  <id>http://graphitefriction.com/</id>
+  <title>Graphite Friction</title>
+  <updated>2012-11-08T09:30:00-07:00</updated>
+  <link href="http://graphitefriction.com/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="http://graphitefriction.com/" rel="alternate" type="text/html" />
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/</id>
+    <title>Hackergarten Day at Devoxx 2012</title>
+    <updated>2012-11-08T09:30:00-07:00</updated>
+    <published>2012-11-08T09:30:00-07:00</published>
+    <link href="http://graphitefriction.com/blog/2012/11/08/hackergarten-day-at-devoxx-2012/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="hack" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
+    <summary>
+      In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by Devoxx and Andres Almiray. Contributors from projects such as Gradle, Fedora Java, Scala, Arquillian, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.
+      
+      
+          
+        This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
+      
+      
+        
+      
+      
+      
+        By the way, did I mention the Hackergarten is......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by &lt;a href=&quot;http://twitter.com/Devoxx&quot;&gt;Devoxx&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/aalmiray&quot;&gt;Andres Almiray&lt;/a&gt;. Contributors from projects such as Gradle, &lt;a href=&quot;http://fedoraproject.org/wiki/Java&quot;&gt;Fedora Java&lt;/a&gt;, Scala, &lt;a href=&quot;http://arquillian.org/blog/&quot;&gt;Arquillian&lt;/a&gt;, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;by_the_way_did_i_mention_the_hackergarten_is_free&quot;&gt;By the way, did I mention the Hackergarten is free?&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;If you’re in or near Antwerp, please come by and join us! Introduce us to your open source project, discover the benefits of other projects, brainstorm some new features, and hack hard (it makes the beer taste so superb later that night).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;For a round up of all the projects and developers attending the Hackergarten, check out &lt;a href=&quot;http://www.jroller.com/aalmiray/entry/hackergarten_devoxx_2012&quot;&gt;Andres’s post announcing the Hackergarten&lt;/a&gt;, &lt;a href=&quot;http://lanyrd.com/2012/devoxx/syzdq&quot;&gt;Hackergarten Hands-On Coding Day&lt;/a&gt;, &lt;a href=&quot;http://www.jboss.org/events/devoxx&quot;&gt;JBoss at Devoxx&lt;/a&gt;, and the &lt;a href=&quot;http://www.devoxx.com/display/DV12/2012/09/25/More+Space+and+Content&quot;&gt;Devoxx conference website&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;dlist&quot;&gt;
+  
   &lt;dl&gt;
 &lt;dt class=&quot;hdlist1&quot;&gt;
       Date
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;Tuesday, November 13, 2012&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Time
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;9:30am - 6:30pm WET&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Location
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;&lt;a href=&quot;http://goo.gl/maps/VkkCb&quot;&gt;Metropolis Antwerp, Groenendaallaan 394, 2030 Antwerp, Belgium&lt;/a&gt;, Areas 1 and 2 on the Expo level&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Hashtag
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;#hackdevoxx&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Cost
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;Free! You do not need to be registered for Devoxx to attend the Hackergarten.&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
   &lt;/dl&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/LogoDevoxx.jpg&quot; alt=&quot;Devoxx Logo&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
-<title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
-<updated>2012-10-11T09:30:00-06:00</updated>
-<published>2012-10-11T09:30:00-06:00</published>
-<link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
-<summary>
-by Sarah White and Dan Allen
-
-  The Raspberry Pi Fedora 17 Remix, produced and maintained by the Seneca Centre for Development of Open Technology (DOT), is a Fedora-based Linux distribution that runs on the low-cost ($35) system-on-a-chip (SoC) (Broadcom BCM2835) known as the Raspberry Pi (RPi or RasPi). This distribution consists of software packages from the Fedora ARM project (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi&#8217;s VideoCore GPU).
-
-
-  This blog......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/</id>
+    <title>How to Install and Configure Fedora 17 Remix on Your Raspberry Pi</title>
+    <updated>2012-10-11T09:30:00-06:00</updated>
+    <published>2012-10-11T09:30:00-06:00</published>
+    <link href="http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <summary>
+      by Sarah White and Dan Allen
+      
+          
+        The Raspberry Pi Fedora 17 Remix, produced and maintained by the Seneca Centre for Development of Open Technology (DOT), is a Fedora-based Linux distribution that runs on the low-cost ($35) system-on-a-chip (SoC) (Broadcom BCM2835) known as the Raspberry Pi (RPi or RasPi). This distribution consists of software packages from the Fedora ARM project (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi&#8217;s VideoCore......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;h4 id=&quot;by_sarah_white_and_a_href_http_google_com_profiles_dan_j_allen_dan_allen_a&quot; class=&quot;discrete byline&quot;&gt;by Sarah White and &lt;a href=&quot;http://google.com/profiles/dan.j.allen&quot;&gt;Dan Allen&lt;/a&gt;
 &lt;/h4&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;The &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora 17 Remix&lt;/a&gt;, produced and maintained by the &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Main_Page&quot;&gt;Seneca Centre for Development of Open Technology (DOT)&lt;/a&gt;, is a Fedora-based Linux distribution that runs on the low-cost ($35) &lt;a href=&quot;http://en.wikipedia.org/wiki/System_on_a_chip&quot;&gt;system-on-a-chip (SoC)&lt;/a&gt; (Broadcom BCM2835) known as the &lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi&lt;/a&gt; (RPi or RasPi). This distribution consists of software packages from the &lt;a href=&quot;https://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora ARM project&lt;/a&gt; (armv5tel architecture) and a small number of additional packages that are modified from the Fedora versions or which cannot be included into Fedora due to licensing issues (e.g., the libraries for accessing the Raspberry Pi’s VideoCore GPU).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;This blog entry will show you how to install Fedora Remix on the Raspberry Pi. Installing Fedora Remix on the Raspberry Pi is easier than installing Fedora on a laptop or desktop because all you have to do is copy the prepared image to a MicroSD card and plug in the Pi.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;At the time of writing this post, the Raspberry Pi Fedora 17 Remix is only in testing, but in my experience it’s stable enough to use. According to Peter Robinson, a Fedora ARM developer, you may soon be able to use the official Fedora 18 ARM distribution on the Raspberry Pi, which will considerably improve performance and stability.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;quoteblock&quot;&gt;
+  
   &lt;blockquote&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The first core components of the Broadcom BCM2835 landed in kernel 3.7 and there might be some bits to report soon with regard to firmware distribution.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/blockquote&gt;
   &lt;div class=&quot;attribution&quot;&gt;
+    
+    
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;At present, the Fedora Remix is the only option, so let’s get started with it!&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;installing_the_raspberry_pi_fedora_17_remix&quot;&gt;Installing the Raspberry Pi Fedora 17 Remix&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;There are four steps to installing Fedora Remix on your Raspberry Pi.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;olist arabic&quot;&gt;
+  
   &lt;ol class=&quot;arabic&quot;&gt;
 &lt;li&gt;
       &lt;p&gt;Copy the ready-made Fedora Remix image onto an 4GB (or larger, I use an 8GB card) MicroSD memory card&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Hook up a monitor (preferably via HDMI), a USB keyboard and mouse (ideally that share a single USB port) and, optionally, an internet connection (ethernet cable, USB wireless card or USB tethering to a smartphone)&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Power on and walk through the Fedora “first boot” wizard&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Reboot, login and geek out!&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_components.png&quot; alt=&quot;Hardware for using a Raspberry Pi with Fedora Remix&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The most mysterious part of this process is finding the download link to the image. (Hint: It’s not on the &lt;a href=&quot;http://www.raspberrypi.org/downloads&quot;&gt;Raspberry Pi distribution downloads page&lt;/a&gt;). Fortunately, I’ve saved you the trouble of finding it. As for the rest of the process, it may seem daunting at first, but honestly, it’s not that tricky. Let’s forge ahead.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;loading_the_image_on_a_microsd_card&quot;&gt;Loading the image on a MicroSD card&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The MicroSD card serves as the Raspberry Pi’s primary harddrive. By default, the Pi will look on the MicroSD card for the operating system to load (though it’s possible to boot from other devices as well). Therefore, the first step is to grab the image and put it on the card.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;olist arabic&quot;&gt;
+  
   &lt;ol class=&quot;arabic&quot;&gt;
 &lt;li&gt;
       &lt;p&gt;Download the latest Raspberry Pi Fedora 17 Remix distribution, rpfr-17-xfce-RC2.zip, from the &lt;a href=&quot;http://scotland.proximity.on.ca/raspberrypi/test-releases/raspberrypi-fedora-remix-17/latest&quot;&gt;Seneca CDOT file server&lt;/a&gt; (972MB).&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Extract the archive using the Archive Manager (file-roller) application or unzip from the command line. This will create the file rpfr-17-xfce-RC2.img.&lt;/p&gt;
+      
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/archive_manager.png&quot; alt=&quot;Archive manager&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Get the device name of the MicroSD card using the Disks (palimpsest) application or sudo fdisk -l from the command line. Most likely the SD card is named &lt;tt&gt;/dev/mmcblk0&lt;/tt&gt;.&lt;/p&gt;
+      
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/SD_card_name.png&quot; alt=&quot;Device name for SD card&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Transfer the extracted image file rpfr-17-xfce-RC2.img to the MicroSD card using a terminal window.&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Here’s the transfer command to execute in Step 4.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;sudo dd if=rpfr-17-xfce-RC2.img of=/dev/mmcblk0 bs=1M&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The command above assumes you saved rpfr-17-xfce-RC2.img in your home directory after extraction. If you saved the file elsewhere, you’ll need to change to the appropriate directory via the command line (&lt;tt&gt;cd directory/name&lt;/tt&gt;) before executing the &lt;tt&gt;dd&lt;/tt&gt; command. &lt;tt&gt;dd&lt;/tt&gt; is a low-level copy command that can read and write complete disk images. &lt;tt&gt;if&lt;/tt&gt; stands for “input file”, &lt;tt&gt;of&lt;/tt&gt; stands for “output file” and bs tells &lt;tt&gt;dd&lt;/tt&gt; how many bytes to read at a time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;In our case, the input file is the disk image rpfr-17-xfce-RC2.img, the output file is the MicroSD card device &lt;tt&gt;/dev/mmcblk0&lt;/tt&gt; and the block size is one megabyte (1M). This command will create the necessary file systems partitions on the MicroSD card, occupying 3.1GB of space, then copy the prepared operating system files to those partitions. A one step installation!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock&quot;&gt;
   &lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
+        
         &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+        
       &lt;/td&gt;
       &lt;td class=&quot;content&quot;&gt;
+        
         As you’ll learn later, the first boot wizard will allow you to resize the main partition to use all available space on the card.
+
       &lt;/td&gt;
     &lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock&quot;&gt;
   &lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
+        
         &lt;div class=&quot;title&quot;&gt;Tip&lt;/div&gt;
+        
       &lt;/td&gt;
       &lt;td class=&quot;content&quot;&gt;
+        
         The &lt;tt&gt;dd&lt;/tt&gt; command is also your friend if you need to move to a bigger MicroSD card. Simply reverse the &lt;tt&gt;if&lt;/tt&gt; and &lt;tt&gt;of&lt;/tt&gt; values, insert a bigger card and run the above command again.
+
       &lt;/td&gt;
     &lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The &lt;tt&gt;dd&lt;/tt&gt; command doesn’t output any messages until the operation is complete, so be patient. The length of time to execute the command will vary depending on the speed of the card. With my Class 6 card, it takes about 8 minutes (7 MB/s). Here’s an example of the output you’ll see when the command finishes:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;3000+0 records in
 3000+0 records out
@@ -244,259 +348,378 @@ by Sarah White and Dan Allen
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You can verify the operation worked by ejecting the MicroSD card, reinserting it, then browsing the contents using the file explorer. You should see two mounts, boot and rootfs. Once you’re done poking around, unmount boot and rootfs and eject the card.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/boot_files.png&quot; alt=&quot;Fedora Remix boot files on the SD card&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The MicroSD card is ready. Now let’s prepare the Pi!&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;preparing_the_pi&quot;&gt;Preparing the Pi&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Plug the following inputs into the Raspberry Pi board:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
+  
   &lt;ul&gt;
 &lt;li&gt;
       &lt;p&gt;MicroSD card&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Monitor HDMI cable&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;USB keyboard&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;USB mouse&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Ethernet cable, USB wireless card or USB tethered smartphone&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;(Personally I use my Android phone as my wireless card by enabling the USB tethering feature).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Next, turn on the monitor and, if necessary, the keyboard and mouse. Set the resolution of the monitor to “Just Scan” if it offers that setting. Otherwise, use the default setting (e.g., 16:9 or 4:3).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Raspberry Pi only has two USB ports, which you may quickly outgrow. One solution is to expand the number of ports by adding a (preferably powered) USB hub. Before going that route, you can save one of the USB ports by getting a keyboard and mouse that can share the same port.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;unifying_a_logitech_keyboard_and_mouse&quot;&gt;Unifying a Logitech keyboard and mouse&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;If you have a Logitech keyboard and mouse that can connect to a single receiver, they can be configured to use that same unifying receiver in Linux. Copy the source code from &lt;a href=&quot;http://returnfalse.net/log/pairing-logitech-unifying-devices-on-gnulinux/&quot;&gt;this blog&lt;/a&gt; to the file unifying_pair.c and execute these commands:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;gcc -o unifying_pair unifying_pair.c
 sudo ./unifying_pair /dev/hidraw0&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;While that’s running, switch off the keyboard and mouse, then switch them on. You should now be able to control both the keyboard and the mouse using a single USB receiver. Plug that receiver into the Raspberry Pi.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;power_it_up&quot;&gt;Power it up!&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The final input is the power (otherwise known as the “on” switch).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Grab a cellphone charger cable (micro USB, I use my HTC Sensation’s power cable) and plug it into a power outlet. You may be tempted to use the USB port of your laptop as the power source; however, the USB port may not provide the necessary power required by the Model B Raspberry Pi (700mA). The general recommendation is to play it safe and use a wall outlet.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;It’s action time! Plug the micro USB end of the cable into the micro USB input and wait a few seconds for a raspberry to appear on the monitor. If you see one, then the Fedora Remix is booting. If not, you may need to play with the settings on your monitor.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/fedora_raspberry_spin.png&quot; alt=&quot;Fedora Remix boot screen&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;customizing_the_installation_on_first_boot&quot;&gt;Customizing the installation on first boot&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;This wouldn’t be a Fedora installation without the first boot wizard. The inclusion of first boot is one of the features that sets the Fedora Remix apart from other Raspberry Pi distributions. In addition to the simple first boot operations (review license, set language, timezone and date, root password), the Fedora Remix allows you to:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
+  
   &lt;ul&gt;
 &lt;li&gt;
       &lt;p&gt;Resize the rootfs partition to use all remaining space on the MicroSD card, optionally allocating some of that space for a swap file (I used the defaults)&lt;/p&gt;
+      
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/filesystem_settings.png&quot; alt=&quot;Fedora Remix filesystem settings boot screen&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Create a user account (add the user to administrators group)&lt;/p&gt;
+      
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/create_user.png&quot; alt=&quot;Fedora Remix create user boot screen&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;On the system settings screen you can modify the host name (default is raspi.local), choose graphical or text boot type mode, configure the RAM allocation between the CPU and GPU (out of available 256MB), and select video display configurations. I used the wizard selected options shown in the screenshot below.&lt;/p&gt;
+      
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/system_settings.png&quot; alt=&quot;Fedora Remix create system settings boot screen&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
+      
     &lt;/li&gt;
+  
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Hit the finish button. The Pi will reboot twice on its own (once to resize the disk). Go get some coffee, this will take several minutes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock&quot;&gt;
   &lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
+        
         &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+        
       &lt;/td&gt;
       &lt;td class=&quot;content&quot;&gt;
+        
         If you get the &lt;strong&gt;Oh no! Something has gone wrong.&lt;/strong&gt; screen, don’t panic. Type ctrl+alt+delete to initiate a third reboot.
+
       &lt;/td&gt;
     &lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Once the desktop comes up, don’t worry if it doesn’t fill the screen, we can fix that later. Now log into the XFCE desktop with the user account you created during the boot wizard.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/login_screen.png&quot; alt=&quot;Raspberry Pi XFCE desktop login&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;After you’ve logged in (go check your email, this may take a moment as well), you’ll see the following dialog window.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/start_panel_XFCE.png&quot; alt=&quot;Raspberry Pi XFCE start panel&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;This is part of the XFCE desktop; I chose the default configuration.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;updating_fedora_remix_on_the_raspberry_pi&quot;&gt;Updating Fedora Remix on the Raspberry Pi&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You use Fedora Remix on the Raspberry Pi just like any other Fedora installation. You might start by opening a terminal and updating the packages (internet connection required):&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;sudo yum -y update&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/yum_update.png&quot; alt=&quot;Installing updates via yum&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You can browse the hardware information by installing and running hardinfo:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;sudo yum -y install hardinfo&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;After you type the above command, you will be asked for your password. Next, the system will resolve dependencies, download new packages, run transaction check and test, run transaction, and install packages.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hardinfo_install.png&quot; alt=&quot;Installing hardinfo via yum&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The flashing lights on the Raspberry Pi board will indicate that the computer is hard at work.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_lights.png&quot; alt=&quot;Raspberry Pi hard at work&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;When the hardinfo installation is complete and the command line prompt reappears, type:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;hardinfo&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hardinfo.png&quot; alt=&quot;System information via hardinfo&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Now you can easily explore the Raspberry Pi and Fedora Remix system specifications.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The desktop may seem a bit sluggish, but keep in mind what you are running it on. (It’s also because the Fedora Remix has not been compiled to take full advantage of the processor, which may change in Fedora 18).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;One setting you won’t be able to configure from the control panel is the resolution. For that to change, you have to modify the Raspberry Pi configuration file. Let’s explore a few of those settings.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;tweaking_the_display_and_memory_on_the_raspberry_pi&quot;&gt;Tweaking the display and memory on the Raspberry Pi&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Raspberry Pi hardware is configured in the &lt;a href=&quot;http://elinux.org/RPi_config.txt&quot;&gt;config.txt file&lt;/a&gt; in the /boot partition (&lt;tt&gt;/boot/config.txt&lt;/tt&gt;). One of the key settings is the display resolution. Here’s the setting I used to stretch the desktop to full 1080 resolution (since my monitor supports it):&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock&quot;&gt;
   &lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
+        
         &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+        
       &lt;/td&gt;
       &lt;td class=&quot;content&quot;&gt;
+        
         You can’t simply click on the text document, open it in leafpad, edit it and hit save because you need root priviledges. To update this file you’ll need to access it through a terminal using &lt;tt&gt;sudo&lt;/tt&gt;.
+
       &lt;/td&gt;
     &lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Open a terminal window and type:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;cd /boot
 sudo leafpad config.txt&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;After you enter your password, leafpad will launch. Add the following setting to the file in leafpad:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;hdmi_mode=5&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I also recommend these settings to make the monitor display the image properly.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;hdmi_force_hotplug=1
 disable_overscan=1
@@ -505,828 +728,1173 @@ hdmi_group=1&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/hdmi_config.png&quot; alt=&quot;Configuring the HDMI settings in leafpad for the Raspberry Pi&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Save the file and close it. Reboot the Raspberry Pi for the changes to take affect. You can type the following command in the terminal to reboot.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;sudo shutdown -r now&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Keep in mind that running the desktop at higher resolution does take more memory. You may want to opt for a lower resolution. Experiment with the values until you find what works for you. Consult the &lt;a href=&quot;http://elinux.org/RPi_config.txt#Video_mode_options&quot;&gt;full list of resolution modes&lt;/a&gt; to find the &lt;tt&gt;hdmi_mode&lt;/tt&gt; value for each resolution.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You can also make the desktop run faster by allocating more memory to the CPU. The RAM partitioning is controlled by the file start.elf in the /boot partition (&lt;tt&gt;/boot/start.elf&lt;/tt&gt;). There are several alternative partitioning files in that directory with the pattern &lt;tt&gt;arm*_start.elf&lt;/tt&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The number after “arm” is the amount of RAM dedicated to the CPU. To give 240MB of RAM to the CPU and the remaining 16MB to the GPU, use this copy command:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;cp arm240_start.elf start.elf&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;If you want to play multimedia, you probably want to split the RAM down the middle at 128MB a piece (the most you can give to the GPU):&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;cp arm128_start.elf start.elf&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Reboot for the change to take affect. Play with the values and see which one works best for you.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;tinker&quot;&gt;Tinker!&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Fedora Remix is one of &lt;a href=&quot;http://elinux.org/RPi_Distributions#Comparison&quot;&gt;many distributions&lt;/a&gt; you can install on the Raspberry Pi, and there is plenty of room for it to improve. If your goal is to use the Raspberry Pi as a multimedia center, Fedora Remix may not be your best option (check out OpenELEC). You’d choose Fedora Remix for things the Fedora OS excels at, such as software development. Fortunately, you don’t have to limit yourself to a single distribution. Changing distributions is as easy as swapping MicroSD cards. We encourage you to try different distributions to get the most out of your Raspberry Pi.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;ulist&quot;&gt;
+  
   &lt;ul&gt;
 &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora Remix home page&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://scotland.proximity.on.ca/raspberrypi/test-releases/raspberrypi-fedora-remix-17/latest/&quot;&gt;Latest Raspberry Pi Fedora 17 Remix download&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://www.raspberrypi.org/archives/805&quot;&gt;Original Raspberry Pi Fedora Remix announcement&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora ARM project&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://elinux.org/RPi_Distributions#Comparison&quot;&gt;Raspberry Pi distribution list&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://raspberrypi.org/downloads&quot;&gt;Raspberry Pi distribution downloads&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://www.element14.com/community/groups/raspberry-pi&quot;&gt;Raspberry Pi development group&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi Foundation home page&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://www.newark.com/?COM=element14_store_main&quot;&gt;Raspberry Pi store, US&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://www.farnell.com/?ICID=choose_store_dropdown&quot;&gt;Raspberry Pi store, non-US&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;a href=&quot;http://www.mcmelectronics.com/content/en-US/raspberry-pi&quot;&gt;Raspberry Pi partner store, US&lt;/a&gt;&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ul&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
-<title>Is that Fedora running on a Raspberry Pi?</title>
-<updated>2012-10-09T09:30:00-06:00</updated>
-<published>2012-10-09T09:30:00-06:00</published>
-<link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="event" />
-<summary>
-by Sarah White and Dan Allen
-
-  &#8220;Why, yes it is! To be exact, it&#8217;s a Fedora Remix running on a Raspberry Pi.&#8221;
-
-
-  That was a popular exchange at the Fedora booth during this year&#8217;s Ohio LinuxFest. The iconic Model B Raspberry Pi, running Fedora Remix and proudly displaying the Beefy Miracle fireworks on a XFCE desktop, was drawing lots of attention.
-
-
-  
-    
-  
-
-
-  As OLF attendees quickly discovered, using the desktop requires a little extra patience since the libraries aren&#8217;t (yet) optimized for the hardware. But, don&#8217;t underestimate this board. It......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/</id>
+    <title>Is that Fedora running on a Raspberry Pi?</title>
+    <updated>2012-10-09T09:30:00-06:00</updated>
+    <published>2012-10-09T09:30:00-06:00</published>
+    <link href="http://graphitefriction.com/blog/2012/10/09/is-that-fedora-running-on-a-raspberry-pi/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      by Sarah White and Dan Allen
+      
+          
+        &#8220;Why, yes it is! To be exact, it&#8217;s a Fedora Remix running on a Raspberry Pi.&#8221;
+      
+      
+          
+        That was a popular exchange at the Fedora booth during this year&#8217;s Ohio LinuxFest. The iconic Model B Raspberry Pi, running Fedora Remix and proudly displaying the Beefy Miracle fireworks on a XFCE desktop, was drawing lots of attention.
+      
+      
+        
+          
+          
+          
+        
+        
+      
+      
+          
+        As OLF attendees quickly discovered, using......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;h4 id=&quot;by_sarah_white_and_a_href_http_google_com_profiles_dan_j_allen_dan_allen_a&quot; class=&quot;discrete byline&quot;&gt;by Sarah White and &lt;a href=&quot;http://google.com/profiles/dan.j.allen&quot;&gt;Dan Allen&lt;/a&gt;
 &lt;/h4&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;&lt;strong&gt;“Why, yes it is!&lt;/strong&gt; To be exact, it’s a Fedora &lt;em&gt;Remix&lt;/em&gt; running on a Raspberry Pi.”&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;That was a popular exchange at the Fedora booth during this year’s &lt;a href=&quot;http://ohiolinux.org&quot;&gt;Ohio LinuxFest&lt;/a&gt;. The iconic Model B Raspberry Pi, running Fedora Remix and proudly displaying the Beefy Miracle fireworks on a XFCE desktop, was drawing lots of attention.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/xfce_desktop.jpg&quot; alt=&quot;XFCE Desktop on the Raspberry Pi Fedora Remix&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;As OLF attendees quickly discovered, using the desktop requires a little extra patience since the libraries aren’t (yet) optimized for the hardware. But, don’t underestimate this board. It packs a powerful punch and future releases plan to take full advantage of its capabilities to speed up execution of the programs. (See &lt;a href=&quot;http://lists.fedoraproject.org/pipermail/arm/2012-July/003669.html&quot;&gt;this fedora-arm mailinglist post&lt;/a&gt; or search for “soft-float vs hard-float” for details)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Questions at the booth that followed were typically:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
+  
   &lt;ul&gt;
 &lt;li&gt;
       &lt;p&gt;“Who maintains it?”&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;“Where do I get it?”&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;“How do I install it?”&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;First, let’s start with, “What &lt;strong&gt;&lt;em&gt;is&lt;/em&gt;&lt;/strong&gt; a Raspberry Pi?”&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;what_is_a_raspberry_pi&quot;&gt;What is a Raspberry Pi?&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;A Raspberry Pi is a system-on-a-chip (SoC) single-board computer. In other words, it’s an incredibly compact general purpose computer. It even fits inside one of my mini pie dishes. &lt;em&gt;Mmmm&lt;/em&gt;, pie!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/pi_in_a_pie.jpg&quot; alt=&quot;Raspberry Pi as a Pie&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Let’s back up and begin with the central component that makes this all possible, the ARM chip.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/ARM_architecture&quot;&gt;ARM chips&lt;/a&gt; are the most widely-produced processors in the world because they are small, cheap and require minimal power. They are found in smart phones, tablets, routers, embedded controllers, gaming consoles and streaming digital media devices. As the chips become more powerful and SoCs less expensive, consumer operating systems such as Fedora can be installed on them.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Several companies manufacture and sell ARM-based SoC computers priced under $100 that are specifically designed for you to install your Linux distribution of choice. The Raspberry Pi is notable for its $35 price tag, less than half the price of the next cheapest ARM-based SoC, the $89 BeagleBone.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Raspberry Pi Model B is based on the Broadcom BCM2835 SoC and includes these components and ports:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
+  
   &lt;ul&gt;
 &lt;li&gt;
       &lt;p&gt;ARM1176JZF-S 700 MHz processor (&lt;a href=&quot;http://www.arm.com/products/processors/classic/arm11&quot;&gt;ARM11 family&lt;/a&gt;, armv6 architecture)&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;VideoCore IV GPU, OpenGL ES 2.0, 1080p30 h.264/MPEG-4 AVC high-profile decoder&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;256 Megabytes of RAM (shared between the CPU and GPU)&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;Two USB 2.0 ports&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;10/100 Ethernet (RJ45) controller&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;HDMI and composite RCA video outputs&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;HDMI and 3.5mm jack audio outputs&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;MicroSD card slot&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;GPIO pins&lt;/p&gt;
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;5V Micro USB power jack&lt;/p&gt;
+      
     &lt;/li&gt;
+  
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Here’s how the parts are laid out on the board:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/raspberry_pi_model_b_schematic.png&quot; alt=&quot;Raspberry Pi Model B Schematic&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Single-board systems like the Raspberry Pi aren’t just miniaturized computers locked in a box, though. They’re open, development boards with general inputs and outputs (GPIOs) that allow expansion through add-on boards and external devices. Installing a Linux distribution like Fedora is just the first step of becoming a &lt;a href=&quot;http://www.wired.com/geekmom/2012/10/open-hardware-summit-2012&quot;&gt;maker&lt;/a&gt;!&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;who_maintains_the_fedora_remix_for_the_raspberry_pi&quot;&gt;Who maintains the Fedora Remix for the Raspberry Pi?&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;It begins with the &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora ARM project&lt;/a&gt;, an initiative to port Fedora to the ARM processor family. The group has successfully created &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM/Fedora_17_GA&quot;&gt;Fedora 17 GA images&lt;/a&gt; for single-board computers including the BeagleBoard, SheevaPlug, PandaBoard, and Trim-Slice. However, the Fedora Project does not yet produce an official release for the Raspberry Pi due to certain licensing issues. Specifically, the Raspberry Pi relies upon a custom kernel (not upstream) as well as special GPU binary blobs which are not acceptable under the current firmware exception in Fedora.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;But, if you want Fedora 17 on your Pi &lt;strong&gt;today&lt;/strong&gt;, do not despair! There’s a Fedora Remix for that!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/raspberry_pi_fedora_remix_logo.png&quot; alt=&quot;Raspberry Pi Fedora Remix Logo&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Seneca College’s &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/&quot;&gt;Centre for Development of Open Source Technology&lt;/a&gt; maintains the &lt;a href=&quot;http://zenit.senecac.on.ca/wiki/index.php/Raspberry_Pi_Fedora_Remix&quot;&gt;Raspberry Pi Fedora Remix&lt;/a&gt;. A &lt;a href=&quot;http://fedoraproject.org/wiki/Remix&quot;&gt;Fedora Remix&lt;/a&gt; is a combination of Fedora software, with or without add-ons, that any community member can create at any time to produce interesting and compelling distributions. The Raspberry Pi Fedora Remix enables you load Fedora 17 onto the Pi and get updates for most software from the official Fedora yum repositories (armv5tel architecture). &lt;a href=&quot;http://www.youtube.com/watch?v=RbWE6qF7pIM&quot;&gt;Watch the announcement video&lt;/a&gt; to learn more about how the folks from Sececa built and tested it.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Fedora ARM group is working to make ARM a primary Fedora architecture for all future releases and to expand support to additional SoCs, including the Raspberry Pi. Until Fedora officially supports the Raspberry Pi, you’ll need to use the Fedora Remix.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;how_do_i_get_a_raspberry_pi_and_the_fedora_remix&quot;&gt;How do I get a Raspberry Pi and the Fedora Remix?&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Let’s take it one question at a time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;strong&gt;How do I get a Raspberry Pi?&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You may have heard that you need to know the right people to get your hands on a Raspberry Pi or that there is a purchasing restriction. Neither of those rumors are true anymore, though you may still run into backorders. Numerous distributors&lt;sup&gt;†&lt;/sup&gt; sell the Pi, including &lt;a href=&quot;http://www.alliedelec.com/lp/120626raso/?cm_mmc=Offline-Referral-&quot;&gt;http://www.alliedelec.com/lp/120626raso/?cm_mmc=Offline-Referral-&lt;/a&gt;&lt;em&gt;-Electronics-&lt;/em&gt;-RaspberryPi-201203-_-World-Selector-Page[Allied Electronics], &lt;a href=&quot;http://www.newark.com/jsp/search/productdetail.jsp?id=83T1943&amp;amp;Ntt=83T1943&quot;&gt;Newark&lt;/a&gt;, &lt;a href=&quot;http://www.adafruit.com/category/105&quot;&gt;Adafruit Industries&lt;/a&gt; and &lt;a href=&quot;http://www.mcmelectronics.com/content/en-US/raspberry-pi&quot;&gt;MCM Electronics&lt;/a&gt; but be prepared to wait (last minute holiday shoppers, you’ve been warned!). MCM Electronics and Adafruit also sell an array of accessories like the clear case that houses my Pi, shown below.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/raspberry_pi/adafruit_case.jpg&quot; alt=&quot;Adafruit Raspberry Pi Case&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;strong&gt;How do I load Fedora Remix on it?&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Once you receive your slice of Pi, the next step is to install Fedora Remix or one of the other &lt;a href=&quot;http://elinux.org/RPi_Distributions&quot;&gt;Raspberry Pi (RPi) Linux distributions&lt;/a&gt; onto a MicroSD card and slide it into the board. The next blog entry in this series, &lt;a href=&quot;http://graphitefriction.com/blog/2012/10/11/how-to-install-and-configure-fedora-17-remix-on-your-raspberry-pi&quot;&gt;How to Install and Configure Fedora 17 Remix on Your Raspberry Pi&lt;/a&gt;, will step through downloading Fedora Remix, installing it on your Pi and getting it up and running.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;does_the_raspberry_pi_have_a_handbook&quot;&gt;Does the Raspberry Pi have a handbook?&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;If you want to become more familiar with your Raspberry Pi and the story behind it, check out the &lt;a href=&quot;http://www.amazon.com/Raspberry-User-Guide-Gareth-Halfacree/dp/111846446X&quot;&gt;Raspberry Pi User Guide&lt;/a&gt;, written by the Pi’s master chef. That’s the book I read before booting the Raspberry Pi for the first time (on the plane heading to Ohio LinuxFest :)). Having that background knowledge helped make the installation process a breeze.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph muted&quot;&gt;
+    
   &lt;p&gt;&lt;sup&gt;†&lt;/sup&gt; We’re not endorsing any of the listed distributors of the Raspberry Pi or its accessories. The companies mentioned are just a sampling of results returned after executing a “buy Raspberry Pi” internet search. Sarah’s Pi was gifted to her by a spotted hypnotoad. Dan purchased the Adafruit case through MCM Electronics.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph muted&quot;&gt;
+    
   &lt;p&gt;Raspberry Pi is a trademark of the &lt;a href=&quot;http://raspberrypi.org&quot;&gt;Raspberry Pi Foundation&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
-<title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
-<updated>2012-08-14T09:30:00-04:00</updated>
-<published>2012-08-14T09:30:00-04:00</published>
-<link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="event" />
-<category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
-<summary>
-At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.
-
-
-  
-    
-  
-
-
-  
-    
-  
-
-  
-
-
-  Fedora on a Raspberry Pi
-  
-
-  The Fedora booth showcased the features and capabilities of Fedora running......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/</id>
+    <title>Fedora at OSCON 2012, presented with a Raspberry Pi</title>
+    <updated>2012-08-14T09:30:00-04:00</updated>
+    <published>2012-08-14T09:30:00-04:00</published>
+    <link href="http://graphitefriction.com/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="raspberry-pi" />
+    <summary>
+      At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.
+          
+          
+            
+              
+              
+              
+            
+            
+          
+          
+            
+              
+              
+              
+            
+            
+          
+          
+            
+          
+          
+          
+          ......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/oscon2012/deb_and_gunnar.png&quot; alt=&quot;Deb and Gunnar at the Fedora booth&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/oscon2012/ruth_and_tux.png&quot; alt=&quot;Ruth and Tux at the Fedora booth&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;fedora_on_a_raspberry_pi&quot;&gt;Fedora on a Raspberry Pi&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Fedora booth showcased the features and capabilities of Fedora running on a Raspberry Pi (a cheap, low-power computer that features an ARM processor). People were in awe that a tiny system on a chip (SoC) could support a widescreen monitor and an external hard drive and run full length movies at 1080p resolution with no problems (except when I overheated the chip by leaving my laptop next to it (my bad!)).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Common Raspberry Pi questions included:&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;dlist&quot;&gt;
+  
   &lt;dl&gt;
 &lt;dt class=&quot;hdlist1&quot;&gt;
       Is that a Raspberry Pi?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;Yes&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       What operating system is it running?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;Raspberry Pi Fedora Remix (armv5hl), maintained by the Fedora ARM team&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       What is the desktop?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;XFCE&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       What is the graphics card brand?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;A Broadcom VideoCore IV, OpenGL ES 2.0, that is capable of 1080p, 30 h.264/MPEG-4 AVC high-profile decoder. The output connections are Composite RCA or HDMI.&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Does it have on board memory?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;No. You have to boot from SD but a USB HD can “take over” after the initial boot. You cannot boot without an SD card. Supported card formats include SD, MMC, and SDIO.&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       How is it powered?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;The device is powered by 5V micro USB. The device could also be run by 4 AA batteries.&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
     &lt;dt class=&quot;hdlist1&quot;&gt;
       Can it display at 1080?
     &lt;/dt&gt;
+    
     &lt;dd&gt;
+      
       &lt;p&gt;Yes&lt;/p&gt;
+      
+      
     &lt;/dd&gt;
+    
+    
   &lt;/dl&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Our setup used an external hard drive connected via USB because the SD card was only large enough to fit Futurama episodes (in 720), not the full length Tron Legacy movie Spot had on hand.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;For more information about the Raspberry Pi hardware, refer to the &lt;a href=&quot;http://www.raspberrypi.org/faqs&quot;&gt;Raspberry Pi Foundation’s FAQs&lt;/a&gt;. Visit &lt;a href=&quot;http://fedoraproject.org/wiki/Architectures/ARM&quot;&gt;Fedora ARM&lt;/a&gt; to learn more about how Fedora is developing architectures for SoC.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;tux_photobooth&quot;&gt;Tux Photobooth&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The Raspberry Pi ran the semi-automated photography booth. Hooked up to a camera and using a python script, the Pi snapped photos of the attendees posed with Tux. Attendees could then scan the QR code generated by the script and displayed in the web browser to retrieve their picture later.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/oscon2012/fedora_photo_booth.png&quot; alt=&quot;Fedora photobooth&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The first photobooth session occurred on Tuesday night, during the opening of the expo floor. During the ever-popular OSCON booth crawl on Wednesday night, Tux returned to the photobooth and later toured the expo floor to meet his fans.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;strong&gt;Amazing fact:&lt;/strong&gt; &lt;em&gt;Tux can write python code with his wings!&lt;/em&gt; Prior to the session on Wednesday, Tux took a few moments to modify the python program that captures, scales, and posts the pictures when the usual Nikon was replaced with a Canon (new drivers had to be loaded). The equipment and instructions to host your own Raspberry Pi photobooth are being drafted on the new &lt;a href=&quot;http://fedoraproject.org/wiki/Raspberry_Pi_photobooth&quot;&gt;Raspberry Pi photobooth wikipage&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock ctr&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/oscon2012/tux_tour.png&quot; alt=&quot;Tux touring the OSCON Expo floor&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;fedora_packages_search_app&quot;&gt;Fedora Packages Search App&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I did field a few questions about Fedora 17’s development environment and got to point out the servers and frameworks packaged in Fedora 17. There was also a question about the latest KVM virt-manager instance. I’m just learning about virtual machine technologies, and version numbers are not my strong point. However, this allowed me to show off the &lt;a href=&quot;https://apps.fedoraproject.org/packages/virt-manager&quot;&gt;Fedora Packages Search&lt;/a&gt; app (using Firefox on the Pi!). If you’re not familiar with the Fedora packages search app, you need to check it out. It rocks!  You can quickly find out if the program you’re interested in is packaged, which version is packaged in which release, what updates are coming, and much more all within a clean, easy to use web interface.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I use the packages search app almost every day as I continue to learn more about Fedora’s features, release cycle, and the awesome people dedicated to adding new and improved programs and capabilities to Fedora.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
+
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;photographs&quot;&gt;Photographs&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;You can find more pictures from OSCON 2012 on my &lt;a href=&quot;http://www.flickr.com/photos/graphitefriction/sets/72157630714547678/&quot;&gt;photostream&lt;/a&gt;. Mark Terranova (MarkDude) also took great photographs of the &lt;a href=&quot;https://plus.google.com/u/0/photos/105095769731159704550/albums/5769140764406115713&quot;&gt;Fedora booth and Beefy Miracle’s expo floor adventures&lt;/a&gt; at OSCON.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Thanks to everyone who stopped by the booth!&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
-<title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
-<updated>2012-08-03T09:30:00-04:00</updated>
-<published>2012-08-03T09:30:00-04:00</published>
-<link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="event" />
-<summary>
-Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the Texas Linux Fest.
-
-
-  John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
-
-
-  
-
-  
-    
-  
-
-Demoggification
-
-  Saturday August 4, 2012 2:25 PM - 3:10 PM
-
-
-  Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/</id>
+    <title>Fedora contributors will show off their BASH and GLUSTER at TXLF this weekend</title>
+    <updated>2012-08-03T09:30:00-04:00</updated>
+    <published>2012-08-03T09:30:00-04:00</published>
+    <link href="http://graphitefriction.com/blog/2012/08/03/fedora-contributors-will-show-off-their-bash-and-gluster-at-txlf-this-weekend/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the Texas Linux Fest.
+          
+          
+              
+            John Rose (inode0), a current Fedora Board member and the North American Fedora Ambassador leader, will explain how to rid your shell scripts of useless cats.
+          
+          
+            
+            
+          
+            
+              
+              
+              
+            
+            
+          
+          Demoggification
+          
+              
+            Saturday August 4, 2012 2:25 PM - 3:10 PM
+          
+          
+              
+            Since the mid 1990s the Useless Use of......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;Fedora contributors John Rose and Thomas Cameron will be speaking in San Antonio this Saturday at the &lt;a href=&quot;http://2012.texaslinuxfest.org&quot;&gt;Texas Linux Fest&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;John Rose (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Inode0&quot;&gt;inode0&lt;/a&gt;), a current Fedora Board member and the North American &lt;a href=&quot;http://fedoraproject.org/wiki/Ambassadors&quot;&gt;Fedora Ambassador&lt;/a&gt; leader, will explain how to rid your shell scripts of useless cats.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;openblock citation&quot;&gt;
+  
   &lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;imageblock pull-left&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/TXLF_Badge_transparent_175.png&quot; alt=&quot;Texas Linux Fest 2012&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;h2 id=&quot;_a_href_http_2012_texaslinuxfest_org_sessions_demoggification_demoggification_a&quot; class=&quot;discrete&quot;&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/demoggification&quot;&gt;Demoggification&lt;/a&gt;&lt;/h2&gt;
 &lt;div class=&quot;paragraph byline&quot;&gt;
+    
   &lt;p&gt;Saturday August 4, 2012 2:25 PM - 3:10 PM&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Since the mid 1990s the Useless Use of Cat Award has raised awareness of a class of shell script constructs that make some laugh and others cry. Demoggification is the process of removing useless cats. This talk covers a variety of other useless stuff (including echo, grep, sed, nc, and more) that frequently finds its way into our shell scripts and shows how to demoggify each by using various features in bash.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Features covered include direct access to sockets, parameter expansions, brace expansions, here strings, and more.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Thomas Cameron (&lt;a href=&quot;http://fedoraproject.org/wiki/User:Tcameron&quot;&gt;Tcameron&lt;/a&gt;), Red Hat’s chief architect for Canada and the central US, will show how scaling out with software based on &lt;a href=&quot;http://www.gluster.org&quot;&gt;Gluster&lt;/a&gt; will defy future data storage and transfer resource constraints.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;openblock citation&quot;&gt;
+  
   &lt;div class=&quot;content&quot;&gt;
 &lt;h2 id=&quot;_a_href_http_2012_texaslinuxfest_org_sessions_building_software_based_nas_using_gluster_red_hat_storage_software_appliance_building_software_based_nas_using_gluster_a&quot; class=&quot;discrete&quot;&gt;&lt;a href=&quot;http://2012.texaslinuxfest.org/sessions/building-software-based-nas-using-gluster-red-hat-storage-software-appliance&quot;&gt;Building Software-Based NAS Using Gluster&lt;/a&gt;&lt;/h2&gt;
 &lt;div class=&quot;paragraph byline&quot;&gt;
+    
   &lt;p&gt;Saturday August 4, 2012 3:20 PM - 4:05 PM&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Gluster is a software-based, scale-out network-attached storage (NAS) appliance. It uses inexpensive internal or direct-attached (e.g. JBOD) storage and pools multiple servers into one storage namespace. This pooled storage is then exported to Linux clients via NFS, to Microsoft Windows clients via CIFS/Samba, or using the native Gluster client. In this session, Red Hat’s Thomas Cameron will explain the architecture of Gluster and demonstrate setting up a 3-node storage cluster, including setting up the NFS service, Samba, and the native Gluster client. He will demonstrate mirrored content, distributed content, and discuss geo-replication (stretch clusters).&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;span class=&quot;image pull-right&quot;&gt;
   &lt;img src=&quot;http://graphitefriction.com/images/beefybutton_300.png&quot; alt=&quot;Beefy Miracle Fedora 17&quot;&gt;&lt;/span&gt; Also make sure to stop by the Fedora booth on the TXLF Expo floor and grab a Beefy Miracle button or sticker. More information about the Fedora booth and activities at TXFL is located on the &lt;a href=&quot;http://fedoraproject.org/wiki/TXLF_2012&quot;&gt;Fedora event page&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
-<title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
-<updated>2012-07-05T09:30:00-04:00</updated>
-<published>2012-07-05T09:30:00-04:00</published>
-<link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
-<category scheme="http://graphitefriction.com/blog/tags" term="event" />
-<summary>
-Representing Fedora at the Summit sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, Run away! Run away!.
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/</id>
+    <title>Chronicling the Fedora Community Area in Millimeters and Pixels</title>
+    <updated>2012-07-05T09:30:00-04:00</updated>
+    <published>2012-07-05T09:30:00-04:00</published>
+    <link href="http://graphitefriction.com/blog/2012/07/05/chronicling-the-fedora-community-area-in-millimeters-and-pixels/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="fedora" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="event" />
+    <summary>
+      Representing Fedora at the Summit sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, Run away! Run away!.
 
 
+    
   Face to face, live action conversation? It can&#8217;t be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn&#8217;t anyone invented a delete key for my mouth!
 
 
-  During the first full day of booth activities, I retreated behind my cameras to......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    
+  During the first full day of......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;Representing &lt;a href=&quot;http://fedoraproject.org/wiki/Red_Hat_Summit_2012&quot;&gt;Fedora at the Summit&lt;/a&gt; sounded great when I was safely ensconced in my office, chatting on IRC, weeks before the event.  But once I approached the booth at the Hynes Convention Center, a horde of heebie-jeebies streaked down my spine screaming, &lt;strong&gt;&lt;em&gt;Run away! Run away!&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Face to face, live action conversation? It can’t be paused, reconsidered or erased. Answering direct questions without the luxury of composing my thoughts on paper? Why, oh why hasn’t anyone invented a delete key for my mouth!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;During the first full day of booth activities, I retreated behind my cameras to document the constant activity in the Fedora Community area. I photographed attendees visiting the Fedora booth, hanging with Beefy Miracle, and enjoying the mid-afternoon hot dog snack hour. All of the &lt;a href=&quot;http://www.flickr.com/photos/graphitefriction&quot;&gt;photographs I took during the Summit&lt;/a&gt; are posted on my Flickr stream.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/fedora_booth_friends.jpg&quot; alt=&quot;fedora_booth_friends&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/beefymiracle_mustard.jpg&quot; alt=&quot;beefymiracle_mustard&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I also recorded two talks presented in the Fedora Community area: Ryan O’Hara’s &lt;em&gt;Network Load Balancing for the 21st Century With Keepalived and HAProxy&lt;/em&gt; and Dan Allen’s &lt;em&gt;JBoss AS7 on Fedora&lt;/em&gt; as well as the server and system installation for the next day’s Fedora ARM demonstration. Once I finish processing the videos, I’ll post them.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;span class=&quot;image&quot;&gt;
   &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/ryanohara_loadbalance.jpg&quot; alt=&quot;Ryan O’Hara&quot;&gt;&lt;/span&gt; &lt;span class=&quot;image&quot;&gt;
   &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/danallen_as7onfedora.jpg&quot; alt=&quot;Dan Allen&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/jonmasters_arm_demo.jpg&quot; alt=&quot;Jon Masters&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;On Thursday, after Jon Masters' crowd-gathering ARM demonstration, I forced myself to stow the cameras. I took position behind the booth, no camera lenses or laptop to filter my I/O. The gaps in my knowledge soon became apparent.&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;qlist qanda unnumbered&quot;&gt;
+  
   &lt;ol&gt;
 &lt;li&gt;
       &lt;p&gt;&lt;em&gt;&lt;strong&gt;No, I’m not familiar with the wide variety of acronyms applied to the hardware in the one laptop per per child computer or what version of Fedora it is running.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+      
+      
       &lt;p&gt;Luke Macken saved the attendee from my panicky stare, and now I know it’s an ARM processor, running Sugar on a Stick, and the newest laptop has a much better keyboard.&lt;/p&gt;
+      
+      
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;em&gt;&lt;strong&gt;I don’t know what version of Apache httpd is packaged in Fedora 17&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+      
+      
       &lt;p&gt;Tom Callaway fired up a terminal and found the information. &lt;a href=&quot;https://apps.fedoraproject.org/packages/httpd&quot;&gt;2.2.22&lt;/a&gt;.&lt;/p&gt;
+      
+      
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;And the most popular question at the booth:&lt;/p&gt;
 &lt;/div&gt;
+
+      
+      
     &lt;/li&gt;
+  
     &lt;li&gt;
       &lt;p&gt;&lt;em&gt;&lt;strong&gt;How did Beefy Miracle come to be named Beefy Miracle?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+      
+      
       &lt;p&gt;After numerous attempts, I realized I couldn’t succinctly explain the &lt;a href=&quot;http://fedoraproject.org/wiki/Guidelines_for_release_names&quot;&gt;Fedora release naming process steps&lt;/a&gt; in the correct order. Ruth Suehle, Sandro Mathys and Tom had to save people from my disordered explanations numerous times. They can iterate the naming process without blinking.&lt;/p&gt;
+      
+      
+      
     &lt;/li&gt;
+  
   &lt;/ol&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;However, I did answer questions regarding one of the new items at the booth, the &lt;a href=&quot;http://fedoraproject.org/wiki/JBossAS7&quot;&gt;AS 7 on Fedora 17&lt;/a&gt; flyer.  I can recite the commands to install the AS 7 package, start, stop and deploy it, what is and isn’t currently in the packaged profile, what’s on deck to be in updated releases, and where to find help and participate with AS 7 and future packaging goals.  I was stumped though when asked about the differences between Fedora and AS 7 versus another distribution and Websphere.  I need to brush up on the features of other application servers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I’m not a well-rounded Fedora representative yet, but manning the booth was a huge kickstart. I learned the answers to tons of questions from the other Fedora representatives and discovered the concerns of potential and current Fedora users. The best thing about volunteering at the booth was meeting so many great people: the conference attendees who visited the booth and the Fedora advocates I had previously only chatted with on IRC. I can’t thank everyone enough times for answering my questions or for sorting through my jumbled explanations.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Oh, there are two questions I can confidently respond to now without pause or consideration because Ruth wrote down the answers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;quoteblock&quot;&gt;
+  
   &lt;blockquote&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;strong&gt;Yes, it is a Raspberry Pi. No, you can’t have it.&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/blockquote&gt;
   &lt;div class=&quot;attribution&quot;&gt;
+    
+    
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/fedorasummit2012/raspberrypi_fedora17.jpg&quot; alt=&quot;raspberrypi_fedora17&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;em&gt;If you’d like a specific picture from the Fedora booth in its high-resolution, mega-size version (some are available in large format JPG and some in RAW), just shoot me a message. I’m graphite6 in the Fedora IRC channels.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/</id>
-<title>Molecules and Predators and Arquillian</title>
-<updated>2012-06-16T09:30:00-04:00</updated>
-<published>2012-06-16T09:30:00-04:00</published>
-<link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
-<category scheme="http://graphitefriction.com/blog/tags" term="design" />
-<summary>
-During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
-
-
-  Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me,......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/</id>
+    <title>Molecules and Predators and Arquillian</title>
+    <updated>2012-06-16T09:30:00-04:00</updated>
+    <published>2012-06-16T09:30:00-04:00</published>
+    <link href="http://graphitefriction.com/blog/2012/06/16/molecules-and-predators-and-arquillian/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="arquillian" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="design" />
+    <summary>
+      During the past year Arquillian has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He&#8217;s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.
+              
+              
+                  
+                Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways......
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph lead&quot;&gt;
+    
   &lt;p&gt;During the past year &lt;a href=&quot;http://arquillian.org&quot;&gt;Arquillian&lt;/a&gt; has matured from a testing harness to a testing platform as it integrates with Selenium, Graphene, Spring, Android and more. In parallel, the Arquillian contributors have channeled their interlanguage and interframework development exploits into an ongoing tale of intergalactic bug extermination. Ike is gathering a crew as he expands into new frontiers. He’s using new tools to hunt for bugs and congifuring weapons with super strong materials to eliminate the bugs.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Crafting the look and feel of Ike, his crew, and their gear has this sci-fi fangirl constantly plotting ways to beam (forgive me, Scotty) the Arquillian platform artwork to the next dimension. However, the platform has diversified so rapidly that I can’t pull off diagrams, icons, and logos during all-night design binges hours before a presentation deadline. Nor does such a draw-and-dash design frenzy do the indvidual extensions, adaptors, and modules the creative and finely polished rendering justice they deserve.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I’m also a bit of a monster after thirty-six hours of no sleep.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Therefore, Arquillian now has a &lt;a href=&quot;http://github.com/arquillian/arquillian-artwork&quot;&gt;seperate repository&lt;/a&gt; where graphics can be conceptualized, drafted, and finalized over multiple iterations. It’s powered by community requests, community contributions, and community feedback.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;sect1&quot;&gt;
   &lt;h2 id=&quot;initial_logo_concepts_graphene_and_arquillian_spring_framework_extension&quot;&gt;Initial logo concepts: Graphene and Arquillian Spring Framework extension&lt;/h2&gt;
+  
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Over the past two weeks I’ve been sketching logo ideas for Graphene and the Arquillian Spring Framework extension.  I selected the sketches I think have potential and uploaded them for the feedback.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;&lt;a href=&quot;http://arquillian.org/modules/graphene-extension&quot;&gt;Graphene&lt;/a&gt; is designed to enhancement a Selenium project by focusing on rapid development and usability in the Java environment.  Graphene takes its name from the semiconducting material composed of a single layer of carbon atoms arranged into a 2D honeycomb lattice. Graphene is one of the strongest materials in existence.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;I have to admit, I don’t feel that pencil sketches were great at coveying some of my ideas. Mainly because I realized I really suck at drawing hexagrams.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/graphenehexagrams.png&quot; alt=&quot;graphenehexagrams&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/abstracthexagram.png&quot; alt=&quot;abstracthexagram&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/grapheneshield.png&quot; alt=&quot;grapheneshield&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The next three concepts required lots of hexagrams, so I stopped torturing my eraser and fired up Inkscape.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/grid1.png&quot; alt=&quot;grid1&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/grid2.png&quot; alt=&quot;grid2&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/graphene/grid3.png&quot; alt=&quot;grid3&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The &lt;a href=&quot;http://arquillian.org/modules/spring-extension&quot;&gt;Spring extension&lt;/a&gt; is &lt;a href=&quot;https://community.jboss.org/thread/197356&quot;&gt;Jakob Narloch’s Google Summer of Code project&lt;/a&gt;. It injects Spring beans into test cases and supports Spring annotations. Jakob asked for a simple logo, but my disciple went AWOL and I ended up sketching a few, detailed ideas after word webbing like the vocabulary nerd I am.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/spring/springs.png&quot; alt=&quot;springs&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/spring/bow.png&quot; alt=&quot;bow&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/spring/viper.png&quot; alt=&quot;viper&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/spring/foxspring.png&quot; alt=&quot;foxspring&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
+    
     &lt;img src=&quot;http://graphitefriction.com/images/spring/mutanttrap.png&quot; alt=&quot;mutanttrap&quot;&gt;
 &lt;/div&gt;
+  
 &lt;/div&gt;
+
   &lt;/div&gt;
+  
 &lt;/div&gt;
-</content>
-</entry>
-<entry>
-<id>http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/</id>
-<title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
-<updated>2012-06-15T09:30:00-04:00</updated>
-<published>2012-06-15T09:30:00-04:00</published>
-<link href="http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/" rel="alternate" type="text/html" />
-<category scheme="http://graphitefriction.com/blog/tags" term="java" />
-<category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
-<category scheme="http://graphitefriction.com/blog/tags" term="smack" />
-<summary>
-A fatal error has been detected by the Java Runtime Environment:
+    </content>
+  </entry>
+  <entry>
+    <id>http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/</id>
+    <title>A Fatal Error. A Problematic Frame. There Goes My Core.</title>
+    <updated>2012-06-15T09:30:00-04:00</updated>
+    <published>2012-06-15T09:30:00-04:00</published>
+    <link href="http://graphitefriction.com/blog/2012/06/15/fatal-error-problematic-frame-there-goes-my-core/" rel="alternate" type="text/html" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="java" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="ruby" />
+    <category scheme="http://graphitefriction.com/blog/tags" term="smack" />
+    <summary>
+      A fatal error has been detected by the Java Runtime Environment:
 SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960
   
 
 
+    
   Translation for mere humans: It&#8217;s dead, Sarah. You killed something important-sounding by attempting to build a teeny, tiny little webpage on localhost. Sigh.
 
 
+  
   
     Java VM: OpenJDK 64-Bit Server VM (22.0-b10 mixed mode linux-amd64 compressed oops)
   
 
 
+    
   Is this an oops my laptop accidentally mixed up some important bits? Or OOPS the official operations processing specialists ARE FROWNING UPON my coding attempts?
 
 
   
-    Problematic frame:
-C  [libjruby-cext.so+0x2624d] Java_org_jruby_cext_Native_freeHandle+0xb7
-  
-
-
  ......
-</summary>
-<content type="html">
-&lt;div id=&quot;preamble&quot;&gt;
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
   &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;A fatal error has been detected by the Java Runtime Environment:
 SIGSEGV (0xb) at pc=0x00007f995359f24d, pid=4003, tid=140296504968960&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Translation for mere humans: It’s dead, Sarah. You killed something important-sounding by attempting to build a teeny, tiny little webpage on localhost. &lt;em&gt;Sigh.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;Java VM: OpenJDK 64-Bit Server VM (22.0-b10 mixed mode linux-amd64 compressed oops)&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Is this an &lt;em&gt;oops&lt;/em&gt; my laptop accidentally mixed up some important bits? Or &lt;strong&gt;OOPS&lt;/strong&gt; the official operations processing specialists &lt;strong&gt;ARE FROWNING UPON&lt;/strong&gt; my coding attempts?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;Problematic frame:
 C  [libjruby-cext.so+0x2624d] Java_org_jruby_cext_Native_freeHandle+0xb7&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Oh, so now it’s just &lt;em&gt;problematic&lt;/em&gt; not &lt;strong&gt;FATAL&lt;/strong&gt;. Make up your mind already!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;Failed to write core dump. Core dumps have been disabled.
 To enable core dumping, try &quot;ulimit -c unlimited&quot; before starting Java again.&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;Core dumps sound bad. They’re always the &lt;strong&gt;LAST RESORT&lt;/strong&gt; in movies.  If we detach the rest of the train cars maybe we’ll make the leap across the giant canyon. If we shoot our nuclear reactor out a torpedo tube maybe we’ll kill the bad guys chasing us (but obliterate all life in the Pacific ocean).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;literalblock&quot;&gt;
+  
   &lt;div class=&quot;content monospaced&quot;&gt;
     &lt;pre&gt;Aborted (core dumped)&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;The heck with the stupid core anyway. Where’s my dilithium crystal virtual machine? Then I could sling shot my laptop around the sun before the terminal would even dare to mention errors to me. Of course, then my laptop would probably learn to cloak itself as well and hide from me.  My laptop might not be able to pass the Turing test but I betcha it could score major points on the DSM-IV antisocial personality test.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
+    
   &lt;p&gt;And I don’t want to hear anything about how one’s computer is a reflection of its user.&lt;/p&gt;
 &lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
-</content>
-</entry>
+    </content>
+  </entry>
 </feed>

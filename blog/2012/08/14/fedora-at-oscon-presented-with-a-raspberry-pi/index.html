@@ -3,129 +3,221 @@
 }</style><link rel="stylesheet" href="/stylesheets/styles.css"><!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--></head><body><div class="navbar navbar-fixed-top"><div class="navbar-inner"><div class="container"><a class="brand" href="/">Graphite Friction</a><ul class="nav pull-right"><li class="g-plusone-slot"><div class="g-plusone" data-annotation="none"></div></li><li><a class="subscribe" href="/feed.atom" title="Subscribe"><img src="/images/rss_32.png"></a></li></ul></div></div></div><div class="container"><div class="row"><div class="span12"><div id="content"><article class="post"><header class="entry-header"><h1 class="title"><a href="/blog/2012/08/14/fedora-at-oscon-presented-with-a-raspberry-pi/">Fedora at OSCON 2012, presented with a Raspberry Pi</a></h1><h4><time class="pubdate" datetime="2012-08-14T09:30:00-04:00">Tuesday, August 14, 2012</time></h4></header><div class="entry-content"><div id="preamble">
   <div class="sectionbody">
 <div class="paragraph lead">
+    
   <p>At OSCON 2012 in Portland, OR the Fedora booth may have been small, but it packed a full cast of characters and crowd-gathering technology. Beefy Miracle waved from atop the Fedora marquee and Tux stopped by for a few hours each day. Few attendees could resist posing for a picture with Tux or snagging a Beefy Miracle sticker to embellish their laptop.</p>
 </div>
 <div class="imageblock ctr">
   <div class="content">
+    
     <img src="/images/oscon2012/deb_and_gunnar.png" alt="Deb and Gunnar at the Fedora booth">
+    
   </div>
+  
 </div>
 <div class="imageblock ctr">
   <div class="content">
+    
     <img src="/images/oscon2012/ruth_and_tux.png" alt="Ruth and Tux at the Fedora booth">
+    
+  </div>
+  
+</div>
+
   </div>
 </div>
-  </div>
-</div>
+
 <div class="sect1">
   <h2 id="fedora_on_a_raspberry_pi">Fedora on a Raspberry Pi</h2>
+  
   <div class="sectionbody">
 <div class="paragraph">
+    
   <p>The Fedora booth showcased the features and capabilities of Fedora running on a Raspberry Pi (a cheap, low-power computer that features an ARM processor). People were in awe that a tiny system on a chip (SoC) could support a widescreen monitor and an external hard drive and run full length movies at 1080p resolution with no problems (except when I overheated the chip by leaving my laptop next to it (my bad!)).</p>
 </div>
 <div class="paragraph">
+    
   <p>Common Raspberry Pi questions included:</p>
 </div>
+
 <div class="dlist">
+  
   <dl>
+    
     <dt class="hdlist1">
       Is that a Raspberry Pi?
     </dt>
+    
     <dd>
+      
       <p>Yes</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       What operating system is it running?
     </dt>
+    
     <dd>
+      
       <p>Raspberry Pi Fedora Remix (armv5hl), maintained by the Fedora ARM team</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       What is the desktop?
     </dt>
+    
     <dd>
+      
       <p>XFCE</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       What is the graphics card brand?
     </dt>
+    
     <dd>
+      
       <p>A Broadcom VideoCore IV, OpenGL ES 2.0, that is capable of 1080p, 30 h.264/MPEG-4 AVC high-profile decoder. The output connections are Composite RCA or HDMI.</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       Does it have on board memory?
     </dt>
+    
     <dd>
+      
       <p>No. You have to boot from SD but a USB HD can &#8220;take over&#8221; after the initial boot. You cannot boot without an SD card. Supported card formats include SD, MMC, and SDIO.</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       How is it powered?
     </dt>
+    
     <dd>
+      
       <p>The device is powered by 5V micro USB. The device could also be run by 4 AA batteries.</p>
+      
+      
     </dd>
+    
+    
     <dt class="hdlist1">
       Can it display at 1080?
     </dt>
+    
     <dd>
+      
       <p>Yes</p>
+      
+      
     </dd>
+    
+    
   </dl>
 </div>
+
 <div class="paragraph">
+    
   <p>Our setup used an external hard drive connected via USB because the SD card was only large enough to fit Futurama episodes (in 720), not the full length Tron Legacy movie Spot had on hand.</p>
 </div>
 <div class="paragraph">
+    
   <p>For more information about the Raspberry Pi hardware, refer to the <a href="http://www.raspberrypi.org/faqs">Raspberry Pi Foundation&#8217;s FAQs</a>. Visit <a href="http://fedoraproject.org/wiki/Architectures/ARM">Fedora ARM</a> to learn more about how Fedora is developing architectures for SoC.</p>
 </div>
+
   </div>
+  
 </div>
+
+
 <div class="sect1">
   <h2 id="tux_photobooth">Tux Photobooth</h2>
+  
   <div class="sectionbody">
 <div class="paragraph">
+    
   <p>The Raspberry Pi ran the semi-automated photography booth. Hooked up to a camera and using a python script, the Pi snapped photos of the attendees posed with Tux. Attendees could then scan the QR code generated by the script and displayed in the web browser to retrieve their picture later.</p>
 </div>
 <div class="imageblock ctr">
   <div class="content">
+    
     <img src="/images/oscon2012/fedora_photo_booth.png" alt="Fedora photobooth">
+    
   </div>
+  
 </div>
 <div class="paragraph">
+    
   <p>The first photobooth session occurred on Tuesday night, during the opening of the expo floor. During the ever-popular OSCON booth crawl on Wednesday night, Tux returned to the photobooth and later toured the expo floor to meet his fans.</p>
 </div>
 <div class="paragraph">
+    
   <p><strong>Amazing fact:</strong> <em>Tux can write python code with his wings!</em> Prior to the session on Wednesday, Tux took a few moments to modify the python program that captures, scales, and posts the pictures when the usual Nikon was replaced with a Canon (new drivers had to be loaded). The equipment and instructions to host your own Raspberry Pi photobooth are being drafted on the new <a href="http://fedoraproject.org/wiki/Raspberry_Pi_photobooth">Raspberry Pi photobooth wikipage</a>.</p>
 </div>
 <div class="imageblock ctr">
   <div class="content">
+    
     <img src="/images/oscon2012/tux_tour.png" alt="Tux touring the OSCON Expo floor">
+    
   </div>
+  
 </div>
+
   </div>
+  
 </div>
+
+
 <div class="sect1">
   <h2 id="fedora_packages_search_app">Fedora Packages Search App</h2>
+  
   <div class="sectionbody">
 <div class="paragraph">
+    
   <p>I did field a few questions about Fedora 17&#8217;s development environment and got to point out the servers and frameworks packaged in Fedora 17. There was also a question about the latest KVM virt-manager instance. I&#8217;m just learning about virtual machine technologies, and version numbers are not my strong point. However, this allowed me to show off the <a href="https://apps.fedoraproject.org/packages/virt-manager">Fedora Packages Search</a> app (using Firefox on the Pi!). If you&#8217;re not familiar with the Fedora packages search app, you need to check it out. It rocks!  You can quickly find out if the program you&#8217;re interested in is packaged, which version is packaged in which release, what updates are coming, and much more all within a clean, easy to use web interface.</p>
 </div>
 <div class="paragraph">
+    
   <p>I use the packages search app almost every day as I continue to learn more about Fedora&#8217;s features, release cycle, and the awesome people dedicated to adding new and improved programs and capabilities to Fedora.</p>
 </div>
+
   </div>
+  
 </div>
+
+
 <div class="sect1">
   <h2 id="photographs">Photographs</h2>
+  
   <div class="sectionbody">
 <div class="paragraph">
+    
   <p>You can find more pictures from OSCON 2012 on my <a href="http://www.flickr.com/photos/graphitefriction/sets/72157630714547678/">photostream</a>. Mark Terranova (MarkDude) also took great photographs of the <a href="https://plus.google.com/u/0/photos/105095769731159704550/albums/5769140764406115713">Fedora booth and Beefy Miracle&#8217;s expo floor adventures</a> at OSCON.</p>
 </div>
 <div class="paragraph">
+    
   <p>Thanks to everyone who stopped by the booth!</p>
 </div>
+
   </div>
+  
 </div>
+
+
 </div><footer class="entry-footer"><div class="tags"><span class="title">tags: </span><a href="/blog/tags/fedora">fedora, </a><a href="/blog/tags/event">event, </a><a href="/blog/tags/raspberry-pi">raspberry-pi </a></div></footer><hr><div class="row"><ul class="pager"><li class="previous span1"></li><li class="next span1 offset7"></li></ul></div><div id="comments">
             <div id="disqus_thread"></div>
             <script type="text/javascript">
