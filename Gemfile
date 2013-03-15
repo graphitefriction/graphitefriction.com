@@ -13,7 +13,8 @@
 source 'https://rubygems.org'
 
 #gem 'awestruct', '0.5.0'
-gem 'awestruct', :git => 'git://github.com/mojavelinux/awestruct.git', :branch => 'integrate'
+gem 'awestruct', :git => 'git://github.com/awestruct/awestruct.git', :branch => 'master'
+#gem 'awestruct', :git => 'git://github.com/mojavelinux/awestruct.git', :branch => 'integrate'
 gem 'asciidoctor', '0.1.1'
 gem 'haml', '3.1.8'
 gem 'slim', '2.0.0.pre.6'

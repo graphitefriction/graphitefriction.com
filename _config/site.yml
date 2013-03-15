@@ -7,19 +7,11 @@ disqus: graphitefriction
 disqus_generate_id: true
 disqus_developer: true
 haml:
-  default:
-    :ugly: true
-#slim:
-#  default:
-#    :disable_escape: true
+  :ugly: true
 asciidoctor:
-  default:
-    :compact: true
-    # attributes don't get merged, so must include defaults
-    :attributes:
-      idprefix: ''
-      imagesdir: /images
-      stylesdir: /stylesheets
+  :compact: true
+  :attributes:
+    idprefix: ''
 # if no profile is specified, the first with a deploy config is selected
 profiles:
   development:
