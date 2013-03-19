@@ -16,6 +16,7 @@ source 'https://rubygems.org'
 gem 'awestruct', :git => 'git://github.com/awestruct/awestruct.git', :branch => 'master'
 #gem 'awestruct', :git => 'git://github.com/mojavelinux/awestruct.git', :branch => 'integrate'
 gem 'asciidoctor', '0.1.1'
+gem 'erubis', '2.7.0'
 gem 'haml', '3.1.8'
 gem 'slim', '2.0.0.pre.6'
 gem 'jruby-openssl', '0.7.7', :platforms => :jruby

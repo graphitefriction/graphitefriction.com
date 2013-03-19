@@ -1,3 +1,4 @@
+require 'erubis'
 require 'awestruct/extensions/minify'
 #require 'tz_offset'
 #require 'disqusfixer'
