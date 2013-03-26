@@ -1,7 +1,4 @@
 require 'erubis'
-require 'awestruct/extensions/minify'
-#require 'tz_offset'
-#require 'disqusfixer'
 
 Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Posts.new( '/blog', :posts, nil, nil, :default_layout => 'post' )
@@ -13,9 +10,8 @@ Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Indexifier.new
   extension Awestruct::Extensions::Atomizer.new( :posts, '/feed.atom', :template => '_layouts/feed.atom.haml' )
   extension Awestruct::Extensions::Disqus.new
-  #extension Awestruct::Extensions::DisqusFixer.new
 
-  transformer Awestruct::Extensions::Minify.new( [:css] )
+  #transformer Awestruct::Extensions::Minify.new( [:js] )
 
   helper Awestruct::Extensions::Partial
   helper Awestruct::Extensions::GoogleAnalytics
