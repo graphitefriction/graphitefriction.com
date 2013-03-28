@@ -1,7 +1,7 @@
 require 'erubis'
 
 Awestruct::Extensions::Pipeline.new do
-  extension Awestruct::Extensions::Posts.new( '/blog' )
+  extension Awestruct::Extensions::Posts.new( '/blog', :posts, nil, nil, :default_layout => 'post' )
 #  extension Awestruct::Extensions::TzOffset.new( :posts, 'America/New_York', 9.5 )
   extension Awestruct::Extensions::Paginator.new( :posts, '/index', :per_page => 5 )
   extension Awestruct::Extensions::Tagger.new( :posts, '/index', '/blog/tags', :per_page => 5 )
