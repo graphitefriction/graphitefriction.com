@@ -34,4 +34,4 @@ profiles:
     #minify: true
     deploy:
       host: github_pages
-      branch: master
+      branch: gh-pages
