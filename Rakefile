@@ -41,7 +41,7 @@
 # Now you're Awestruct with rake!
 
 $use_bundle_exec = true
-$install_gems = ['awestruct -v "~> 0.5.0"', 'rb-inotify -v "~> 0.9.0"']
+$install_gems = ['awestruct -v "0.5.5"', 'rb-inotify -v "~> 0.9.0"']
 $awestruct_cmd = nil
 task :default => :preview
 
@@ -110,8 +110,9 @@ end
 desc 'Generate site from Travis CI and, if not a pull request, publish site to production (GitHub Pages)'
 task :travis => :check do
   # if this is a pull request, do a simple build of the site and stop
-  if ENV['TRAVIS_PULL_REQUEST'] == '1' || ENV['TRAVIS_PULL_REQUEST'] == 'true'
-    run_awestruct '-P production -g'
+  if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
+    msg 'Pull request detected. Executing build only.'
+    run_awestruct '-P production -g --force'
     next
   end
 
@@ -120,11 +121,8 @@ task :travis => :check do
   # TODO use the Git library for these commands rather than system
   repo = %x(git config remote.origin.url).gsub(/^git:/, 'https:')
   system "git remote set-url --push origin #{repo}"
-  system 'git remote set-branches --add origin master'
+  system 'git remote set-branches --add origin gh-pages'
   system 'git fetch -q'
-  #git_user = YAML.load_file('_config/git.yml')
-  #system "git config user.name '#{git_user['name']}'"
-  #system "git config user.email '#{git_user['email']}'"
   system "git config user.name '#{ENV['GIT_NAME']}'"
   system "git config user.email '#{ENV['GIT_EMAIL']}'"
   system 'git config credential.helper "store --file=.git/credentials"'
@@ -132,8 +130,8 @@ task :travis => :check do
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
   File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_TOKEN']}:@github.com") }
   set_pub_dates 'develop'
-  system 'git branch master origin/master'
-  run_awestruct '-P production -g --deploy'
+  system 'git branch master origin/gh-pages'
+  run_awestruct '-P production -g --force --deploy'
   File.delete '.git/credentials'
 end
 
@@ -165,7 +163,7 @@ end
 
 desc 'Check to ensure the environment is properly configured'
 task :check => :init do
-  if !File.exist? 'Gemfile'
+  unless File.exist? 'Gemfile'
     if which('awestruct').nil?
       msg 'Could not find awestruct.', :warn
       msg 'Run `rake setup` or `rake setup[local]` to install from RubyGems.'
@@ -245,10 +243,10 @@ def set_pub_dates(branch)
     lines = IO.readlines e
     header = lines.inject([]) {|collector, l|
       break collector if l.chomp.empty?
-      collector << l 
+      collector << l
       collector
     }
-  
+
     do_commit = false
     if !header.detect {|l| l.start_with?(':revdate: ') || l.start_with?(':awestruct-draft:') }
       revdate = Time.now.utc.getlocal(local_tz.current_period.utc_total_offset)
@@ -265,10 +263,10 @@ def set_pub_dates(branch)
         b.checkout
       end
       repo.add(e)
-      repo.commit "Set publish date of post #{e}"
+      repo.commit "Set publish date of post #{e} [ci skip]"
       do_commit = true
     end
-  
+
     if do_commit
       repo.push('origin', branch)
     end
