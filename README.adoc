@@ -4,7 +4,7 @@ Sarah White <https://github.com/graphitefriction>
 My personal website and blog, composed in AsciiDoc, baked with Awestruct and published at http://graphitefriction.com.
 
 ifdef::env-github[]
-image:https://secure.travis-ci.org/graphitefriction/graphitefriction.github.com.png?branch=develop["Build Status", link="https://travis-ci.org/graphitefriction/graphitefriction.github.com"]
+image:https://secure.travis-ci.org/graphitefriction/graphitefriction.com.png?branch=develop["Build Status", link="https://travis-ci.org/graphitefriction/graphitefriction.com"]
 endif::[]
 
 For instructions on how to install Awestruct and its dependencies, refer to the section xref:install-awestruct[Install Awestruct] below.
@@ -79,7 +79,7 @@ Or simply run the prepared rake build task (to deploy locally):
 
  rake deploy
 
-Or just push and let https://travis-ci.org/graphitefriction/graphitefriction.github.com[Travis CI] do the work of deploying the site:
+Or just push and let https://travis-ci.org/graphitefriction/graphitefriction.com[Travis CI] do the work of deploying the site:
 
  rake push
 
