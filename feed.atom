@@ -18,7 +18,7 @@
 In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by Devoxx and Andres Almiray. Contributors from projects such as Gradle, Fedora Java, Scala, Arquillian, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.
 
 
-This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
+Hackergarten is a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
 
 
 
@@ -26,7 +26,7 @@ This will be a great opportunity to work side by side on your favorite open sour
 By the way, did I mention the Hackergarten is free?
 
 
-If you&#8217;re in or near Antwerp, please come by and......
+If you&#8217;re in or near Antwerp, please come by and join......
 </summary>
 <content type="html">
 &lt;div id=&quot;preamble&quot;&gt;
@@ -35,7 +35,7 @@ If you&#8217;re in or near Antwerp, please come by and......
 &lt;p&gt;In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by &lt;a href=&quot;http://twitter.com/Devoxx&quot;&gt;Devoxx&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/aalmiray&quot;&gt;Andres Almiray&lt;/a&gt;. Contributors from projects such as Gradle, &lt;a href=&quot;http://fedoraproject.org/wiki/Java&quot;&gt;Fedora Java&lt;/a&gt;, Scala, &lt;a href=&quot;http://arquillian.org/blog/&quot;&gt;Arquillian&lt;/a&gt;, CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.&lt;/p&gt;
+&lt;p&gt;Hackergarten is a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -202,28 +202,24 @@ This blog entry will show you......
 &lt;p&gt;In our case, the input file is the disk image rpfr-17-xfce-RC2.img, the output file is the MicroSD card device &lt;code&gt;/dev/mmcblk0&lt;/code&gt; and the block size is one megabyte (1M). This command will create the necessary file systems partitions on the MicroSD card, occupying 3.1GB of space, then copy the prepared operating system files to those partitions. A one step installation!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
+&lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
 As you’ll learn later, the first boot wizard will allow you to resize the main partition to use all available space on the card.
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock tip&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
+&lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;Tip&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
 The &lt;code&gt;dd&lt;/code&gt; command is also your friend if you need to move to a bigger MicroSD card. Simply reverse the &lt;code&gt;if&lt;/code&gt; and &lt;code&gt;of&lt;/code&gt; values, insert a bigger card and run the above command again.
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;The &lt;code&gt;dd&lt;/code&gt; command doesn’t output any messages until the operation is complete, so be patient. The length of time to execute the command will vary depending on the speed of the card. With my Class 6 card, it takes about 8 minutes (7 MB/s). Here’s an example of the output you’ll see when the command finishes:&lt;/p&gt;
@@ -358,16 +354,14 @@ sudo ./unifying_pair /dev/hidraw0&lt;/pre&gt;
 &lt;p&gt;Hit the finish button. The Pi will reboot twice on its own (once to resize the disk). Go get some coffee, this will take several minutes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
+&lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
 If you get the &lt;strong&gt;Oh no! Something has gone wrong.&lt;/strong&gt; screen, don’t panic. Type ctrl+alt+delete to initiate a third reboot.
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Once the desktop comes up, don’t worry if it doesn’t fill the screen, we can fix that later. Now log into the XFCE desktop with the user account you created during the boot wizard.&lt;/p&gt;
@@ -461,16 +455,14 @@ If you get the &lt;strong&gt;Oh no! Something has gone wrong.&lt;/strong&gt; scr
 &lt;p&gt;The Raspberry Pi hardware is configured in the &lt;a href=&quot;http://elinux.org/RPi_config.txt&quot;&gt;config.txt file&lt;/a&gt; in the /boot partition (&lt;code&gt;/boot/config.txt&lt;/code&gt;). One of the key settings is the display resolution. Here’s the setting I used to stretch the desktop to full 1080 resolution (since my monitor supports it):&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
+&lt;table&gt;&lt;tr&gt;
 &lt;td class=&quot;icon&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&quot;content&quot;&gt;
 You can’t simply click on the text document, open it in leafpad, edit it and hit save because you need root priviledges. To update this file you’ll need to access it through a terminal using &lt;code&gt;sudo&lt;/code&gt;.
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Open a terminal window and type:&lt;/p&gt;
