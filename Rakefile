@@ -97,9 +97,9 @@ task :gen => :check do
   run_awestruct '-P development -g --force'
 end
 
-desc 'Push local commits to origin/develop'
+desc 'Push local commits to origin/master'
 task :push do
-  system 'git push origin develop'
+  system 'git push origin master'
 end
 
 desc 'Generate the site and deploy to production'
@@ -129,15 +129,15 @@ task :travis => :check do
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
   File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_TOKEN']}:@github.com") }
-  set_pub_dates 'develop'
-  system 'git branch master origin/gh-pages'
+  set_pub_dates 'master'
+  system 'git branch gh-pages origin/gh-pages'
   run_awestruct '-P production -g --force --deploy'
   File.delete '.git/credentials'
 end
 
 desc "Assign publish dates to new blog entries"
 task :setpub do
-  set_pub_dates 'develop'
+  set_pub_dates 'master'
 end
 
 desc 'Clean out generated site and temporary files'
@@ -258,7 +258,7 @@ def set_pub_dates(branch)
       if !repo
         repo = Git.open('.')
         b = repo.branch(branch)
-        b.remote = 'origin/develop'
+        b.remote = 'origin/master'
         b.create
         b.checkout
       end
