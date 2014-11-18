@@ -9,21 +9,28 @@ disqus_developer: true
 haml:
   :ugly: true
 asciidoctor:
-  :compact: true
-  :eruby: erubis
+  :safe: safe
+  :base_dir: null
   :attributes:
+    compat-mode: '@'
     idprefix: ''
     idseparator: '-'
 # if no profile is specified, the first with a deploy config is selected
 profiles:
   development:
-    deploy:
-      dummy:
+    deploy: nil
+    #show_drafts: false
   production:
     base_url: http://graphitefriction.com
     disqus_developer: false
-    google_analytics: UA-33133481-1
-    # TODO enable once not dependent on system binaries
+    google_analytics_account: UA-33133481-1
+    google_analytics:
+      account: UA-33133481-1
+    scss:
+      :line_numbers: false
+      :style: :compressed
+    #compass_output_style: compressed
+    # TODO enable minify once we verify it's working as expected
     #minify: true
     deploy:
       host: github_pages
