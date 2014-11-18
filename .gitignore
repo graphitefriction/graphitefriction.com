@@ -1,0 +1,4 @@
+/.awestruct/
+/.sass-cache/
+/_*/
+Gemfile.lock
