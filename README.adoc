@@ -1,7 +1,11 @@
-[float]
-= graphitefriction.github.com image:https://secure.travis-ci.org/graphitefriction/graphitefriction.github.com.png?branch=develop["Build Status", link="https://travis-ci.org/graphitefriction/graphitefriction.github.com"]
+= graphitefriction.com 
+Sarah White <https://github.com/graphitefriction>
 
-My personal website and blog, baked with Awestruct and published at http://graphitefriction.com.
+My personal website and blog, composed in AsciiDoc, baked with Awestruct and published at http://graphitefriction.com.
+
+ifdef::env-github[]
+image:https://secure.travis-ci.org/graphitefriction/graphitefriction.github.com.png?branch=develop["Build Status", link="https://travis-ci.org/graphitefriction/graphitefriction.github.com"]
+endif::[]
 
 For instructions on how to install Awestruct and its dependencies, refer to the section xref:install-awestruct[Install Awestruct] below.
 
@@ -40,7 +44,7 @@ If you're building the site on Linux and Awestruct fails to locate a JavaScript 
 
 Add new files (such as a new blog entry or image):
 
- git add blog/YYYY-MM-DD-blog-title.textile
+ git add blog/YYYY-MM-DD-blog-title.adoc
 
 or all new files present in a directory (it only affects new files, skips files already committed)
 
