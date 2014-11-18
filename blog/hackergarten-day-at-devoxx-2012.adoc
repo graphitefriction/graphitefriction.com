@@ -8,7 +8,7 @@ Sarah White
 [role=lead]
 In less than one week, open source developers will gather in Antwerp, Belgium for an all day Hackergarten hosted by http://twitter.com/Devoxx[Devoxx] and http://twitter.com/aalmiray[Andres Almiray]. Contributors from projects such as Gradle, http://fedoraproject.org/wiki/Java[Fedora Java], Scala, http://arquillian.org/blog/[Arquillian], CRaSH, Groovy, Drools, FluentLenium, Hibernate, Grails, Dart, JavaFX, and many, many more will be working on integrations, new features and patches. 
 
-This will be a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
+Hackergarten is a great opportunity to work side by side on your favorite open source project with other contributors, learn new skills, and meet open source hackers.
 
 == By the way, did I mention the Hackergarten is free?
 
