@@ -3,12 +3,12 @@
 
 source 'https://rubygems.org'
 
-gem 'awestruct', '0.5.5'
+gem 'awestruct', '0.5.4.rc3'
 #gem 'awestruct', :github => 'awestruct'
 gem 'bootstrap-sass', '< 3.0'
 gem 'asciidoctor', '1.5.1'
 gem 'haml', '~> 4.0.0'
-gem 'tilt', '~> 2.0.0'
+#gem 'tilt', '~> 2.0.0'
 gem 'slim', '~> 2.0.0'
 #gem 'jruby-openssl', '~> 0.7.7', :platforms => :jruby
 gem 'rb-inotify', '0.9.0', :platforms => [:ruby, :jruby]
