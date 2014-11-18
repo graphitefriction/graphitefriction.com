@@ -123,12 +123,12 @@ task :travis => :check do
   system "git remote set-url --push origin #{repo}"
   system 'git remote set-branches --add origin gh-pages'
   system 'git fetch -q'
-  system "git config user.name '#{ENV['GIT_NAME']}'"
-  system "git config user.email '#{ENV['GIT_EMAIL']}'"
+  system "git config user.name '#{ENV['GIT_N']}'"
+  system "git config user.email '#{ENV['GIT_E']}'"
   system 'git config credential.helper "store --file=.git/credentials"'
   # CREDENTIALS assigned by a Travis CI Secure Environment Variable
   # see http://about.travis-ci.org/docs/user/build-configuration/#Secure-environment-variables for details
-  File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_TOKEN']}:@github.com") }
+  File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_T']}:@github.com") }
   set_pub_dates 'master'
   system 'git branch gh-pages origin/gh-pages'
   run_awestruct '-P production -g --force --deploy'
