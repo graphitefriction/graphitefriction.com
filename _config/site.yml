@@ -39,3 +39,4 @@ profiles:
     deploy:
       host: github_pages
       branch: gh-pages
+      uncommitted: true
