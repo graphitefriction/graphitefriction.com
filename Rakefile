@@ -104,7 +104,7 @@ end
 
 desc 'Generate the site and deploy to production'
 task :deploy => [:check, :push] do
-  run_awestruct '-P production -g --force --deploy'
+  run_awestruct '-P production -g --deploy'
 end
 
 desc 'Generate site from Travis CI and, if not a pull request, publish site to production (GitHub Pages)'
@@ -131,7 +131,7 @@ task :travis => :check do
   File.open('.git/credentials', 'w') {|f| f.write("https://#{ENV['GH_T']}:@github.com") }
   set_pub_dates 'master'
   system 'git branch gh-pages origin/gh-pages'
-  run_awestruct '-P production -g --force --deploy'
+  run_awestruct '-P production -g --deploy'
   File.delete '.git/credentials'
 end
 
